@@ -2,23 +2,20 @@
 \input{preamble}
 
 \begin{document}
-	\pagecolor{maroon}
-	\color{fuchsia}
-	\centering
-	\parbox{10cm}{
+	\setcolorscheme%
+	\renewcommand{\arraystretch}{0.667}%
+	\setlength{\tabcolsep}{\fontdimen2\font\space}%
+	\begin{minipage}{10cm}
 		\e{〜は〜が} \hfill izraz \br
-		Pretvara upitnu riječ u neodređenu zamjenicu --- npr. \textit{tko} u \textit{netko},  \textit{kada} u \textit{nekada}, itd. \\
-		Funkcionira kao prefiks \textit{ne-} na hrvatskom. \br
-		Tvorba: zamjenica + か \\
-		どこ＋か＝どこか \hfill (gdje + か = negdje) \br
-		Primjeri:
+		Općenit izraz kojim se iznosi neka tvrdnja o nečemu. \br
+		\begin{tabular}{@{}ccccccc@{}}
+			\e{Tvorba:}& 私 & \e{は} & お金　& \e{が} & ない \\
+			 & im. fr.\textsuperscript{1} &  & im. fr.\textsuperscript{2} & & predikat \\
+		\end{tabular}\br
+		\e{Primjeri:}
 		\begin{enumerate}
-			\item 猫は\e{どこか}で迷いました。\bh
-			Mačka se \e{negdje} izgubila.
-			\item 彼は公園の\e{どこか}にいる。\bh
-			On je \e{negdje} u parku.
-			\item \e{いつか}の「キッズ・クラッブ」という雑誌はよく売れました。\bh
-			\e{Nekadašnji} časopis zvan \textit{Dječji klub} se dobro prodavao.
+			\item \ruby{彼}{かれ}\e{は}\ruby{背}{せ}\e{が}高い。\bh
+			On je visok.
 		\end{enumerate}
-	}
+	\end{minipage}
 \end{document}

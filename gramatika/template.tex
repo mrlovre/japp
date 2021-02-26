@@ -2,16 +2,19 @@
 \input{preamble}
 
 \begin{document}
-\pagecolor{navy}
-\color{aqua}
-\centering
-\parbox{10cm}{
+\setcolorscheme%
+\renewcommand{\arraystretch}{0.667}%
+\setlength{\tabcolsep}{\fontdimen2\font\space}%
+\begin{minipage}{10cm}
 	\e{〜か} \hfill sufiks \br
 		Pretvara upitnu riječ u neodređenu zamjenicu --- npr. \textit{tko} u \textit{netko}, \textit{kada} u \textit{nekada}, itd. \\
 		Funkcionira kao prefiks \textit{ne-} na hrvatskom. \br
-	Tvorba: upitna riječ + か \\
-	どこ＋か＝どこか \hfill (gdje + か = negdje) \br
-	Primjeri:
+	\begin{tabular}{@{}ccccc@{}}
+	\e{Tvorba:} & upitna riječ & \e{か} & $\Rightarrow$ & neodr. zamj. \\
+	& どこ & & & どこか \\
+	& gdje & & & negdje \\
+	\end{tabular}\br
+	\e{Primjeri:}
 	\begin{enumerate}
 		\item 猫は\e{どこか}で\ruby{迷}{まよ}いました。\bh
 		Mačka se \e{negdje} izgubila.
@@ -19,6 +22,9 @@
 		On je \e{negdje} u parku.
 		\item \e{いつか}の「キッズ・クラッブ」という\ruby{雑誌}{ざっし}はよく売れました。\bh
 		\e{Nekadašnji} časopis zvan \textit{Dječji klub} se dobro prodavao.
+		\item \ruby{写真}{しゃしん}を\e{\ruby{何枚}{なんまい}か}見せてあげるよ。\bh
+		Pokazat ću ti \e{nekoliko slika}.
+		
 	\end{enumerate}
-}
+\end{minipage}
 \end{document}
