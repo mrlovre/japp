@@ -1,30 +1,29 @@
-\documentclass[10pt, utf8, border=0.4cm]{standalone}
-\input{preamble}
+\documentclass[basic]{grampig}
 
 \begin{document}
-\setcolorscheme%
-\renewcommand{\arraystretch}{0.667}%
-\setlength{\tabcolsep}{\fontdimen2\font\space}%
-\begin{minipage}{10cm}
-	\e{〜か} \hfill sufiks \br
+	\begin{minipage}{10cm}
+		\e{\large 〜か} \hfill sufiks \br
 		Pretvara upitnu riječ u neodređenu zamjenicu --- npr. \textit{tko} u \textit{netko}, \textit{kada} u \textit{nekada}, itd. \\
-		Funkcionira kao prefiks \textit{ne-} na hrvatskom. \br
-	\begin{tabular}{@{}ccccc@{}}
-	\e{Tvorba:} & upitna riječ & \e{か} & $\Rightarrow$ & neodr. zamj. \\
-	& どこ & & & どこか \\
-	& gdje & & & negdje \\
-	\end{tabular}\br
-	\e{Primjeri:}
-	\begin{enumerate}
-		\item 猫は\e{どこか}で\ruby{迷}{まよ}いました。\bh
-		Mačka se \e{negdje} izgubila.
-		\item \ruby{彼}{かれ}は公園の\e{どこか}にいる。\bh
-		On je \e{negdje} u parku.
-		\item \e{いつか}の「キッズ・クラッブ」という\ruby{雑誌}{ざっし}はよく売れました。\bh
-		\e{Nekadašnji} časopis zvan \textit{Dječji klub} se dobro prodavao.
-		\item \ruby{写真}{しゃしん}を\e{\ruby{何枚}{なんまい}か}見せてあげるよ。\bh
-		Pokazat ću ti \e{nekoliko slika}.
+		Funkcionira kao prefiks \textit{ne-} kod zamjenica na hrvatskom.
 		
-	\end{enumerate}
-\end{minipage}
+		\begin{table}
+			\centering
+			\begin{tabular}{@{}ccccc@{}}
+				%				upitna riječ & + &\e{か} & $\Rightarrow$ & neodr. zamj. \\
+				%				どこ & & & & どこか \\
+				どこ & + & \e{か} & $\Rightarrow$ & どこか \bh
+				gdje & & & & negdje
+			\end{tabular}
+		\end{table}
+		\begin{itemize}
+			\item 猫は\e{どこか}で\ruby{迷}{まよ}いました。\bh
+			Mačka se \e{negdje} izgubila.
+			%		\item \ruby{彼}{かれ}は公園の\e{どこか}にいる。\bh
+			%		On je \e{negdje} u parku.
+			\item \e{いつか}の「キッズ・クラッブ」という\ruby{雑誌}{ざっし}はよく売れました。\bh
+			\e{Nekadašnji} časopis zvan \textit{Dječji klub} se dobro prodavao.
+			\item \ruby{写真}{しゃしん}を\e{\ruby{何枚}{なんまい}か}見せてあげるよ。\bh
+			Pokazat ću ti \e{nekoliko} slika.
+		\end{itemize}
+	\end{minipage}
 \end{document}

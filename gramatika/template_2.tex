@@ -1,21 +1,33 @@
-\documentclass[10pt, utf8, border=0.4cm]{standalone}
-\input{preamble}
+\documentclass[intermediate]{grampig}
 
 \begin{document}
-	\setcolorscheme%
-	\renewcommand{\arraystretch}{0.667}%
-	\setlength{\tabcolsep}{\fontdimen2\font\space}%
 	\begin{minipage}{10cm}
-		\e{〜は〜が} \hfill izraz \br
-		Općenit izraz kojim se iznosi neka tvrdnja o nečemu. \br
-		\begin{tabular}{@{}ccccccc@{}}
-			\e{Tvorba:}& 私 & \e{は} & お金　& \e{が} & ない \\
-			 & im. fr.\textsuperscript{1} &  & im. fr.\textsuperscript{2} & & predikat \\
-		\end{tabular}\br
-		\e{Primjeri:}
-		\begin{enumerate}
-			\item \ruby{彼}{かれ}\e{は}\ruby{背}{せ}\e{が}高い。\bh
-			On je visok.
-		\end{enumerate}
+		\e{\large<A>は<B>が…} \hfill struktura \br
+		Struktura kojom se tvrdnja o <B> vezuje uz <A>, gdje <A> nema izravnu kontrolu nad <B>. \\
+		Koristi se kod tvrdnji koji se tiču želje, volje, mogućnosti, posjedovanja i emocija, i sl.
+		
+		\begin{table}
+			\centering
+			%			\renewcommand{\rubysep}{-0.1em}
+			\begin{tabular}{@{}ccccccc@{}}
+				%				<A> & \e{は} & <B> & \e{が} & … \\
+				%				\ruby{彼}{かれ} & & \ruby{背}{せ} & & 高い \\
+				\ruby{彼}{かれ} & \e{は} & \ruby{背}{せ} & \e{が} & 高い & $\Rightarrow$ & \ruby{彼}{かれ}は\ruby{背}{せ}が高い \bh
+				on & & stas & & visok & & njemu je stas visok \br
+				私 & \e{は} & お\ruby{金}{かね} & \e{が} & ない & $\Rightarrow$ & 私はお\ruby{金}{かね}がない \bh
+				ja & & novac & & nema & & meni nema novca
+			\end{tabular}
+		\end{table}
+		
+		\begin{itemize}
+			\item \ruby{彼女}{かのじょ}\e{は}そんな\ruby{音楽}{おんがく}\e{が}\ruby{嫌}{きら}いだ。\bh
+			Njoj je takva glazba mrska.
+			\item 私\e{は}日本の\ruby{文化}{ぶんか}に\ruby{興味}{きょうみ}\e{が}ある。\bh
+			Meni/za mene je japanska kultura zanimljiva.
+			\item \ruby{美奈子}{みなこ}さん\e{は}先生が聞いた\ruby{質問}{しつもん}\e{が}分からなかった。\bh
+			(Za) Minako pitanje koje je učitelj pitao nije bilo razumljivo.
+			%				\item \ruby{敏郎}{としろう}\e{は}クモ\e{が}\ruby{怖}{こわ}い。\bh
+			%				Za Toshir\={o}a/Toshir\={o}u su pauci strašni.
+		\end{itemize}
 	\end{minipage}
 \end{document}
