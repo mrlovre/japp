@@ -70,3 +70,5 @@
 
 \setlist{leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
 \setlength{\parindent}{0pt}
+\newlength{\width}
+\setlength{\width}{10cm}
