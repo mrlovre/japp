@@ -63,14 +63,10 @@
 \newcommand{\dictentry}[4]{%
 	\begin{minipage}{\linewidth}%
 		\singlespacing%
-%		\mdseries%
 		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
 		{\normalsize \mbox{\raggedleft #2}}\\
-		%}%
-%		\vspace{-1em} \\
 		\textit{#4}\\
 		\begin{itemize}#3\end{itemize}%
-		%  \vspace{0.5em}
 	\end{minipage}\vspace{1.5em}
 }
