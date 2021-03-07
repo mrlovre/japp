@@ -1,24 +1,23 @@
-bakari.png
+## bakari
 ![](bakari.png)
 
-dake.png
+## dake
 ![](dake.png)
 
-ha-ga.png
+## ha-ga
 ![](ha-ga.png)
 
-ka.png
+## ka
 ![](ka.png)
 
-no.png
+## no
 ![](no.png)
 
-shika.png
+## shika
 ![](shika.png)
 
-toshite.png
+## toshite
 ![](toshite.png)
 
-you.png
+## you
 ![](you.png)
-
