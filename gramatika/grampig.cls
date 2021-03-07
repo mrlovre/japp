@@ -56,6 +56,8 @@
 \newcommand*{\e}[1]{{\color{\accentcolor}#1}}
 \newcommand*{\br}{\\[0.4em]}
 \newcommand*{\bh}{\\[-0.2em]}
+\newcommand*{\p}[1]{\mbox{#1}\CJKglue}
+\newcommand*{\f}[2]{\ruby{#1}{#2}}
 
 \renewcommand{\rubysep}{-0em}
 \renewcommand{\rubysize}{0.4}
