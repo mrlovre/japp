@@ -7,6 +7,7 @@
 
 \RequirePackage[PunctStyle=banjiao]{xeCJK}
 \RequirePackage[margin=1cm,top=2cm,bottom=2cm,includeheadfoot=False]{geometry}
+\RequirePackage{graphicx}
 \RequirePackage{xltabular}
 \RequirePackage{booktabs}
 \RequirePackage{enumitem}
@@ -56,8 +57,9 @@
 \setCJKmainfont[BoldFont=*-Bold,AutoFakeSlant=0.2]{Source Han Serif JP}
 \setsansfont[Numbers={Lining, Monospaced},Ligatures=TeX,LetterSpace=True,BoldFont=*-Semibold]{Source Sans Pro}
 \setCJKsansfont[BoldFont=*-Bold,AutoFakeSlant=0.2]{Source Han Sans JP}
-
+\setlistdepth{3}
 \setlist{leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
+\setlist[2,3]{leftmargin=2em,itemsep=0em,parsep=0em,topsep=0em}
 \setlength{\parindent}{2em}
 
 \newcommand{\dictentry}[4]{%
