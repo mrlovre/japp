@@ -13,6 +13,7 @@
 \RequirePackage{array}
 \RequirePackage[croatian]{babel}
 \RequirePackage{array}
+\RequirePackage{booktabs}
 
 \definecolor{navy}{HTML}{001F3F}
 \definecolor{blue}{HTML}{0074D9}
@@ -60,7 +61,7 @@
 \newcommand*{\f}[2]{\ruby{#1}{#2}}
 
 \renewcommand{\rubysep}{-0em}
-\renewcommand{\rubysize}{0.4}
+\renewcommand{\rubysize}{0.5}
 
 \pagecolor{\backgroundcolor}
 \color{\foregroundcolor}
@@ -70,7 +71,7 @@
 \setmainfont[Numbers={Lining, Monospaced},Ligatures=TeX,LetterSpace=True,BoldFont=*-Semibold]{Source Serif 4}
 \setCJKmainfont{Source Han Serif JP}
 
-\setlist{leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
+\setlist{wide,leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
 \setlength{\parindent}{0pt}
 \newlength{\width}
 \setlength{\width}{10cm}
