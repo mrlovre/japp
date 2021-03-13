@@ -68,7 +68,7 @@
 		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
 		{\normalsize \mbox{\raggedleft #2}}\\
-		\textit{#4}\\
+		{\itshape{}#4}\\
 		\begin{itemize}#3\end{itemize}%
 	\end{minipage}\vspace{1.5em}
 }
