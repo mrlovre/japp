@@ -6,7 +6,6 @@
 \RequirePackage[PunctStyle=banjiao]{xeCJK}
 \RequirePackage{enumitem}
 \RequirePackage{fontspec}
-%\RequirePackage[onehalfspacing]{setspace}
 \RequirePackage{xcolor}
 \RequirePackage{ruby}
 \RequirePackage{microtype}
@@ -50,6 +49,16 @@
 \DeclareOption{advanced}{
 	\renewcommand{\backgroundcolor}{maroon}
 	\renewcommand{\foregroundcolor}{yellow}
+	\renewcommand{\accentcolor}{orange}
+}
+\DeclareOption{pig}{
+	\renewcommand{\backgroundcolor}{maroon}
+	\renewcommand{\foregroundcolor}{pink}
+	\renewcommand{\accentcolor}{lime}
+}
+\DeclareOption{ocha}{
+	\renewcommand{\backgroundcolor}{silver}
+	\renewcommand{\foregroundcolor}{maroon}
 	\renewcommand{\accentcolor}{orange}
 }
 \ProcessOptions\relax
