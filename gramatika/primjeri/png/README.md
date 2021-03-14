@@ -18,6 +18,3 @@
 
 ## toshite
 ![](toshite.png)
-
-## you
-![](you.png)
