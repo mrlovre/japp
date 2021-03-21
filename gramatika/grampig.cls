@@ -13,6 +13,7 @@
 \RequirePackage[croatian]{babel}
 \RequirePackage{array}
 \RequirePackage{booktabs}
+\RequirePackage{makecell}
 
 \definecolor{navy}{HTML}{001F3F}
 \definecolor{blue}{HTML}{0074D9}
