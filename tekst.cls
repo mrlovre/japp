@@ -61,6 +61,8 @@
 \setlist{leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
 \setlist[2,3]{leftmargin=2em,itemsep=0em,parsep=0em,topsep=0em}
 \setlength{\parindent}{2em}
+\setlength{\parskip}{0em}
+\setlength{\fboxsep}{1em}
 
 \newcommand{\dictentry}[4]{%
 	\begin{minipage}{\linewidth}%
