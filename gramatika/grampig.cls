@@ -37,6 +37,8 @@
 \newcommand{\foregroundcolor}{black}
 \newcommand{\accentcolor}{gray}
 
+\newcommand{\watermark}{\textsc{cursed}}
+
 \DeclareOption{basic}{
 	\renewcommand{\backgroundcolor}{yellow}
 	\renewcommand{\foregroundcolor}{black}
@@ -62,7 +64,24 @@
 	\renewcommand{\foregroundcolor}{maroon}
 	\renewcommand{\accentcolor}{orange}
 }
+\DeclareOption{bless}{
+	\renewcommand{\watermark}{}
+}
 \ProcessOptions\relax
+
+\def\@title{ぶんぽう}
+\renewcommand*{\title}[1]{
+	\def\@title{#1}
+}
+
+\def\@pos{pos}
+\newcommand*{\pos}[1]{
+	\def\@pos{#1}
+}
+
+\renewcommand{\maketitle}{
+\e{\large\@title} \hfill \textsc{\e\watermark} \hfill \@pos\br
+}
 
 \newcommand*{\e}[1]{{\color{\accentcolor}#1}}
 \newcommand*{\br}{\\[0.4em]}
