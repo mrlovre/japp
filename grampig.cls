@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{grampig}
 
-\LoadClass[10pt, utf8, border=0.4cm]{standalone}
+\LoadClass[10pt,utf8,varwidth=10cm,border=0.4cm]{standalone}
 
 \RequirePackage[PunctStyle=banjiao]{xeCJK}
 \RequirePackage{enumitem}
@@ -14,6 +14,7 @@
 \RequirePackage{array}
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
+\RequirePackage{tabularx}
 
 \definecolor{navy}{HTML}{001F3F}
 \definecolor{blue}{HTML}{0074D9}
@@ -79,10 +80,6 @@
 	\def\@pos{#1}
 }
 
-\renewcommand{\maketitle}{
-\e{\large\@title} \hfill \textsc{\e\watermark} \hfill \@pos\br
-}
-
 \newcommand*{\e}[1]{{\color{\accentcolor}#1}}
 \newcommand*{\br}{\\[0.4em]}
 \newcommand*{\bh}{\\[-0.2em]}
@@ -104,3 +101,9 @@
 \setlength{\parindent}{0pt}
 \newlength{\width}
 \setlength{\width}{10cm}
+
+\renewcommand{\maketitle}{
+	\begin{tabular}{@{}p{0.333\width}@{}p{0.333\width}@{}p{0.333\width}@{}}
+		\makecell[lt]{\e{\large\@title}} & \makecell[ct]{\textsc{\e\watermark}} & \makecell[rt]{\@pos}
+	\end{tabular}\br
+}
