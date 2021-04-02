@@ -22,6 +22,9 @@
 \RequirePackage[all]{nowidow}
 \RequirePackage{makecell}
 \RequirePackage{multicol}
+\RequirePackage{pbox}
+\RequirePackage{titlesec}
+\RequirePackage{indentfirst}
 \setlength{\columnsep}{2em}
 
 \definecolor{navy}{HTML}{001F3F}
@@ -73,4 +76,10 @@
 		{\itshape{}#4}\\
 		\begin{itemize}#3\end{itemize}%
 	\end{minipage}\vspace{1.5em}
+}
+
+\newcommand{\choicebox}[1]{%
+\begin{center}%
+	\fbox{\pbox{\linewidth}{\relax\ifvmode\centering\fi #1}}%
+\end{center}%
 }
