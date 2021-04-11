@@ -1,0 +1,194 @@
+\documentclass[a5paper, 10pt]{tekst}
+
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{tikz}
+\newcommand{\m}[1]{\kern -0.4em{#1}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\newcommand{\pitch}[1]{\raisebox{-\dp\strutbox}{
+		\begin{tikzpicture}[
+			every node/.style={inner sep=0.0, outer sep=0.0},
+			dot/.style={draw, black, circle, anchor=center, minimum size=0.4ex, fill}
+			]
+			\foreach[count=\i from 1] \x/\p in {#1} 
+			\ifx\x\empty
+			\draw node (P\i) at (\i * 1em, 0) {} node (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\else
+			\draw node (P\i) at (\i * 1em, 0) {\x\strut} node[dot] (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\fi;
+
+			\begin{pgfonlayer}{bg} 
+			\foreach[count=\i from 1, evaluate=\i as \j using int(\i - 1)] \x/\p in {#1}
+			\ifnum \j>0
+			\ifx\x\empty
+			\draw[dash pattern=on 1.5pt off 1.5pt]({C\i}.center) -- ({C\j}.center)
+			\else
+			\draw[solid]({C\i}.center) -- ({C\j}.center)
+			\fi
+			\fi;
+			\end{pgfonlayer}
+	\end{tikzpicture}}
+}
+
+\begin{document}
+	\thispagestyle{empty}
+	\onehalfspacing
+	\titleformat*{\section}{\sffamily\bfseries}
+	\sffamily
+	
+	\begin{center}
+		\Huge \p{クロース}\p{アップ・}\p{\f{座間}{ざま}}\p{９}\p{\f{遺体}{いたい}}\p{\f{事件}{じけん}、}\p{\f{第}{だい}}\p{\f{一}{いっ}\f{話}{わ}}
+	\end{center}
+	\vspace{2em}
+	
+	{\Large\sloppy
+		\noindent\p{2017}\p{\f{年}{ねん}}\p{10}\p{\f{月}{つき}}\p{31\f{日}{か}、}\p{\f{衝撃}{しょうげき}\f{的}{てき}な}\p{ニュースが}\p{\f{流}{なが}れた。}\p{それは、}\p{\f{連続}{れんぞく}}\p{\f{殺人}{さつじん}}\p{\f{事件}{じけん}だった。}\p{\f{若}{わか}い}\p{\f{男女}{だんじょ}}\p{9\f{人}{にん}の、}\p{バラバラに}\p{\f{切断}{せつだん}}\p{された}\p{\f{遺体}{いたい}が}\p{\f{発見}{はっけん}}\p{された。}
+		
+		\noindent\p{\f{東京}{とうきょう}}\p{\f{都}{と}の}\p{ある}\p{\f{女性}{じょせい}}\p{（23\f{歳}{さい}）が、}\p{2017}\p{\f{年}{ねん}}\p{10}\p{\f{月}{つき}}\p{23\f{日}{か}から}\p{\f{連絡}{れんらく}が}\p{\f{取}{と}れなく}\p{なり、}\p{\f{行方}{ゆくえ}}\p{\f{不明}{ふめい}に}\p{なって}\p{いた。}\p{\f{警視}{けいし}\f{庁}{ちょう}は、}\p{その}\p{\f{女性}{じょせい}の}\p{\f{兄}{あに}}\p{（Aさん）の}\p{\f{協力}{きょうりょく}の}\p{もと、}\p{\f{女性}{じょせい}を}\p{\f{捜索}{そうさく}}\p{して}\p{いた。}\p{しかし}\p{一}\p{\f{週間}{しゅうかん}\f{後}{ご}の}\p{10}\p{\f{月}{つき}}\p{30\f{日}{か}、}\p{\f{女性}{じょせい}は}\p{\f{遺体}{いたい}と}\p{なって}\p{\f{発見}{はっけん}}\p{された。}
+		
+		\noindent\p{\f{遺体}{いたい}は、}\p{\f{神奈川}{かながわ}}\p{\f{県}{けん}}\p{\f{座間}{ざま}}\p{\f{市}{し}の、}\p{ある}\p{\f{男}{おとこ}の}\p{アパートの}\p{\f{部屋}{へや}から}\p{\f{見}{み}つかった。}\p{\f{警視}{けいし}\f{庁}{ちょう}は、}\p{この}\p{\f{部屋}{へや}に}\p{\f{住}{す}む}\p{\f{男}{おとこ}、}\p{\f{白石}{しらいし}}\p{\f{容疑}{ようぎ}\f{者}{しゃ}}\p{（27\f{歳}{さい}）を}\p{\f{死体}{したい}}\p{\f{遺棄}{いき}の}\p{\f{容疑}{ようぎ}で}\p{\f{逮捕}{たいほ}。}\p{\f{女性}{じょせい}の}\p{\f{遺体}{いたい}は}\p{\f{切断}{せつだん}}\p{され、}\p{\f{頭部}{とうぶ}が}\p{クーラー}\p{ボックスに}\p{\f{入}{い}れられて}\p{いた。}\p{\f{男}{おとこ}の}\p{\f{部屋}{へや}からは、}\p{その}\p{\f{後}{ご}}\p{9\f{人}{にん}の}\p{\f{遺体}{いたい}の}\p{\f{頭部}{とうぶ}が}\p{\f{発見}{はっけん}}\p{された。}
+				
+		\noindent\p{\f{事件}{じけん}は、}\p{Aさんが}\p{\f{警察}{けいさつ}に}\p{\f{妹}{いもうと}の}\p{\f{捜索}{そうさく}\f{願}{ねがい}を}\p{出した}\p{ことから}\p{\f{始}{はじ}まった。}\p{Aさんの}\p{\f{妹}{いもうと}には}\p{\f{適応}{てきおう}}\p{\f{障害}{しょうがい}が}\p{あり、}\p{\f{他人}{たにん}と}\p{うまく}\p{\f{関}{かか}わる}\p{ことが}\p{できなかった。だが、}\p{Aさんとは、}\p{\f{毎日}{まいにち}の}\p{ように}\p{\f{ＬＩＮＥ}{らいん}で}\p{\f{連絡}{れんらく}を}\p{\f{取り合}{とりあ}って}\p{いた。}\p{しかし、}\p{10}\p{\f{月}{つき}}\p{23\f{日}{か}の}\p{\f{朝}{あさ}を}\p{\f{最後}{さいご}に、}\p{\f{妹}{いもうと}からの}\p{\f{連絡}{れんらく}が}\p{なくなり、}\p{\f{行方}{ゆくえ}が}\p{\f{分}{わ}からなく}\p{なった。}\p{Aさんは}\p{\f{必死}{ひっし}で}\p{\f{妹}{いもうと}を}\p{\f{探}{さが}し}\p{\f{始}{はじ}めた。}\p{そして、}\p{\f{妹}{いもうと}が}\p{ツイッターに}\p{\f{書き込}{かきこ}んだ、}\p{ある}\p{\f{文章}{ぶんしょう}を}\p{\f{見}{み}つけた。}\p{そこには、}\p{「\f{一緒}{いっしょ}に}\p{\f{自殺}{じさつ}}\p{して}\p{くれる}\p{\f{人}{ひと}を}\p{\f{探}{さが}して}\p{いる」と}\p{\f{書}{か}いて}\p{あった。}
+		
+	}
+		
+	\clearpage
+	\titleformat*{\section}{\rmfamily\bfseries}
+	\rmfamily
+	
+	\section*{Vokabular}
+	\begin{multicols}{2}[\centering \textbf{Bitno}]\noindent
+		\dictentry{事件 \strut}{じけん}{\item incident}{imenica}
+		\dictentry{流れる \strut}{ながれる}{\item teći}{glagol {\upshape (一)}}
+		\dictentry{連続 \strut}{れんぞく}{\item niz}{imenica, suru-glagol}
+		\dictentry{発見 \strut}{はっけん}{\item otkriće}{imenica, suru-glagol}
+		\dictentry{協力 \strut}{きょうりょく}{\item suradnja}{imenica, suru-glagol}
+		\dictentry{他人 \strut}{たにん}{\item druga osoba/e}{imenica}
+		\dictentry{関わる \strut}{かかわる}{\item slagati se ?}{glagol {\upshape (五)}}
+		\dictentry{取り合う \strut}{とりあう}{\item paziti na}{glagol {\upshape (五)}}
+		\dictentry{最後 \strut}{さいご}{\item kraj}{imenica}
+		\dictentry{行方 \strut}{ゆくえ}{\item mjesto gdje se netko trenutno nalazi (eng. whereabouts)}{imenica}
+		\dictentry{必死 \strut}{ひっし}{\item očajnički}{na-pridjev, no-pridjev}
+		\dictentry{一緒に \strut}{いっしょに}{\item zajedno (sa)}{prilog}
+	\end{multicols}
+	\begin{multicols}{2}[\centering \textbf{Ostalo}]
+		\dictentry{座間 \strut}{\pitch{ざ/1,ま/0}}{\item Zama}{ime grada}
+		\dictentry{遺体 \strut}{いたい}{\item leš}{imenica}
+		\dictentry{第 \strut}{だい}{\item prefiks za tvorbu rednih brojeva}{prefiks}
+		\dictentry{話 \strut}{わ}{\item epizoda}{brojač}
+		\dictentry{年 \strut}{ねん}{\item godina}{imenica}
+		\dictentry{10月 \strut}{じゅうがつ}{\item listopad}{imenica}
+		\dictentry{31日 \strut}{さんじゅういちにち}{\item 31. dan}{imenica}
+		\dictentry{衝撃的 \strut}{しょうげきてき}{\item šokantan}{na-pridjev}
+		\dictentry{殺人 \strut}{さつじん}{\item ubojica}{imenica}
+		\dictentry{若い \strut}{わかい}{\item mlad}{i-pridjev}
+		\dictentry{男女 \strut}{だんじょ}{\item muškarci i žene}{imenica}
+		\dictentry{9人 \strut}{きゅうにん}{\item devet ljudi}{brojač za ljude}
+		\dictentry{切断 \strut}{せつだん}{\item rez}{imenica, suru-glagol}
+		
+		\dictentry{女性 \strut}{じょせい}{\item žena}{imenica}
+		\dictentry{連絡 \strut}{\pitch{れ/0,ん/1,ら/1,く/1,/1}}{\item kontakt}{imenica, suru-glagol}
+		\dictentry{取る \strut}{\pitch{と/1,る/0,/0}}{\item uzeti}{glagol {\upshape (五)}}
+		\dictentry{人 \strut}{\pitch{ひ/0,と/1,/0}}{\item čovjek}{imenica}
+		\dictentry{東京都 \strut}{\pitch{と/0,う/1,き\m{ょ}/1,う/0,と/0,/0}}{\item Tokyo}{ime grada}
+		\dictentry{行方不明 \strut}{\pitch{ゆ/0,く/1,え/1,ふ/1,め/0,い/0,/0}}{\item nestanak}{imenica, no-pridjev}
+		\dictentry{警視庁 \strut}{けいしちょう}{\item policijski odjel (Tokijo)}{imenica}
+		\dictentry{兄 \strut}{あに}{\item brat}{imenica}
+		\dictentry{捜索 \strut}{そうさく}{\item potraga}{imenica, suru-glagol}
+		\dictentry{一週間 \strut}{いっしゅうかん}{\item jedan tjedan}{imenica}
+		\dictentry{後 \strut}{ご}{\item nakon}{sufiks}
+		\dictentry{神奈川県 \strut}{かながわけん}{\item Kanagawa perfektura}{ime}
+		\dictentry{座間 \strut}{ざま}{\item Zama}{ime grada}
+		\dictentry{市 \strut}{し}{\item grad}{sufiks}
+		\dictentry{男 \strut}{おとこ}{\item muškarac}{imenica}
+		\dictentry{部屋 \strut}{へや}{\item soba}{imenica}
+		\dictentry{見つかる \strut}{みつかる}{\item biti nađen}{glagol {\upshape (五)}}
+		\dictentry{住む \strut}{すむ}{\item stanovati}{glagol {\upshape (五)}}
+		\dictentry{容疑者 \strut}{ようぎしゃ}{\item osumnjičeni}{imenica}
+		\dictentry{死体遺棄 \strut}{したいいき}{\item zločin napuštanja mrtvog tijela}{imenica}
+		\dictentry{容疑 \strut}{ようぎ}{\item sumnja}{imenica}
+		\dictentry{逮捕 \strut}{たいほ}{\item uhićenje}{imenica, suru-glagol}
+		\dictentry{頭部 \strut}{とうぶ}{\item glava}{imenica}
+		\dictentry{入れる \strut}{いれる}{\item staviti unutra}{glagol {\upshape (一)}}
+		\dictentry{警察 \strut}{けいさつ}{\item policija}{imenica}
+		\dictentry{妹 \strut}{いもうと}{\item mlađa sestra}{imenica}
+		\dictentry{捜索願 \strut}{そうさくねがい}{\item zahtjev za potragom nestale osobe}{imenica}
+		\dictentry{出す \strut}{だす}{\item podnijeti}{glagol {\upshape (五)}}
+		\dictentry{始まる \strut}{はじまる}{\item započeti}{glagol {\upshape (五)}}
+		\dictentry{適応障害 \strut}{てきおうしょうがい}{\item poremećaj u prilagodbi}{imenica}
+		\dictentry{毎日 \strut}{まいにち}{\item svaki dan}{fraza}
+		\dictentry{朝 \strut}{あさ}{\item jutro}{imenica}
+		\dictentry{分かる \strut}{わかる}{\item spoznati}{glagol {\upshape (五)}}
+		\dictentry{探し始める \strut}{さがしはじめる}{\item početi tražiti}{glagol {\upshape (一)}}
+		\dictentry{書き込む \strut}{かきこむ}{\item napisati}{glagol {\upshape (五)}}
+		\dictentry{文章 \strut}{ぶんしょう}{\item rečenica}{imenica}
+		\dictentry{自殺 \strut}{じさつ}{\item suicid}{imenica}
+	\end{multicols}
+
+	\clearpage
+	
+	\section*{Domaća zadaća}
+	\begin{enumerate}
+		\item Napišite kratku priču ili par rečenica koristeći riječi iz kutije ispod.
+		      Rečenice ili tekst ne moraju nužno biti vezane uz samu vijest.
+		\begin{center}
+			\vspace{0.5em}
+			\fbox{事件　・　連続　・　他人　・　最後　・　行方}\vspace{1.4em}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+		\end{center}
+	
+	\clearpage
+		 
+		\item Odgovorite na pitanja:
+		\begin{enumerate}[label=(\roman*)]
+			\raggedright
+			\item\vspace{0.5em} \p{2017}\p{\f{年}{ねん}}\p{10}\p{\f{月}{つき}}\p{31\f{日}{か}に}\p{\f{流}{なが}れた}\p{ニュースを}\p{\f{少}{すこ}し}\p{\f{説明}{せつめい}}\p{して}\p{ください。}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+			\item\vspace{0.5em} \p{\f{行方}{ゆくえ}}\p{\f{不明}{ふめい}に}\p{なった}\p{\f{女性}{じょせい}の}\p{\f{状況}{じょうきょう}は}\p{\f{現在}{げんざい}}\p{どうですか？}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+			\item\vspace{0.5em} \p{\f{女性}{じょせい}は}\p{どこで}\p{\f{見}{み}つかった？}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+			\item\vspace{0.5em} \p{\f{頭部}{とうぶ}が}\p{\f{何}{なん}\f{個}{こ}}\p{\f{見}{み}つかった？}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+			\item\vspace{0.5em} \p{Aさんの}\p{\f{妹}{いもうと}は}\p{どんな}\p{\f{人}{ひと}ですか？}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+			\item\vspace{0.5em} \p{Aさんの}\p{\f{妹}{いもうと}の}\p{ツイッターに}\p{\f{何}{なん}が}\p{\f{書}{か}いて}\p{あった？}
+			\rule{\linewidth}{0.5pt}\\[0.6em]
+			\rule{\linewidth}{0.5pt}
+		\end{enumerate}		
+		\item Nadopunite sljedeće rečenice riječima iz kutije ispod:
+		\begin{center}
+			\choicebox{一緒に　・　最後　・　事件　・　関わっている\\協力　・　連続必死　・　流れている　・　他人\\取り合っている　・　行方　・　発見した}
+		\end{center}
+		\begin{enumerate}[label=(\roman*)]
+			\raggedright
+			
+			\item\vspace{0.5em}\p{\f{武}{たけし}\f{君}{くん}の}\p{\f{人生}{じんせい}は}\p{\f{長}{なが}い}\p{\f{失敗}{しっぱい}の\ansline{}だった。}
+			\item \p{\f{花子}{はなご}ちゃんは}\p{ヒマラヤで}\p{\f{新}{あたら}しい}\p{\f{石}{いし}の}\p{\f{一種}{いっしゅ}を\ansline{} 。}
+			\item\p{\f{私}{わたくし}は}\p{\f{彼}{かれ}が}\p{マフィアに\ansline{}}\p{ことを}\p{\f{聞}{き}いた。}
+			\item \p{\f{余}{あま}り\ansline{}に}\p{\f{頼}{たよ}っては}\p{いけない。}
+			\item \p{\ansline{}}\p{\f{牢獄}{ろうごく}に}\p{いる}\p{\f{武}{たけ}\f{君}{くん}を}\p{見に}\p{\f{行}{い}かない？}
+			\item \p{\ansline{}で}\p{\f{木}{き}を}\p{\f{登}{のぼ}って}\p{いる}\p{\f{子供}{こども}が}\p{たくさん}\p{いる。}
+			\item \p{\f{老人}{ろうじん}は}\p{\f{我々}{われわれ}に}\p{その}\p{\f{愉快}{ゆかい}な}\p{\f{殺人}{さつじん}\ansline{}に}\p{ついて}\p{話した。}
+			\item\p{\f{花子}{はなご}ちゃんと}\p{\f{武}{たけし}\f{君}{くん}に}\p{ついて}\p{\f{色々}{いろいろ}な}\p{\f{噂}{うわさ}が\ansline{} 。}
+			\item \p{\f{佐藤}{さとう}さんの}\p{\f{犬}{いぬ}の\ansline{}を}\p{\f{知}{し}りませんか？}
+			\item \p{これは\ansline{}の}\p{\f{質問}{しつもん}では}\p{ありません。}
+			\item \p{\f{凜}{りん}ちゃんの\ansline{}の}\p{おかげで}\p{\f{痴漢}{ちかん}は}\p{\f{捕}{つか}まりました。}
+			\item\p{\f{彼}{かれ}らは}\p{\f{毎日}{まいにち}}\p{\f{電話}{でんわ}で}\p{\f{連絡}{れんらく}を\ansline{} 。}
+		\end{enumerate}
+	\end{enumerate}
+\end{document}

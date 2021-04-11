@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{grampig}
 
-\LoadClass[10pt,utf8,convert={density=600},varwidth=10cm,border=0.4cm]{standalone}
+\LoadClass[10pt,utf8,varwidth=10cm,border=0.4cm]{standalone}
 
 \RequirePackage[PunctStyle=banjiao]{xeCJK}
 \RequirePackage{enumitem}
@@ -64,6 +64,11 @@
 	\renewcommand{\backgroundcolor}{silver}
 	\renewcommand{\foregroundcolor}{maroon}
 	\renewcommand{\accentcolor}{orange}
+}
+\DeclareOption{ocha-dark}{
+	\renewcommand{\backgroundcolor}{maroon}
+	\renewcommand{\foregroundcolor}{aqua}
+	\renewcommand{\accentcolor}{red}
 }
 \DeclareOption{bless}{
 	\renewcommand{\watermark}{}
