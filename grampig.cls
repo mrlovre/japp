@@ -67,7 +67,7 @@
 }
 \DeclareOption{ocha-dark}{
 	\renewcommand{\backgroundcolor}{black}
-	\renewcommand{\foregroundcolor}{fuchsia}
+	\renewcommand{\foregroundcolor}{pink}
 	\renewcommand{\accentcolor}{red}
 }
 \DeclareOption{bless}{
