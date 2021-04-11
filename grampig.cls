@@ -66,8 +66,8 @@
 	\renewcommand{\accentcolor}{orange}
 }
 \DeclareOption{ocha-dark}{
-	\renewcommand{\backgroundcolor}{maroon}
-	\renewcommand{\foregroundcolor}{aqua}
+	\renewcommand{\backgroundcolor}{black}
+	\renewcommand{\foregroundcolor}{fuchsia}
 	\renewcommand{\accentcolor}{red}
 }
 \DeclareOption{bless}{
