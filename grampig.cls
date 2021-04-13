@@ -15,6 +15,7 @@
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
 \RequirePackage{tabularx}
+\RequirePackage{pbox}
 
 \definecolor{navy}{HTML}{001F3F}
 \definecolor{blue}{HTML}{0074D9}
@@ -112,3 +113,5 @@
 		\makecell[lt]{\e{\large\@title}} & \makecell[ct]{\textsc{\e\watermark}} & \makecell[rt]{\@pos}
 	\end{tabular}\br
 }
+
+\newcommand*{\ansline}[1][0.8cm]{\hspace{0.1cm}\rule{#1}{0.5pt}\hspace{0.1cm}}

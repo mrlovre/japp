@@ -1,5 +1,7 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter import filedialog
+
 
 class App(Frame):
     def __init__(self, master=None):
@@ -12,12 +14,7 @@ class App(Frame):
         self._init_sidebar()
 
     def _init_menu(self):
-        self.menubar = Menu(self)
-        self.filemenu = Menu(self.menubar, tearoff=False)
-        self.file_open = self.filemenu.add_command(label="Open...")
-
-        self.menubar.add_cascade(label="File", menu=self.filemenu)
-
+        self.menubar = MenuBar(self)
         self.master["menu"] = self.menubar
 
     def _init_text(self):
@@ -32,6 +29,23 @@ class App(Frame):
         self.master.title = "Japp v. 0.1"
         self.style = ttk.Style(self)
         self.style.theme_use("clam")
+
+    def open_file(self):
+        filename = filedialog.askopenfile(mode="r")
+
+        with open(filename, "r"):
+            content = filename.read()
+
+        self.text.textarea.delete(INSERT, END)
+        self.text.textarea.insert(INSERT, content)
+
+class MenuBar(Menu):
+    def __init__(self, master=None):
+        super().__init__(master=master)
+        self.filemenu = Menu(self, tearoff=False)
+        self.file_open = self.filemenu.add_command(label="Open...", command=lambda: self.master.open_file)
+
+        self.add_cascade(label="File", menu=self.filemenu)
 
 class InputText(LabelFrame):
     def __init__(self, master=None):
