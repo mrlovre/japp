@@ -16,6 +16,7 @@
 \RequirePackage{makecell}
 \RequirePackage{tabularx}
 \RequirePackage{pbox}
+\RequirePackage{xargs}
 
 \definecolor{navy}{HTML}{001F3F}
 \definecolor{blue}{HTML}{0074D9}
@@ -107,6 +108,7 @@
 \setlength{\parindent}{0pt}
 \newlength{\width}
 \setlength{\width}{10cm}
+\setlength{\fboxsep}{1em}
 
 \renewcommand{\maketitle}{
 	\begin{tabular}{@{}p{0.333\width}@{}p{0.333\width}@{}p{0.333\width}@{}}
@@ -114,4 +116,10 @@
 	\end{tabular}\br
 }
 
-\newcommand*{\ansline}[1][0.8cm]{\hspace{0.1cm}\rule{#1}{0.5pt}\hspace{0.1cm}}
+\newcommandx{\ansline}[2][1=0.8cm, 2=0.1cm]{\hspace{#2}\rule{#1}{0.5pt}\hspace{#2}}
+
+\newcommand{\choicebox}[1]{%
+  \begin{center}%
+    \fbox{\pbox{\linewidth}{\relax\ifvmode\centering\fi #1}}%
+  \end{center}%
+}
