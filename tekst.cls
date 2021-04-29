@@ -25,6 +25,7 @@
 \RequirePackage{pbox}
 \RequirePackage{titlesec}
 \RequirePackage{indentfirst}
+\RequirePackage{ragged2e}
 \setlength{\columnsep}{2em}
 
 \definecolor{navy}{HTML}{001F3F}
@@ -72,7 +73,7 @@
 		\singlespacing%
 		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
-		{\normalsize \mbox{\raggedleft #2}}\\
+		{\normalsize \mbox{\raggedleft #2}}
 		{\itshape{}#4}\\
 		\begin{itemize}#3\end{itemize}%
 	\end{minipage}\vspace{1.5em}
