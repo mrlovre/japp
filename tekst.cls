@@ -13,7 +13,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{fontspec}
 \RequirePackage[onehalfspacing]{setspace}
-\RequirePackage{xcolor}
+\RequirePackage[x11names]{xcolor}
 \RequirePackage{ruby}
 \RequirePackage{microtype}
 \RequirePackage{array}
