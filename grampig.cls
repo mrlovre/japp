@@ -6,7 +6,7 @@
 \RequirePackage[PunctStyle=banjiao]{xeCJK}
 \RequirePackage{enumitem}
 \RequirePackage{fontspec}
-\RequirePackage{xcolor}
+\RequirePackage[x11names]{xcolor}
 \RequirePackage{ruby}
 \RequirePackage{microtype}
 \RequirePackage{array}
@@ -36,11 +36,12 @@
 \definecolor{gray}{HTML}{AAAAAA}
 \definecolor{black}{HTML}{111111}
 
-\newcommand{\backgroundcolor}{white}
+\newcommand{\backgroundcolor}{SeaGreen4}
 \newcommand{\foregroundcolor}{black}
 \newcommand{\accentcolor}{gray}
 
 \newcommand{\watermark}{\textsc{cursed}}
+
 
 \DeclareOption{basic}{
 	\renewcommand{\backgroundcolor}{yellow}

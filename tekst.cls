@@ -13,7 +13,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{fontspec}
 \RequirePackage[onehalfspacing]{setspace}
-\RequirePackage{xcolor}
+\RequirePackage[x11names]{xcolor}
 \RequirePackage{ruby}
 \RequirePackage{microtype}
 \RequirePackage{array}
@@ -25,6 +25,7 @@
 \RequirePackage{pbox}
 \RequirePackage{titlesec}
 \RequirePackage{indentfirst}
+\RequirePackage{ragged2e}
 \setlength{\columnsep}{2em}
 
 \definecolor{navy}{HTML}{001F3F}
@@ -56,10 +57,32 @@
 
 \setlength{\tabcolsep}{0.5ex}
 
-\setmainfont[Numbers={Lining, Monospaced},Ligatures=TeX,LetterSpace=True,BoldFont=*-Semibold]{Source Serif Pro}
-\setCJKmainfont[BoldFont=*-Bold,AutoFakeSlant=0.2]{Source Han Serif JP}
-\setsansfont[Numbers={Lining, Monospaced},Ligatures=TeX,LetterSpace=True,BoldFont=*-Semibold]{Source Sans Pro}
-\setCJKsansfont[BoldFont=*-Bold,AutoFakeSlant=0.2]{Source Han Sans JP}
+\setmainfont[
+	BoldFont=SourceSerifPro-SemiBold,
+	ItalicFont=SourceSerifPro-It,
+	BoldItalicFont=SourceSerifPro-SemiBoldIt,
+	Ligatures=TeX,
+	LetterSpace=True,
+	Path=fontovi/]{SourceSerifPro-Regular}
+	
+\setCJKmainfont[
+	BoldFont=SourceHanSerifJP-Bold,
+	AutoFakeSlant=0.2,
+	Path=fontovi/]{SourceHanSerifJP-Regular}
+	
+\setsansfont[
+	BoldFont=SourceSansPro-SemiBold,
+	ItalicFont=SourceSansPro-It,
+	BoldItalicFont=SourceSansPro-SemiBoldIt,
+	Ligatures=TeX,
+	LetterSpace=True,
+	Path=fontovi/]{SourceSansPro-Regular}
+	
+\setCJKsansfont[
+	BoldFont=SourceHanSansJP-Bold,
+	AutoFakeSlant=0.2,
+	Path=fontovi/]{SourceHanSansJP-Regular}
+
 \setlistdepth{3}
 \setlist{leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
 \setlist[2,3]{leftmargin=2em,itemsep=0em,parsep=0em,topsep=0em}
@@ -72,7 +95,7 @@
 		\singlespacing%
 		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
-		{\normalsize \mbox{\raggedleft #2}}\\
+		{\normalsize \mbox{\raggedleft #2}}
 		{\itshape{}#4}\\
 		\begin{itemize}#3\end{itemize}%
 	\end{minipage}\vspace{1.5em}
