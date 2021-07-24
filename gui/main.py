@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
 
-
 class App(Frame):
     def __init__(self, master=None):
         super().__init__(master=master)
