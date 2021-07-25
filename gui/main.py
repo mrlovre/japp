@@ -5,7 +5,10 @@ from tkinter import filedialog
 
 import pandas as pd
 
-class App(Frame):
+from fugashi import Tagger
+tagger = Tagger()
+
+class Japp(Frame):
     def __init__(self, master=None):
         super().__init__(master=master)
         self.master = master
