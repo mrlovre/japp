@@ -1,11 +1,11 @@
 from tkinter import *
 from tkinter import filedialog
 from tkinter import ttk
+from tkinter import filedialog
 
 import pandas as pd
 
 from fugashi import Tagger
-
 tagger = Tagger()
 
 class Japp(Frame):
@@ -36,10 +36,10 @@ class Japp(Frame):
         self.style.theme_use("clam")
 
     def open_file(self):
-        filename = filedialog.askopenfilename()
+        filename = filedialog.askopenfile(mode="r")
 
-        with open(filename, "r") as file:
-            content = file.read()
+        with open(filename, "r"):
+            content = filename.read()
 
         self.text.textarea.delete(INSERT, END)
         self.text.textarea.insert(INSERT, content)

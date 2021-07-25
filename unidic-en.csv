@@ -1,0 +1,24 @@
+hierarchy|name of attribute|attribute label|description
+lexeme|lexical plain reading|lForm|Vocabulary headings (katakana notation).
+|lexical notation|lemma|Vocabulary headings (mixed kanji-kana notation).
+|word class|goshu|Name of word species.
+word form|basic form of a word|form|Word form heading.
+|parts of speech|pos|Name of part of speech.
+|conjugated form|cType|Type of conjugation (type).
+|conjugated form|cForm|Form of conjugation.
+|inflectional form|iType|Types of inflection.
+|inflectional forms|iForm|Forms of word-initial inflection.
+|conjugated forms|iConType|Types of restrictions on word-initial forms of following. elements.
+|word-final variant|fType|Types of final sound change.
+|end-of-word variant|fForm|The form of the final sound change.
+|word-final variant|fConType|Type of constraint on word-final variant forms of antecedent. elements (type)
+spelling form|basic form of the written form|orthBase|Writing form headings.
+|appearance form|orth|Basic forms with conjugation changes.
+|basic kana form|kanaBase|The basic form in katakana.
+|kana form appearance form|kana|The appearance of a written form in katakana.
+phonetic form|basic pronunciation form|pronBase|Pronunciation form heading.
+|pronunciation form|pron|Basic pronunciation form with conjugation changes.
+|accented form|aType|Location of the accent nucleus.
+|accent modifier|aModType|Types of accent changes by conjugation.
+|accent combining type|aConType|Types of accent changes when combined with the preceding. (following) element.
+
