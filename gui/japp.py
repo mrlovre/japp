@@ -1,10 +1,10 @@
 from tkinter import *
 from tkinter import ttk
-from tkinter import filedialog
 
 import pandas as pd
-
 from fugashi import Tagger
+
+import command
 
 tagger = Tagger()
 
@@ -35,15 +35,6 @@ class Japp(Frame):
         self.style = ttk.Style(self)
         self.style.theme_use("clam")
 
-    def open_file(self):
-        filename = filedialog.askopenfile(mode="r")
-
-        with open(filename, "r"):
-            content = filename.read()
-
-        self.text.textarea.delete(INSERT, END)
-        self.text.textarea.insert(INSERT, content)
-
     def parse(self):
         text = self.text.textarea.get("1.0", END)
         tokens = tagger(text)
@@ -55,7 +46,7 @@ class MenuBar(Menu):
     def __init__(self, master: Japp):
         super().__init__(master=master)
         self.filemenu = Menu(self, tearoff=False)
-        self.file_open = self.filemenu.add_command(label="Open...", command=self.master.open_file)
+        self.file_open = self.filemenu.add_command(label="Open...", command=command.open_file(self.master))
 
         self.add_cascade(label="File", menu=self.filemenu)
 

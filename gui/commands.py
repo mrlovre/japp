@@ -1,2 +1,0 @@
-from japp import Japp
-
