@@ -1,17 +1,19 @@
 from tkinter import *
 from tkinter import filedialog
 from tkinter import ttk
-from tkinter import filedialog
 
 import pandas as pd
-
 from fugashi import Tagger
+
+from document import Document
+
 tagger = Tagger()
 
 class Japp(Frame):
     def __init__(self, master=None):
         super().__init__(master=master)
         self.master = master
+        self.current_document = None
         self.pack()
         self._init_style()
         self._init_menu()
@@ -32,17 +34,25 @@ class Japp(Frame):
 
     def _init_style(self):
         self.master.title = "Japp v. 0.1"
-        self.style = ttk.Style(self)
+        self.style = ttk.Style(self.master)
         self.style.theme_use("clam")
 
     def open_file(self):
-        filename = filedialog.askopenfile(mode="r")
+        filename = filedialog.askopenfilename()
 
-        with open(filename, "r"):
-            content = filename.read()
+        if not filename:
+            return
 
-        self.text.textarea.delete(INSERT, END)
-        self.text.textarea.insert(INSERT, content)
+        with open(filename, "r") as file:
+            content = file.read()
+
+        self.current_document = Document(content)
+
+        self.text.textarea.delete("1.0", END)
+        self.text.textarea.insert(INSERT, self.current_document.text)
+
+        self.text.textarea.tag_configure("highlightline", background="yellow")
+        self.text.textarea.tag_add("highlightline", "1.0", "2.0")
 
     def parse(self):
         text = self.text.textarea.get("1.0", END)
@@ -64,7 +74,7 @@ class InputText(LabelFrame):
         super().__init__(master=master, text="Input text")
         self.master = master
         self.pack(fill="both", expand=True)
-        self.textarea = Text(self)
+        self.textarea = Text(self, font=("Source Han Sans JP", 12))
         self.textarea.pack()
 
 class Sidebar(Frame):
