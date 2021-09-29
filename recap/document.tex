@@ -1,10 +1,11 @@
 %!TeX program = xelatex
 \documentclass[a4paper, 12pt]{amsart}
 \usepackage[croatian]{babel}
-\usepackage[PunctStyle=banjiao,CJKchecksingle,CJKnumber,CJKspace=true]{xeCJK}
+%\usepackage[PunctStyle=CCT,CJKchecksingle,CJKnumber,CJKspace=true]{xeCJK}
+\usepackage{zxjatype}
 
-\setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}]{Source Han Serif JP}
-\setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}]{Source Han Sans JP}
+\setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}, ItalicFont=*]{Source Han Serif JP}
+\setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
 \setmainfont[BoldFont={* Semibold}]{Source Serif Pro}
 
 \usepackage{indentfirst}
@@ -16,10 +17,37 @@
 \usepackage[margin=3cm]{geometry}
 
 \usepackage[overlap,CJK]{ruby}
-\renewcommand{\rubysep}{-0.8ex}
-\renewcommand{\rubysize}{0.42}
-\newcommand{\f}[2]{\ruby{#1}{\smash{\sffamily{#2}}}\CJKglue}
-%\renewcommand{\f}{}
+\renewcommand{\rubysep}{-3.8ex}
+\renewcommand{\rubysize}{0.56}
+\newcommand{\f}[2]{\ruby{#1}{\sffamily\protect\furiganafix{#2}}\CJKglue}
+
+\usepackage{xstring}
+\newcommand{\squeeze}{\kern -0.2em}
+\newcommand{\furiganafix}[1]{{%
+    \StrSubstitute{#1}{・}{@・@}[\x]%
+    \StrSubstitute{\x}{ゃ}{@ゃ@}[\x]%
+    \StrSubstitute{\x}{ゅ}{@ゅ@}[\x]%
+    \StrSubstitute{\x}{ょ}{@ょ@}[\x]%
+    \StrSubstitute{\x}{ぁ}{@ぁ@}[\x]%
+    \StrSubstitute{\x}{ぃ}{@ぃ@}[\x]%
+    \StrSubstitute{\x}{ぅ}{@ぅ@}[\x]%
+    \StrSubstitute{\x}{ぇ}{@ぇ@}[\x]%
+    \StrSubstitute{\x}{ぉ}{@ぉ@}[\x]%
+    \StrSubstitute{\x}{っ}{@っ@}[\x]%
+    \StrSubstitute{\x}{ャ}{@ャ@}[\x]%
+    \StrSubstitute{\x}{ュ}{@ュ@}[\x]%
+    \StrSubstitute{\x}{ョ}{@ョ@}[\x]%
+    \StrSubstitute{\x}{ァ}{@ァ@}[\x]%
+    \StrSubstitute{\x}{ィ}{@ィ@}[\x]%
+    \StrSubstitute{\x}{ゥ}{@ゥ@}[\x]%
+    \StrSubstitute{\x}{ェ}{@ェ@}[\x]%
+    \StrSubstitute{\x}{ォ}{@ォ@}[\x]%
+    \StrSubstitute{\x}{ッ}{@ッ@}[\x]%
+    \StrSubstitute{\x}{@@}{@}[\x]%
+    \StrSubstitute{\x}{@}{\squeeze}[\x]%
+    \x}}
+
+\newcommand{\g}{\furiganafix}
 
 \usepackage[babel=true]{microtype}
 %\setlist[itemize]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
@@ -31,66 +59,75 @@
 \onehalfspacing
 
 \begin{document}
-	\maketitle
-	
-	\section{Uvod}
-	qwertyuiopsdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM \\
-	dfjkl \\
-	thanks foj ingtroducing vphantom that I haven't known before. It will be sophisticatedMl\f{未}{み}\f{然}{ぜん}\f{形}{けい} jif on the fly we can make a query against the letters to find the heighest letter and the deepest letter. 
-	
-	\section{Vrste riječi}
-	\begin{itemize}
-		\item 名詞「めいし」 --- imenice
-		\item 形容詞「けいようし」 --- pridjevi
-		\item 動詞「どうし」 --- glagoli
-		\item 副詞「ふくし」 --- prilozi
-		\item 助詞「じょし」 --- čestice
-	\end{itemize}
-  \subsection{\f{名}{めい}\f{詞}{し} --- imenice}
+  \maketitle
+
+  \section{Uvod}
+  qwertyuiopsdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM \\
+  dfjkl \\
+  thanks foj ingtroducing vphantom that I haven't known before. It will be sophisticatedMl\f{未然}{みぜん}形jif sophisticatedMl\f{未然形}{みぜんけい}jif sophisticatedMl\f{未}{み}\f{然}{ぜん}\f{形}{けい}jifon the fly we can make a query against the \g{しゅう・ぎゅっと・しょう} letters to find the heighest letter and the deepest letter.
+
+  \section{Vrste riječi}
+  \begin{itemize}
+    \item 名詞「めいし」 --- imenice
+    \item 形容詞「けいようし」 --- pridjevi
+    \item 動詞「どうし」 --- glagoli
+    \item 副詞「ふくし」 --- prilozi
+    \item 助詞「\g{じょし}」 --- čestice
+  \end{itemize}
+  \subsection{\f{名詞}{めい・し} --- imenice}
 
   \section{Osnovni djelovi japanske rečenice}
   \begin{itemize}
-  	\item 
+    \item
   \end{itemize}
 
-  \section{Konjugirane osnove}
+  \section{Glagoli}
   Osnova je korijen.
   Oblik je ono što se koristi u rečenicama.
- 
-  
+
+  \subsection{Glagolske kategorije}
+
+  \subsubsection*{Aktivni i stativni}
+
+  \subsubsection*{Prijelazni i neprijelazni}
+
+  \subsection{Konjugirane osnove}
   \begin{center}
-  	\begin{tabular}{ccccccccccc}
-  		あ & か & さ & た & な & は & ま & や & ら & わ & \\
-  		い & き & し & ち & に & ひ & み &   & り & ゐ & \\
-  		う & く & す & つ & ぬ & ふ & む & ゆ & る & わ & ん \\
-  		え & け & せ & て & ね & へ & め &   & れ & ゑ & \\ 
-  		お & こ & そ & と & の & ほ & も & よ & ろ & を &  \\
-  	\end{tabular}
+    \begin{tabular}{ccccccccccc}
+      あ & か & さ & た & な & は & ま & や & ら & わ & \\
+      い & き & し & ち & に & ひ & み &   & り & ゐ & \\
+      う & く & す & つ & ぬ & ふ & む & ゆ & る & わ & ん \\
+      え & け & せ & て & ね & へ & め &   & れ & ゑ & \\
+      お & こ & そ & と & の & ほ & も & よ & ろ & を &  \\
+    \end{tabular}
   \end{center}
 
-  \subsection{\f{未}{み}\f{然}{ぜん}\f{形}{けい}\ --- \textit{irrealis} osnova}
-  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} u \textit{a}-redak.
-  U literaturi se još naziva i \textit{irrealis}, jer se tradicionalno koristila u oblicima koji su značili da se radnja neće nije dogodila, ili da se nije još dogodila.
+  \subsubsection*{\f{未然形}{み・ぜん・けい} --- \textit{irrealis} osnova}
+  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} iz \textit{u}-retka u \textit{a}-redak.
+  U literaturi se još naziva i \textit{irrealis}, jer se tradicionalno koristila u oblicima koji su značili da se radnja nije (još) dogodila.
   U modernom jeziku i dalje se koristi za negativne oblike, ali također i za pasivni i kauzativni oblik.
-  
+
   Iz nje se izvode:
   \begin{itemize}
-  	\item ない形, ず形 --- negativni \textit{nai} i \textit{zu} oblici,
-    \item 受身形 --- pasivni oblik
+    \item ない形, ず形 --- negativni \textit{nai} i \textit{zu} oblici,
+    \item 受身形 --- pasivni oblik,
+  \end{itemize}
+  a u klasičnom japanskom i:
+  \begin{itemize}
+    \item 〜ば --- kondicional.
   \end{itemize}
 
-  \subsection{\f{意}{い}\f{志}{し}\f{形}{けい}\ --- volicionalna osnova}
-  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} u \textit{o}-redak.
-  Izvedena je iz \f{未}{み}\f{然}{ぜん}\f{形}{けい} ili \textit{irrealis} osnove modernom jeziku kao rezultat glasovne promjene kod koje \textit{a} pored \textit{u} u kombinaciji \textit{au} prelazi u \textit{o} i time nastaje produženo \textit{\=o}.
+
+  \subsubsection*{\f{意志形}{い・し・けい} --- volicionalna osnova}
+  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} iz \textit{u}-retka u \textit{o}-redak.
+  Izvedena je iz \f{未}{み}\f{然}{ぜん}\f{形}{けい} ili \textit{irrealis} osnove u modernom jeziku kao rezultat glasovne promjene kod koje \textit{a} pored \textit{u} u kombinaciji \textit{au} prelazi u \textit{o} i time nastaje produženo \textit{\=o}.
   Nalazi se samo u volicionalu (hortativu).
   
   \subsection{\f{連}{れん}\f{用}{よう}\f{形}{けい}\ --- vezivna osnova}
-  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} u \textit{i}-redak.
   
   \subsection{\f{音}{おん}\f{便}{びん}\f{形}{けい}\ --- eufonijska osnova}
   
   \subsection{\f{終}{しゅう}\f{止}{し}\f{形}{けい}\ --- terminativna osnova}
-  
   
   \subsection{\f{連}{れん}\f{体}{たい}\f{形}{けい}\ --- atributivna osnova}
   
@@ -101,7 +138,79 @@
   \subsection{\f{命}{めい}\f{令}{れい}\f{形}{けい}\ --- zapovijedna osnova}
   
 
-  \section{Glagoli}
+  \subsubsection*{\f{連用形}{れん・よう・けい} --- vezivna osnova}\label{sec:fff-----vezivna-osnova}
+  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} u \textit{i}-redak.
+
+  Iz nje se izvode:
+  \begin{itemize}
+    \item pristojni oblici 〜ます
+    \item složeni glagoli
+  \end{itemize}
+
+  \subsubsection*{\f{音便形}{おん・びん・けい} --- eufonijska osnova}
+  Ova osnova izvedena je \f{連}{れん}\f{用}{よう}\f{形}{けい} ili vezivne osnove u modernom jeziku kao rezultat glasovne promjene kod koje kombinacija \textit{\textasciitilde\!~i} + \textit{t\!~\textasciitilde} kontrakcijom postaje
+  \begin{center}
+    \begin{tabular}{rcl}
+      い/ち/り + t\textasciitilde & \textrightarrow & っt\textasciitilde \\
+      び/み/に + t\textasciitilde & \textrightarrow & んd\textasciitilde \\
+      き + t\textasciitilde & \textrightarrow & いt\!~\textasciitilde \\
+      ぎ + t\textasciitilde & \textrightarrow & いd\textasciitilde \\
+    \end{tabular}
+  \end{center}
+
+
+  \subsubsection*{\f{終止形}{しゅう・し・けい} --- terminativna osnova}
+  Ova osnova jednaka je rječničkom obliku i završava na \textit{u}.
+  Koristi se za završetke rečenica.
+
+  \subsubsection*{\f{連体形}{れん・たい・けい} --- atributivna osnova}
+  Ova osnova jednaka je rječničkom obliku i završava na \textit{u}.
+  Koristi se za opis imenskih fraza.
+
+  \subsubsection*{\f{仮定形}{か・てい・けい} --- hipotetska osnova}
+  Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje kane iz \textit{u}-retka u \textit{e}-redak.
+  Naziva se tradicionalno još i \textit{realis} osnova, jer se u klasičnom japanskom koristila u oblicima kod kojih se radnja dogodilけい
+
+  \subsubsection*{\f{可能形}{か・のう・けい} --- potencijalna osnova}
+
+  \subsubsection*{\f{命令形}{めい・れい・けい} --- zapovijedna osnova}
+
+  \subsection{Glagolski oblici}
+
+  \subsubsection*{Imperfektiv}
+  Označava generalno nesvršenu radnju ili stanje.
+  Jednak je terminativnoj i atributivnoj osnovi.
+
+  \subsubsection*{Negativ}
+  Označava stanje u kojem se neka radnja ili stanje ne odvija.
+
+  \subsubsection*{Perfektiv}
+  Označava svršenu radnju ili stanje.
+
+  \subsubsection*{\textit{\textasciitilde{}te} oblik}
+  Koristi se za vezivanje i spajanje.
+
+  \subsubsection*{Konjunktiv}
+  Koristi se za vezivanje i spajanje.
+
+  \subsubsection*{Volicional}
+  Označava poziv da se učini radnja.
+
+  \subsubsection*{Pasiv}
+  Označava da subjekt prima posljedice agentove radnje.
+
+  \subsubsection*{Kauzativ}
+  Označava da je subjekt uzrokuje objekt da čini radnju.
+
+  \subsubsection*{Imperativ}
+  Označava jaku zapovijed.
+
+  \subsubsection*{Potencijal}
+  Označava moguće stanje.
+
+  \subsubsection*{Kondicional}
+  Označava uvjet u zavisnoj rečenicu koji ostvaruje posljedicu iz glav\-ne rečenice kada je ispunjen.
+
   \section{Čestice}
-  
+
 \end{document}
