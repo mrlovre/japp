@@ -92,18 +92,49 @@
 \newcommand*{\br}{\\[0.4em]}
 \newcommand*{\bh}{\\[-0.2em]}
 \newcommand*{\p}[1]{\mbox{#1}\CJKglue}
-\newcommand*{\f}[2]{\ruby{#1}{#2}}
+\newcommand{\f}[2]{\ruby{#1}{\sffamily\protect\furiganafix{#2}}\CJKglue}
 
-\renewcommand{\rubysep}{-0em}
-\renewcommand{\rubysize}{0.5}
+\usepackage{xstring}
+\newcommand{\squeeze}{\kern -0.2em}
+\newcommand{\furiganafix}[1]{{%
+		\StrSubstitute{#1}{・}{@・@}[\x]%
+		\StrSubstitute{\x}{ゃ}{@ゃ@}[\x]%
+		\StrSubstitute{\x}{ゅ}{@ゅ@}[\x]%
+		\StrSubstitute{\x}{ょ}{@ょ@}[\x]%
+		\StrSubstitute{\x}{ぁ}{@ぁ@}[\x]%
+		\StrSubstitute{\x}{ぃ}{@ぃ@}[\x]%
+		\StrSubstitute{\x}{ぅ}{@ぅ@}[\x]%
+		\StrSubstitute{\x}{ぇ}{@ぇ@}[\x]%
+		\StrSubstitute{\x}{ぉ}{@ぉ@}[\x]%
+		\StrSubstitute{\x}{っ}{@っ@}[\x]%
+		\StrSubstitute{\x}{ャ}{@ャ@}[\x]%
+		\StrSubstitute{\x}{ュ}{@ュ@}[\x]%
+		\StrSubstitute{\x}{ョ}{@ョ@}[\x]%
+		\StrSubstitute{\x}{ァ}{@ァ@}[\x]%
+		\StrSubstitute{\x}{ィ}{@ィ@}[\x]%
+		\StrSubstitute{\x}{ゥ}{@ゥ@}[\x]%
+		\StrSubstitute{\x}{ェ}{@ェ@}[\x]%
+		\StrSubstitute{\x}{ォ}{@ォ@}[\x]%
+		\StrSubstitute{\x}{ッ}{@ッ@}[\x]%
+		\StrSubstitute{\x}{@@}{@}[\x]%
+		\StrSubstitute{\x}{@}{\squeeze}[\x]%
+		\x}}
+
+\newcommand{\g}{\furiganafix}
+
+\renewcommand{\rubysep}{-0.1em}
+\renewcommand{\rubysize}{0.56}
 
 \pagecolor{\backgroundcolor}
 \color{\foregroundcolor}
 
 \setlength{\tabcolsep}{0.5ex}
 
-\setmainfont[Numbers={Lining, Monospaced},Ligatures=TeX,LetterSpace=True,BoldFont=*-Semibold]{Source Serif 4}
-\setCJKmainfont{Source Han Serif JP}
+\usepackage{zxjatype}
+
+\setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}, ItalicFont=*]{Source Han Serif JP}
+\setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
+\setmainfont[BoldFont={* Semibold}]{Source Serif Pro}
 
 \setlist{wide,leftmargin=*,itemsep=0em,parsep=0em,topsep=0em}
 \setlength{\parindent}{0pt}
