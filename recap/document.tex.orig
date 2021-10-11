@@ -49,9 +49,9 @@
 \newcommand{\g}{\furiganafix}
 
 \usepackage[babel=true]{microtype}
+\usepackage{makecell}
 %\setlist[itemize]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
 %\setlist[enumerate]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
-\usepackage{makecell}
 
 \title{Sažetak japanske gramatike za ponavljanje}
 \author{Lovriša}
@@ -87,8 +87,8 @@
   \end{itemize}
 
   \subsection{\f{名詞}{めい・し} --- imenice}
-
-
+  
+  
   \subsection{\f{助詞}{じょ・し} --- čestice}
 
   \section{Osnovni djelovi japanske rečenice}
@@ -98,7 +98,7 @@
   Predikat može biti glagolski i imenski.
   Glagolski predikati sastoje se od glagola ili \textit{i}-pridjeva, a imenski od imenice ili \textit{na}-pridjeva i kopule.
   Predikat nosi osnovnu informaciju u rečenici, a ostale riječi pobliže objašnjavaju smisao rečenice.
-
+  
   \begin{itemize}
     \item
   \end{itemize}
@@ -114,10 +114,18 @@
   Stativnim glagolima \f{状態動詞}{じょう・たい・どう・し} izražava se stanje.
 
   \subsubsection{Prijelazni i neprijelazni}
+  
 
-
-  \subsection{Konjugirane osnove}
+  \subsection{Konjugacijske osnove}
   \begin{center}
+<<<<<<< HEAD
+    \begin{tabular}{lllllllllll}
+      あ & か & さ & た & な & は & ま & や & ら & わ & \\
+      い & き & し & ち & に & ひ & み & ・ & り & ゐ & \\
+      う & く & す & つ & ぬ & ふ & む & ゆ & る & ・ & ん \\
+      え & け & せ & て & ね & へ & め & ・ & れ & ゑ & \\
+      お & こ & そ & と & の & ほ & も & よ & ろ & を &  \\
+=======
     \begin{tabular}{llllllllllll}
     	& \multicolumn{1}{c}{\textit{\o\textasciitilde}} & \multicolumn{1}{c}{\textit{k\textasciitilde}} & \multicolumn{1}{c}{\textit{s\textasciitilde}} & \multicolumn{1}{c}{\textit{t\textasciitilde}} & \multicolumn{1}{c}{\textit{n\textasciitilde}} & \multicolumn{1}{c}{\textit{h\textasciitilde}} & \multicolumn{1}{c}{\textit{m\textasciitilde}} & \multicolumn{1}{c}{\textit{y\textasciitilde}} & \multicolumn{1}{c}{\textit{r\textasciitilde}} & \multicolumn{1}{c}{\textit{w\textasciitilde}} & \multicolumn{1}{c}{\textit{n}} \\
       \multicolumn{1}{c}{\textit{\textasciitilde a}} & あ & か & さ & た & な & は & ま & や & ら & わ & \\
@@ -125,6 +133,7 @@
       \multicolumn{1}{c}{\textit{\textasciitilde u}} & う & く & す & つ & ぬ & ふ & む & ゆ & る & ・ & ん \\
       \multicolumn{1}{c}{\textit{\textasciitilde e}} & え & け & せ & て & ね & へ & め & ・ & れ & ゑ & \\
       \multicolumn{1}{c}{\textit{\textasciitilde o}} & お & こ & そ & と & の & ほ & も & よ & ろ & を &  \\
+>>>>>>> 54636d13ef6b8a3afee4de03f940c0ba45fa8ebc
     \end{tabular}
   \end{center}
 
@@ -148,7 +157,7 @@
   Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} rječničkog oblika  iz \textit{u}-retka u \textit{o}-redak, a kod \f{一段}{いち・だん} glagola odbacivanjem završetka る.
   Izvedena je iz \f{未}{み}\f{然}{ぜん}\f{形}{けい} ili \textit{irrealis} osnove u modernom jeziku kao rezultat glasovne promjene kod koje \textit{a} pored \textit{u} u kombinaciji \textit{au} prelazi u \textit{o} i time nastaje produženo \textit{\=o}.
   Nalazi se samo u volicionalu (hortativu).
-
+  
   \subsubsection{\f{連用形}{れん・よう・けい} --- vezivna osnova}
   Ova osnova dobiva se kod 五段 glagola pomicanjem zadnje \textit{kane} rječničkog oblika u \textit{i}-redak.
 
@@ -162,10 +171,17 @@
   Ova osnova izvedena je \f{連}{れん}\f{用}{よう}\f{形}{けい} ili vezivne osnove u modernom jeziku kao rezultat glasovne promjene kod koje kombinacija \textit{\textasciitilde\!~i} + \textit{t\!~\textasciitilde} kontrakcijom postaje
   \begin{center}
     \begin{tabular}{rcl}
+<<<<<<< HEAD
+      い/ち/り + \textit{t}\textasciitilde & \textrightarrow & っ\textit{t}\textasciitilde \\
+      び/み/に + \textit{t}\textasciitilde & \textrightarrow & ん\textit{d}\textasciitilde \\
+      き + \textit{t}\textasciitilde & \textrightarrow & い\textit{t}\textasciitilde \\
+      ぎ + \textit{t}\textasciitilde & \textrightarrow & い\textit{d}\textasciitilde \\
+=======
       い/ち/り + t\textasciitilde & \textrightarrow & っt\textasciitilde \\
       び/み/に + t\textasciitilde & \textrightarrow & んd\textasciitilde \\
       き + t\textasciitilde & \textrightarrow & いt\textasciitilde \\
       ぎ + t\textasciitilde & \textrightarrow & いd\textasciitilde \\
+>>>>>>> 54636d13ef6b8a3afee4de03f940c0ba45fa8ebc
     \end{tabular}
   \end{center}
 
@@ -184,7 +200,7 @@
   \subsubsection{\f{可能形}{か・のう・けい} --- potencijalna osnova}
 
   \subsubsection{\f{命令形}{めい・れい・けい} --- zapovijedna osnova}
-
+  
   \begin{center}\renewcommand{\rubysep}{-3.25ex}
   	\begin{tabular}{rllllllll}
   		\toprule
@@ -204,7 +220,7 @@
   		\bottomrule
   	\end{tabular}
   \end{center}
-
+  
 
   \subsection{Glagolski oblici}
 
