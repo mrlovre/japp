@@ -1,0 +1,98 @@
+%!TeX program = xelatex
+\documentclass[12pt]{amsart}
+\usepackage[a5paper, margin=2cm, includeheadfoot=true]{geometry}
+\usepackage[croatian]{babel}
+%\usepackage[PunctStyle=CCT,CJKchecksingle,CJKnumber,CJKspace=true]{xeCJK}
+\usepackage{zxjatype}
+
+\setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}, ItalicFont=*]{Source Han Serif JP}
+\setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
+\setmainfont[BoldFont={* Semibold}]{Source Serif Pro}
+
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage[defaultlines=4, all]{nowidow}
+
+\usepackage{multicol}
+\usepackage{pbox}
+
+\usepackage[overlap,CJK]{ruby}
+\renewcommand{\rubysep}{-3.7ex}
+\renewcommand{\rubysize}{0.54}
+\newcommand{\f}[2]{\ruby{#1}{\sffamily\mdseries\protect\furiganafix{#2}}\CJKglue}
+
+\usepackage{xstring}
+\newcommand{\squeeze}{\kern -0.2em}
+\newcommand{\furiganafix}[1]{{%
+		\StrSubstitute{#1}{・}{@・@}[\x]%
+		\StrSubstitute{\x}{ゃ}{@ゃ@}[\x]%
+		\StrSubstitute{\x}{ゅ}{@ゅ@}[\x]%
+		\StrSubstitute{\x}{ょ}{@ょ@}[\x]%
+		\StrSubstitute{\x}{ぁ}{@ぁ@}[\x]%
+		\StrSubstitute{\x}{ぃ}{@ぃ@}[\x]%
+		\StrSubstitute{\x}{ぅ}{@ぅ@}[\x]%
+		\StrSubstitute{\x}{ぇ}{@ぇ@}[\x]%
+		\StrSubstitute{\x}{ぉ}{@ぉ@}[\x]%
+		\StrSubstitute{\x}{っ}{@っ@}[\x]%
+		\StrSubstitute{\x}{ャ}{@ャ@}[\x]%
+		\StrSubstitute{\x}{ュ}{@ュ@}[\x]%
+		\StrSubstitute{\x}{ョ}{@ョ@}[\x]%
+		\StrSubstitute{\x}{ァ}{@ァ@}[\x]%
+		\StrSubstitute{\x}{ィ}{@ィ@}[\x]%
+		\StrSubstitute{\x}{ゥ}{@ゥ@}[\x]%
+		\StrSubstitute{\x}{ェ}{@ェ@}[\x]%
+		\StrSubstitute{\x}{ォ}{@ォ@}[\x]%
+		\StrSubstitute{\x}{ッ}{@ッ@}[\x]%
+		\StrSubstitute{\x}{@@}{@}[\x]%
+		\StrSubstitute{\x}{@}{\squeeze}[\x]%
+		\x}}
+
+\newcommand{\g}{\furiganafix}
+
+\usepackage[babel=true]{microtype}
+%\setlist[itemize]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
+%\setlist[enumerate]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
+\usepackage{makecell}
+
+\title{最後の授業}
+\author{アルフォーンズ・ドーデ}
+
+\onehalfspacing
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	
+	その朝は、学校へ行くのがたいへんおそくなたし、アメル先生から文法の\f{質問}{しつもん}をすると言われていたのに、わたしはなにも勉強していなかったので、しかられるのがこわかったのです。
+	
+	それで、学校を休んでどこかへ遊びにいこう、と考えました。
+	
+	空はよく晴れてあたたかでした。
+	
+	森のなかでは、つぐみが鳴いていまし、リベールの原っぱからは、\f{木}{こ}びき工場のうしろでプロシャの\f{兵隊}{へいたい}たちが訓練しているのがきこえます。
+	森へいこうか、原っぱへいこうか、どれも、文法の\f{規則}{きそく}よりはわたしの心をひきつました。
+	けれど、やっとこのゆうわくにうち勝って、いそいで学校へむかってかけだしました。
+	役場のそばをとおると、\f{金網}{かなあみ}を\f{張}{は}った小さな\f{掲示板}{けいじばん}の前に、おおぜいの人が立ちどまっていました。
+	二年ほどまえから\f{敗戦}{はいせん}とか、\f{挑発}{ちょうはつ}とか、\f{司令部}{しれいぶ}の\f{命令}{めいれい}とかいうようないやなしらせは、みんな、ここにけ\f{掲示}{けいじ}されることになっていました。
+	わたしは歩きながら考えました。
+	
+	〈こんどは、なんのしらせかしら？〉
+	
+	そして、小走りとおりすぎようとすると、そこで、\f{弟子}{でし}といっしょに\f{掲示}{けいじ}を読んでいた\f{か}{・}\f{じ}{・}\f{屋}{や}のワシュテルさんが、大声でわたしに言いました。
+	
+	「おい、ぼうや、そんなにいそがなくったっていいさ、どうせ学校にはおくれっこないんだから！」
+	
+	かじ\f{屋}{や}のおじさん、わたしをからかっているんだな、と思ったので、わたしは息をはずませて、学校の間をくぐりました。
+	
+	いつもなら、\f{授業}{じゅぎょう}のはじまりはたいへんなさわぎでした。
+	つくえをばたばたあけたりしめたりする音や、日課を暗記しようと、耳を手でふさいで大声でくりかえしている声やら、「さ、すこし静かに！」と、じょうぎでつくえをたたきながら\f{叫}{さけ}ぶ先生の声が\f{往来}{おうらい}まできこえていたものでした。
+	
+	わたしは、みんながこうしてさわいでいれば、だれにも気づかれないで、そっと自分の席につくことができるだろうと思いました。ところがその日は、なにもかもひっそりとして、まるで、日曜の朝のようでした。あいている\f{窓}{まど}ごしになかを見ると、クラスの者はみんな自分の席についていますし、アメル先生が、あのおそろしいじょうぎをかかえて、いったりきたりしていらっしゃいます。
+	戸をあけて、この静まりかえったまっただなかに入らなければならないことを思う、なんだかはずかしいような、こわいような気がします。
+	
+	ところが、大ちがいでした。
+	アメル先生は、おこるどころか、わたしを見ると、やさしい\f{口調}{くちょう}で、こう言われました。
+	「フランツか。早く席につきなさい。もうこないのかと思って、はじめるところだった。」
+\end{document}
+あ

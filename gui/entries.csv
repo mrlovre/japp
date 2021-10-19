@@ -1,44 +1,455 @@
-word,kana,definition,pos,accent,info
-冒険,ぼうけん,risk; venture; adventure,名詞,0,
-一,いっ,one,名詞,2,"１ can also be read ワン. 壱, 弌 and 壹 are used in legal documents"
-同居,どうきょ,coexistence; living together,名詞,0,
-デカい,でかい,huge; big; gargantuan,形容詞,2,
-人間,にんげん,human being; person; man; mankind; humankind,名詞,0,
-２人,ふたり,two persons; two people; pair; couple,名詞,"3,0",
-茶色,ちゃいろ,light brown; tawny,名詞,0,
-猫,ねこ,cat,名詞,1,
-名前,なまえ,name; full name,名詞,0,
-家,いえ,house; residence; dwelling,名詞,2,
-来る,くる,to come (spatially or temporally); to approach; to arrive,動詞,1,
-とき,とき,time; hour; moment,名詞,2,刻 signifies a time of day; 秋 signifies an important time
-大きい,おおきい,big; large; great; loud,形容詞,3,
-年,ねん,year,名詞,1,
-間,あいだ,space (between); gap; interval; distance,名詞,0,
-倍,ばい,twice; double,名詞,"0,1",
-なる,なる,to become; to get; to grow; to be; to reach; to attain,動詞,1,
-言う,いう,to say; to utter; to declare,動詞,0,
-遅れる,おくれる,to be late; to be delayed; to fall behind schedule; to be overdue,動詞,0,
-ところ,ところ,place; spot; scene; site,名詞,"3,0",also pronounced どころ when a suffix
-大好き,だいすき,loveable; very likeable; like very much,形状詞,1,
-町,まち,town; block; neighbourhood; neighborhood,名詞,2,
-付ける,つける,to attach; to join; to add; to append; to affix; to stick; to glue; to fasten; to sew on; to apply (ointment),動詞,2,
-行く,いく,to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach,動詞,0,
-こと,こと,thing; matter,名詞,2,
-ない,ない,nonexistent; not being (there),形容詞,1,
-関係,かんけい,relation; relationship; connection,名詞,0,
-反論,はんろん,objection; refutation; rebuttal,名詞,0,
-する,する,to do,動詞,0,
-小さい,ちいさい,small; little; tiny,形容詞,3,
-方,ほう,direction; way,名詞,1,also ほう
-子,こ,child,名詞,0,
-眠る,ねむる,to sleep (not necessarily lying down),動詞,0,
-姿,すがた,figure; form; shape,名詞,1,
-火山,かざん,volcano,名詞,1,
-黒い,くろい,black,形容詞,2,
-溶岩,ようがん,lava,名詞,"1,0",
-そっくり,そっくり,all; altogether; entirely; completely,形状詞,3,
-名付ける,なづける,to name; to call; to christen; to term,動詞,3,
-しまう,しまう,to finish; to stop; to end; to put an end to; to bring to a close,動詞,0,
-かっこ,かっこ,shape; form; figure; posture; pose,名詞,0,
-いい,いい,good; excellent; fine; nice; pleasant; agreeable,形容詞,1,also いい (all senses)
-黒猫,くろねこ,black cat,名詞,0,
+word,kana,kanji_forms,definition,pos,accent,info,all_defs
+朝,あさ,朝,morning,名詞,1,,morning
+学校,がっこう,学校、學校,school,名詞,0,,school
+行く,いく,行く、往く、逝く,to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach,動詞,0,,"to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach
+to proceed; to take place
+to pass through; to come and go
+to walk
+to die; to pass away
+to do (in a specific way)
+to stream; to flow
+to continue
+to have an orgasm; to come; to cum
+to trip; to get high; to have a drug-induced hallucination"
+おそい,おそい,遅い、鈍い、晩い、遲い,slow,形容詞,"0,2",,"slow
+late (e.g. ""late at night"")
+too late
+dull; stupid"
+なる,なる,成る、為る,to become; to get; to grow; to be; to reach; to attain,動詞,1,,"to become; to get; to grow; to be; to reach; to attain
+to result in; to prove to be
+to consist of; to be composed of
+to succeed; to be complete
+to change into; to be exchanged for
+to play a role
+to be promoted
+to do ..."
+先生,せんせい,先生,teacher; master; doctor,名詞,3,,"teacher; master; doctor
+with names of teachers, etc. as an honorific
+previous existence"
+文法,ぶんぽう,文法,grammar; syntax,名詞,0,,grammar; syntax
+質問,しつもん,質問,question; inquiry; enquiry,名詞,0,,question; inquiry; enquiry
+する,する,為る,to do,動詞,0,,"to do
+to cause to become; to make (into); to turn (into)
+to serve as; to act as; to work as
+to wear (clothes, a facial expression, etc.)
+to judge as being; to view as being; to think of as; to treat as; to use as
+to decide on; to choose
+to be sensed (of a smell, noise, etc.)
+to be (in a state, condition, etc.)
+to be worth; to cost
+to pass (of time); to elapse
+to place, or raise, person A to a post or status B
+to transform A to B; to make A into B; to exchange A for B
+to make use of A for B; to view A as B; to handle A as if it were B
+to feel A about B
+verbalizing suffix (applies to nouns noted in this dictionary with the part of speech ""vs"")
+creates a humble verb (after a noun prefixed with ""o"" or ""go"")
+to be just about to; to be just starting to; to try to; to attempt to"
+言う,いう,言う、云う、謂う,to say; to utter; to declare,動詞,0,,"to say; to utter; to declare
+to name; to call
+to go (e.g. ""the alarm went ping""); to make a noise"
+いる,いる,居る,to be (of animate objects); to exist,動詞,0,,"to be (of animate objects); to exist
+to stay
+verb indicating continuing action or state (i.e. to be ..ing, to have been ..ing)"
+勉強,べんきょう,勉強,study,名詞,0,,"study
+diligence
+discount; reduction"
+しく,しく,敷く、布く,to spread out; to lay out,動詞,0,,"to spread out; to lay out
+to take a position
+to impose widely (e.g. over a city)"
+こわい,こわい,怖い、恐い,scary; frightening; eerie; dreadful,形容詞,2,,"scary; frightening; eerie; dreadful
+(I'm) afraid"
+休む,やすむ,休む,to be absent; to take a day off,動詞,2,,"to be absent; to take a day off
+to rest; to have a break
+to go to bed; to (lie down to) sleep; to turn in; to retire
+to stop doing some ongoing activity for a time; to suspend business"
+遊ぶ,あそぶ,遊ぶ,to play; to enjoy oneself; to have a good time,動詞,0,,"to play; to enjoy oneself; to have a good time
+to mess about (with alcohol, gambling, philandery, etc.)
+to be idle; to do nothing; to be unused
+to go to (for pleasure or for study)
+to intentionally throw a ball to lower the batter's concentration"
+考える,かんがえる,考える、勘える、稽える,to think about; to take into consideration,動詞,"3,4",,"to think about; to take into consideration
+to ponder; to reflect; to try to come at a conclusion; to think over (something)
+to intend; to decide (to do); to plan
+to come up with; to devise; to scheme
+to predict; to anticipate; to expect
+to suspect; to doubt
+to consider (somebody to be something); to look on"
+空,そら,空,emptiness; vacuum; blank,名詞,1,,emptiness; vacuum; blank
+晴れる,はれる,晴れる、霽れる,to clear up; to clear away; to be sunny; to stop raining,動詞,2,,"to clear up; to clear away; to be sunny; to stop raining
+to refresh (e.g. spirits)
+to be cleared (e.g. of a suspicion)
+to be dispelled; to be banished"
+あたたか,あたたか,暖か、温か,warm; mild; genial,形状詞,"3,2",,warm; mild; genial
+森,もり,森、杜,forest,名詞,0,,"forest
+shrine grove"
+なか,なか,中,inside; in,名詞,1,,"inside; in
+among; within
+center (centre); middle
+during; while"
+つぐみ,つぐみ,鶫、鶇,"thrush (esp. the dusky thrush, Turdus naumanni)",名詞,0,,"thrush (esp. the dusky thrush, Turdus naumanni)"
+鳴く,なく,鳴く、啼く,to sing (bird),動詞,0,,"to sing (bird)
+to make sound (animal); to call; to cry; to chirp
+to make a meld call (e.g. pung, kong)"
+原っぱ,はらっぱ,原っぱ,open field; empty lot; plain,名詞,1,,open field; empty lot; plain
+木びき,こびき,木挽き,sawyer,名詞,"0,3",,sawyer
+工場,こうじょう,工場,factory; plant; mill; workshop,名詞,3,,factory; plant; mill; workshop
+うしろ,うしろ,後ろ、後,back; behind; rear,名詞,0,,back; behind; rear
+兵隊,へいたい,兵隊,soldier; sailor,名詞,0,,soldier; sailor
+訓練,くんれん,訓練、訓連,training; drill; practice; discipline,名詞,1,,training; drill; practice; discipline
+きこえる,きこえる,聞こえる、聞える、聴こえる、聴える,to be heard; to be audible,動詞,0,,"to be heard; to be audible
+to be said to be; to be reputed"
+規則,きそく,規則,rules; regulations; conventions,名詞,"1,2",,rules; regulations; conventions
+心,こころ,心,mind; heart; spirit,名詞,"2,3",,"mind; heart; spirit
+the meaning of a phrase (riddle, etc.)"
+ひきつける,ひきつける,引き付ける、引付ける、引きつける、引付る、惹き付ける、惹きつける,to fascinate; to attract; to charm,動詞,4,,"to fascinate; to attract; to charm
+to have a convulsion"
+ゆうわく,ゆうわく,誘惑,temptation; allurement; lure; enticement; seduction,名詞,0,,temptation; allurement; lure; enticement; seduction
+うち勝つ,うちかつ,打ち勝つ、打ち克つ、打勝つ、打克つ,to conquer (e.g. an enemy); to defeat,動詞,"3,0",,"to conquer (e.g. an enemy); to defeat
+to overcome (a difficulty)
+to out-hit"
+いそぐ,いそぐ,急ぐ,to hurry; to rush; to hasten; to make something happen sooner,動詞,2,,to hurry; to rush; to hasten; to make something happen sooner
+むかう,むかう,向かう、向う、対う,to face,動詞,0,,"to face
+to go towards; to head towards"
+かける,かける,掛ける、懸ける,to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag),動詞,2,,"to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag)
+to sit
+to take (time, money); to expend (money, time, etc.)
+to make (a call)
+to multiply
+to secure (e.g. lock)
+to put on (glasses, etc.)
+to cover
+to burden someone
+to apply (insurance)
+to turn on (an engine, etc.); to set (a dial, an alarm clock, etc.)
+to put an effect (spell, anaesthetic, etc.) on
+to hold an emotion for (pity, hope, etc.)
+to bind
+to pour (or sprinkle, spray, etc.) onto
+to argue (in court); to deliberate (in a meeting); to present (e.g. idea to a conference, etc.)
+to increase further
+to catch (in a trap, etc.)
+to set atop
+to erect (a makeshift building)
+to hold (a play, festival, etc.)
+to wager; to bet; to risk; to stake; to gamble
+to be partway doing ...; to begin (but not complete) ...; to be about to ...
+indicates (verb) is being directed to (someone)"
+だす,だす,出す,to take out; to get out,動詞,1,,"to take out; to get out
+to put out; to reveal; to show
+to submit (e.g. thesis); to turn in
+to publish; to make public
+to send (e.g. letter)
+to produce (a sound); to start (fire)
+to serve (food)
+to begin ...; to start to ...; to burst into ..."
+役場,やくば,役場,town hall,名詞,3,,town hall
+そば,そば,側、傍、端,near; close; beside; vicinity; proximity; besides; while,名詞,1,,"near; close; beside; vicinity; proximity; besides; while
+third person"
+とおる,とおる,通る、徹る、透る,to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of,動詞,1,,"to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of
+to run (between); to operate (between); to connect
+to go indoors; to go into a room; to be admitted; to be shown in; to be ushered in; to come in
+to penetrate; to pierce; to skewer; to go through; to come through
+to permeate; to soak into; to spread throughout
+to carry (e.g. of a voice); to reach far
+to be passed on (e.g. of a customer's order to the kitchen); to be relayed; to be conveyed
+to pass (a test, a bill in the House, etc.); to be approved; to be accepted
+to go by (a name); to be known as; to be accepted as; to have a reputation for
+to be coherent; to be logical; to be reasonable; to be comprehensible; to be understandable; to make sense
+to get across (e.g. of one's point); to be understood
+to be straight (e.g. wood grain)
+to be well-informed; to be wise
+to do ... completely; to do ... thoroughly"
+金網,かなあみ,金網,wire netting; wire mesh; wire screen; chain-link mesh,名詞,0,,wire netting; wire mesh; wire screen; chain-link mesh
+張る,はる,張る、貼る,to stick; to paste; to affix,動詞,0,esp. 貼る,"to stick; to paste; to affix
+to stretch; to spread; to strain; to tighten; to put up (tent)
+to form (e.g. ice on a pond)
+to fill; to swell
+to stick out; to put; to slap
+to be expensive
+to keep a watch on; to be on the lookout
+to become one tile away from completion
+to span; to generate"
+掲示,けいじ,掲示,notice; bulletin; post; posting; placard,名詞,0,,notice; bulletin; post; posting; placard
+前,まえ,先、前、先き,previous; prior; former; first; earlier; some time ago; preceding,名詞,1,,"previous; prior; former; first; earlier; some time ago; preceding
+point (e.g. pencil); tip; end; nozzle
+head (of a line); front
+ahead; the other side
+the future; hereafter
+destination
+the other party"
+おおぜい,おおぜい,大勢、大ぜい,crowd of people; great number of people,名詞,"3,0",,"crowd of people; great number of people
+in great numbers"
+人,ひと,人,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.",名詞,0,,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.
+-er (e.g. performer, etc.); person working with ...; indicates expertise (in a certain field)
+(usu. in compound words) man; person; people"
+立ちどまる,たちどまる,立ち止まる、立ち止る、立ちどまる、立止る、立ち留まる、立留まる、立留る,to stop; to halt; to stand still,動詞,"0,4",,to stop; to halt; to stand still
+二,に,二、２、弐、貳、貮,two,名詞,1,"ふ and ふう used mainly when counting aloud. 弐, 貳 and 貮 are used in legal documents.",two
+年,ねん,年、歳,year,名詞,1,,"year
+age; years
+past one's prime; old age"
+敗戦,はいせん,敗戦,defeat; losing a war,名詞,0,,defeat; losing a war
+挑発,ちょうはつ,挑発、挑撥,provocation; stirring up; arousal,名詞,0,,provocation; stirring up; arousal
+司令,しれい,司令,command; control; commander,名詞,0,,command; control; commander
+部,ぶ,部,department (in an organization); division; bureau,名詞,"1,0",higher than a 課,"department (in an organization); division; bureau
+club
+part; component; element
+category
+counter for copies of a newspaper or magazine"
+命令,めいれい,命令,order; command; decree; directive,名詞,0,,"order; command; decree; directive
+(software) instruction; statement"
+よう,よう,様、態,mess; sorry state; plight; sad sight,形状詞,1,,"mess; sorry state; plight; sad sight
+-ways; -wards
+in the act of ...; just as one is ...
+manner of ...; way of ..."
+いや,いや,嫌、厭、厭や,disagreeable; detestable; unpleasant; reluctant,形状詞,2,,disagreeable; detestable; unpleasant; reluctant
+しらせ,しらせ,知らせ、報せ,news; word; tidings; notice; notification; information,名詞,0,,"news; word; tidings; notice; notification; information
+omen"
+みんな,みんな,皆、皆んな,all; everyone; everybody,名詞,"3,0",,"all; everyone; everybody
+everything"
+け,け,毛,hair,名詞,0,,"hair
+fur; wool
+down; plumage; feathers"
+こと,こと,事、縡,thing; matter,名詞,2,,"thing; matter
+incident; occurrence; event; something serious; trouble; crisis
+circumstances; situation; state of affairs
+work; business; affair
+after an inflectable word, creates a noun phrase indicating something the speaker does not feel close to
+nominalizing suffix
+pretending to ...; playing make-believe ...
+alias; aka; nickname; alternative name; also known as"
+歩く,あるく,歩く,to walk,動詞,2,,to walk
+こんど,こんど,今度,this time; now,名詞,1,,"this time; now
+next time; another time; shortly; soon
+recently; previous; last"
+小走り,こばしり,小走り,trot; half run; jog,名詞,2,,"trot; half run; jog
+girl in charge of menial tasks in a samurai family"
+とおりすぎる,とおりすぎる,通り過ぎる、通りすぎる,to pass; to pass through,動詞,"5,0",,to pass; to pass through
+弟子,でし,弟子,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper,名詞,2,,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper
+いっしょ,いっしょ,一緒、一しょ,together,名詞,0,,"together
+at the same time
+same; identical"
+読む,よむ,読む,to read,動詞,1,,"to read
+to count
+to guess; to predict; to read (someone's thoughts); to see (e.g. into someone's heart); to divine"
+かじ屋,かじや,鍛冶屋,smith; blacksmith,名詞,0,,smith; blacksmith
+大声,おおごえ,大声,loud voice,名詞,3,,loud voice
+ぼうや,ぼうや,坊や,boy,名詞,1,,boy
+そんな,そんな,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of",形状詞,0,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of"
+いい,いい,良い、善い、好い、佳い、吉い、宜い,good; excellent; fine; nice; pleasant; agreeable,形容詞,1,also いい (all senses),"good; excellent; fine; nice; pleasant; agreeable
+sufficient (can be used to turn down an offer); ready; prepared
+profitable (e.g. deal, business offer, etc.); beneficial
+OK"
+おくれる,おくれる,遅れる、後れる,to be late; to be delayed; to fall behind schedule; to be overdue,動詞,0,,to be late; to be delayed; to fall behind schedule; to be overdue
+ない,ない,無い,nonexistent; not being (there),形容詞,1,,"nonexistent; not being (there)
+unpossessed; unowned; not had
+unique
+indicates negation, inexperience, unnecessariness or impossibility
+not ...
+to not be...; to have not ..."
+おじ,おじ,伯父、叔父,uncle,名詞,0,伯父 or 叔父 respectively can mean older or younger than one's parent,uncle
+からかう,からかう,揶揄う,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about,動詞,3,,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about
+思う,おもう,思う、想う、念う、憶う、懐う、惟う,to think; to consider; to believe,動詞,2,想う has connotations of heart-felt,"to think; to consider; to believe
+to think (of doing); to plan (to do)
+to judge; to assess; to regard
+to imagine; to suppose; to dream
+to expect; to look forward to
+to feel; to desire; to want
+to recall; to remember"
+息,いき,息,breath; breathing,名詞,1,,"breath; breathing
+tone; mood"
+はずむ,はずむ,弾む、勢む,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on,動詞,0,,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on
+間,あいだ,間,space (between); gap; interval; distance,名詞,0,,"space (between); gap; interval; distance
+time (between); pause; break
+span (temporal or spatial); stretch; period (while)
+relationship (between, among)
+members (within, among)
+due to; because of"
+くぐる,くぐる,潜る,to go under; to pass under; to go through; to pass through,動詞,2,,"to go under; to pass under; to go through; to pass through
+to dive (into or under the water)
+to evade; to get around; to slip past
+to survive; to surmount"
+授業,じゅぎょう,授業,lesson; class work; teaching; instruction,名詞,1,,lesson; class work; teaching; instruction
+はじまり,はじまり,始まり,origin; beginning,名詞,0,,origin; beginning
+たいへん,たいへん,大変、大へん,very; greatly; terribly; awfully,形状詞,0,,"very; greatly; terribly; awfully
+immense; enormous; great
+serious; grave; dreadful; terrible
+difficult; hard
+major incident; disaster"
+さわぎ,さわぎ,騒ぎ,uproar; disturbance,名詞,1,,uproar; disturbance
+つくえ,つくえ,机、案,desk,名詞,0,,desk
+あける,あける,開ける、空ける、明ける,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock",動詞,0,,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock
+to open (for business, etc.)
+to empty; to remove; to make space; to make room
+to move out; to clear out
+to be away from (e.g. one's house); to leave (temporarily)
+to dawn; to grow light
+to end (of a period, season)
+to begin (of the New Year)
+to leave (one's schedule) open; to make time (for)
+to make (a hole); to open up (a hole)"
+しめる,しめる,締める,to tie; to fasten; to tighten,動詞,2,,"to tie; to fasten; to tighten
+to wear (necktie, belt); to put on
+to total; to sum
+to be strict with
+to economize; to economise; to cut down on
+to salt; to marinate; to pickle; to make sushi adding a mixture of vinegar and salt"
+音,おと,音,sound; noise; report,名詞,2,,"sound; noise; report
+note
+fame
+Chinese-derived character reading"
+日課,にっか,日課,daily lesson; daily work; daily routine,名詞,0,,daily lesson; daily work; daily routine
+暗記,あんき,暗記、諳記,memorization; memorisation; learning by heart,名詞,0,,memorization; memorisation; learning by heart
+耳,みみ,耳,ear,名詞,2,,"ear
+hearing
+edge; crust
+selvedge (non-fray machined edge of fabrics); selvage"
+手,て,手,hand; arm,名詞,1,occ. pronounced た when a prefix,"hand; arm
+forepaw; foreleg
+handle
+hand; worker; help
+trouble; care; effort
+means; way; trick; move; technique; workmanship
+hand; handwriting
+kind; type; sort
+one's hands; one's possession
+ability to cope
+hand (of cards)
+direction
+move (in go, shogi, etc.)"
+ふさぐ,ふさぐ,塞ぐ、壅ぐ,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)",動詞,0,,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)
+to stand in the way; to obstruct
+to occupy; to fill up; to take up
+to perform one's role; to do one's duty
+to feel depressed; to mope"
+くりかえす,くりかえす,繰り返す、くり返す、繰りかえす、繰返す,to repeat; to do something over again,動詞,"0,3",,to repeat; to do something over again
+声,こえ,声、聲,voice,名詞,1,,voice
+静か,しずか,静か、閑か,quiet; silent,形状詞,1,,"quiet; silent
+slow; unhurried
+calm; peaceful"
+じょうぎ,じょうぎ,定規、定木,(measuring) ruler,名詞,1,,(measuring) ruler
+たたく,たたく,叩く、敲く,to strike; to clap; to knock; to beat; to tap; to pat,動詞,2,,"to strike; to clap; to knock; to beat; to tap; to pat
+to play drums
+to abuse; to flame (e.g. on the Internet); to insult
+to consult; to sound out
+to brag; to talk big
+to call; to invoke (e.g. a function)"
+叫ぶ,さけぶ,叫ぶ,to shout; to cry; to scream; to shriek; to yell; to exclaim,動詞,2,,"to shout; to cry; to scream; to shriek; to yell; to exclaim
+to clamor (for or against); to clamour (for or against)"
+往来,おうらい,往来,coming and going; traffic,名詞,0,,"coming and going; traffic
+road; street
+association; socializing; socialising; fellowship; mutual visits
+recurring (e.g. thoughts)
+correspondence"
+もの,もの,物,thing; object; article; stuff; substance,名詞,"2,0",,"thing; object; article; stuff; substance
+one's things; possessions; property; belongings
+things; something; anything; everything; nothing
+quality
+reason; the way of things
+used to emphasize emotion, judgment, etc.; used to indicate a common occurrence in the past (after a verb in past tense); used to indicate a general tendency; used to indicate something that should happen
+item classified as ...; item related to ...; work of ...
+cause of ...; cause for ...
+somehow; somewhat; for some reason
+really; truly"
+さわぐ,さわぐ,騒ぐ、騷ぐ,to make noise; to make racket; to be noisy,動詞,2,,"to make noise; to make racket; to be noisy
+to rustle; to swoosh
+to make merry
+to clamor; to clamour; to make a fuss; to kick up a fuss
+to lose one's cool; to panic; to act flustered
+to feel tense; to be uneasy; to be excited"
+気づく,きづく,気づく、気付く,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise,動詞,2,,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise
+自分,じぶん,自分,myself; yourself; oneself; himself; herself,名詞,0,,"myself; yourself; oneself; himself; herself
+I; me
+you"
+席,せき,席,seat,名詞,1,,"seat
+location (of a gathering, etc.); place
+position; post"
+つく,つく,付く,to be attached; to be connected with; to adhere; to stick; to cling,動詞,"1,2",,"to be attached; to be connected with; to adhere; to stick; to cling
+to remain imprinted; to scar; to stain; to dye
+to bear (fruit, interest, etc.)
+to be acquired (of a habit, ability, etc.); to increase (of strength, etc.)
+to take root
+to accompany; to attend; to follow; to study with
+to side with; to belong to
+to possess; to haunt
+to be lit; to be lighted
+to be settled; to be resolved; to be decided
+to be given (of a name, price, etc.)
+to be sensed; to be perceived
+to be lucky
+to become (a state, condition, etc.)"
+できる,できる,出来る、出きる、出來る,to be able (in a position) to do; to be up to the task,動詞,2,,"to be able (in a position) to do; to be up to the task
+to be ready; to be completed
+to be made; to be built
+to be good at; to be permitted (to do)
+to become intimate; to take up (with somebody)
+to grow; to be raised
+to become pregnant"
+ところ,ところ,所、処、處,place; spot; scene; site,名詞,"3,0",also pronounced どころ when a suffix,"place; spot; scene; site
+address
+district; area; locality
+one's house
+point; aspect; side; facet
+passage (in text); part
+space; room
+thing; matter
+whereupon; as a result
+about to; on the verge of
+was just doing; was in the process of doing; have just done; just finished doing"
+日,ひ,日、陽,day; days,名詞,"0,1",,"day; days
+sun; sunshine; sunlight
+case (esp. unfortunate); event"
+日曜,にちよう,日曜,Sunday,名詞,"0,3",,Sunday
+あく,あく,空く,to become less crowded; to thin out; to get empty,動詞,0,,"to become less crowded; to thin out; to get empty
+to be hungry"
+窓ごし,まどごし,窓越し、窓ごし,viewing through a window; passing through a window; going through a window; doing through a window,名詞,0,usu. as 窓越しに,viewing through a window; passing through a window; going through a window; doing through a window
+見る,みる,見る、観る、視る,to see; to look; to watch; to view; to observe,動詞,1,,"to see; to look; to watch; to view; to observe
+to look over; to look on; to assess; to examine; to judge
+to look after; to keep an eye on; to take care of
+to view (e.g. flowers, movie)
+to try; to try out; to test
+to see that...; to find that..."
+者,もの,者,person,名詞,2,rarely used without a qualifier,person
+つく,つく,就く、即く,to ascend (the throne); to accede,動詞,"1,2",,"to ascend (the throne); to accede
+to take (seat, position, course, office, etc.); to assume; to be hired; to be employed
+to start (on a journey); to commence; to depart
+to study (under teacher); to be an apprentice"
+おそろしい,おそろしい,恐ろしい、怖ろしい,terrible; dreadful; terrifying; frightening; frightened,形容詞,4,,"terrible; dreadful; terrifying; frightening; frightened
+surprising; startling; tremendous; amazing"
+かかえる,かかえる,抱える,to hold or carry under or in the arms,動詞,0,,"to hold or carry under or in the arms
+to have (esp. problems, debts, etc.)
+to employ; to engage; to hire"
+くる,くる,来る、來る,to come (spatially or temporally); to approach; to arrive,動詞,1,,"to come (spatially or temporally); to approach; to arrive
+to come back; to do ... and come back
+to come to be; to become; to get; to grow; to continue
+to come from; to be caused by; to derive from
+to come to (i.e. ""when it comes to spinach ..."")"
+いらっしゃる,いらっしゃる,,to come; to go; to be (somewhere),動詞,4,sometimes erroneously written 居らっしゃる,"to come; to go; to be (somewhere)
+is (doing); are (doing)"
+戸,ど,戸、門,door (esp. Japanese-style),名詞,0,,"door (esp. Japanese-style)
+shutter; window shutter
+entrance (to a home)
+narrows"
+静まりかえる,しずまりかえる,静まり返る、静まりかえる,to fall silent; to become still as death,動詞,"5,3",,to fall silent; to become still as death
+ただなか,ただなか,直中、只中、ただ中,middle,名詞,"2,0",,middle
+入る,はいる,入る,to get in; to go in; to come in; to flow into; to set; to set in,動詞,1,mainly used in fixed expressions and compound verbs,to get in; to go in; to come in; to flow into; to set; to set in
+はずかしい,はずかしい,恥ずかしい、羞ずかしい,shy; ashamed; embarrassed,形容詞,4,,"shy; ashamed; embarrassed
+disgraceful; shameful"
+気,き,気、氣,spirit; mind; heart,名詞,0,,"spirit; mind; heart
+nature; disposition
+motivation; intention
+mood; feelings
+ambience; atmosphere; mood"
+大ちがい,おおちがい,大違い,great difference,形状詞,3,,"great difference
+major mistake"
+おこる,おこる,起こる、起る,to occur; to happen,動詞,2,,to occur; to happen
+やさしい,やさしい,優しい,tender; kind; gentle; graceful; affectionate; amiable,形容詞,"0,3",,tender; kind; gentle; graceful; affectionate; amiable
+口調,くちょう,口調,"tone (e.g. of voice, etc.); (verbal) expression",名詞,0,,"tone (e.g. of voice, etc.); (verbal) expression"
+早い,はやい,早い、速い、疾い、捷い,fast; quick; hasty; brisk,形容詞,2,"esp. 速い, 疾い, 捷い","fast; quick; hasty; brisk
+early (in the day, etc.); premature
+(too) soon; not yet; (too) early
+easy; simple; quick"
+なさる,なさる,為さる,to do,動詞,2,,to do
+はじめる,はじめる,始める、創める,to start; to begin; to commence; to initiate; to originate,動詞,0,,"to start; to begin; to commence; to initiate; to originate
+to open (e.g. a store); to start up; to establish (business. etc.)
+to start ...; to begin to ..."

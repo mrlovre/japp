@@ -1,0 +1,75 @@
+%!TeX program = xelatex
+\documentclass[10pt]{amsart}
+
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{tikz}
+\newcommand{\m}[1]{\kern -0.4em{#1}}
+\usepackage{fontspec}
+\usepackage{zxjatype}
+\usepackage[a5paper, margin=2cm, includeheadfoot=true]{geometry}
+
+\usepackage{enumitem}
+\setlist[itemize]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
+\setlist[enumerate]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
+
+\setlength{\columnsep}{2em}
+
+\setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}, ItalicFont=*]{Source Han Serif JP}
+\setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
+\setmainfont[BoldFont={* Semibold}]{Source Serif Pro}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\newcommand{\pitch}[1]{\raisebox{-\dp\strutbox}{
+		\begin{tikzpicture}[
+			every node/.style={inner sep=0.0, outer sep=0.0},
+			dot/.style={draw, black, circle, anchor=center, minimum size=0.4ex, fill}
+			]
+			\foreach[count=\i from 1] \x/\p in {#1} 
+			\ifx\x\empty
+			\draw node (P\i) at (\i * 1em, 0) {} node (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\else
+			\draw node (P\i) at (\i * 1em, 0) {\x\strut} node[dot] (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\fi;
+			
+			\begin{pgfonlayer}{bg} 
+				\foreach[count=\i from 1, evaluate=\i as \j using int(\i - 1)] \x/\p in {#1}
+				\ifnum \j>0
+				\ifx\x\empty
+				\draw[dash pattern=on 1.5pt off 1.5pt]({C\i}.center) -- ({C\j}.center)
+				\else
+				\draw[solid]({C\i}.center) -- ({C\j}.center)
+				\fi
+				\fi;
+			\end{pgfonlayer}
+	\end{tikzpicture}}
+}
+
+\newcommand{\dictentryadv}[4]{%
+	\begin{minipage}{\linewidth}%
+		\singlespacing%
+		%		\raggedright%
+		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
+		{\normalsize \mbox{\raggedleft #2}\hspace*{-1em}}\\
+		{\small #4}
+		\begin{itemize}#3\end{itemize}%
+	\end{minipage}\vspace{1.5em}
+}
+
+\title{最後の授業}
+\author{辞書}
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\vspace{1em}
+	
+	\begin{multicols}{2}\noindent
+		\input{saigono_dict}
+	\end{multicols}
+
+\end{document}

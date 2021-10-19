@@ -7,7 +7,7 @@ jmd = Jamdict(memory_mode=True)
 tagger = Tagger()
 
 # %%
-with open("kona.txt", "r") as file:
+with open("saigo.txt", "r") as file:
     text = file.read()
 
 # %%
@@ -35,13 +35,15 @@ for word, token in zip(words, tokens):
         defn = str.join("; ", [gloss.text for gloss in sense.gloss])
         info = str.join(" ", sense.info)
         kana = jaconv.kata2hira(token.feature.kanaBase)
+        kanji = str.join("、", [form.text for form in entry.kanji_forms])
         accent = token.feature.aType
         pos = token.feature.pos1
-        entries.append([token.feature.orthBase, kana, defn, pos, accent, info])
+        defs = str.join("\n", [str.join("; ", [gloss.text for gloss in sense.gloss]) for sense in entry.senses])
+        entries.append([token.feature.orthBase, kana, kanji, defn, pos, accent, info, defs])
     except IndexError:
         print(f"{word} not found.")
 
-entries = pd.DataFrame(entries, columns=["word", "kana", "definition", "pos", "accent", "info"])
+entries = pd.DataFrame(entries, columns=["word", "kana", "kanji_forms", "definition", "pos", "accent", "info", "all_defs"])
 
 # entries.loc[entries["word"] == entries["kana"], "word"] = ""
 
@@ -50,7 +52,7 @@ entries.to_csv("entries.csv", index=False)
 # %%
 with open("output.tex", "w") as file:
     for _, entry in entries.iterrows():
-        word = entry["word"]
+        word = entry["kanji_forms"]
         kana = entry["kana"]
         pitch_info = int(entry["accent"].split(",")[0])
 
@@ -63,6 +65,8 @@ with open("output.tex", "w") as file:
             pitch += ",/0"
 
         kana = rf"\pitch{{{pitch}}}"
-        defn = entry["definition"]
+        # defn = entry["definition"]
+        defs = str.join(" ", [rf"\item {def_}" for def_ in entry["all_defs"].split("\n")])
         pos = entry["pos"]
-        print(rf"\dictentryadv{{{word} \strut}}{{{kana}}}{{\item {defn}}}{{{pos}}}", file=file)
+        # print(rf"\dictentryadv{{{word} \strut}}{{{kana}}}{{\item {defn}}}{{{pos}}}", file=file)
+        print(rf"\dictentryadv{{{word} \strut}}{{{kana}}}{{{defs}}}{{{pos}}}", file=file)
