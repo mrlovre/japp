@@ -95,7 +95,7 @@
 \newcommand{\f}[2]{\ruby{#1}{\sffamily\protect\smash{\furiganafix{#2}}}\CJKglue}
 
 \usepackage{xstring}
-\newcommand{\squeeze}{\kern -0.2em}
+\newcommand{\squeeze}{\kern -0.25em}
 \newcommand{\furiganafix}[1]{{%
 		\StrSubstitute{#1}{・}{@・@}[\x]%
 		\StrSubstitute{\x}{ゃ}{@ゃ@}[\x]%

@@ -29,14 +29,14 @@
 			every node/.style={inner sep=0.0, outer sep=0.0},
 			dot/.style={draw, black, circle, anchor=center, minimum size=0.4ex, fill}
 			]
-			\foreach[count=\i from 1] \x/\p in {#1} 
+			\foreach[count=\i from 1] \x/\p in {#1}
 			\ifx\x\empty
 			\draw node (P\i) at (\i * 1em, 0) {} node (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
 			\else
 			\draw node (P\i) at (\i * 1em, 0) {\x\strut} node[dot] (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
 			\fi;
-			
-			\begin{pgfonlayer}{bg} 
+
+			\begin{pgfonlayer}{bg}
 				\foreach[count=\i from 1, evaluate=\i as \j using int(\i - 1)] \x/\p in {#1}
 				\ifnum \j>0
 				\ifx\x\empty
@@ -54,9 +54,9 @@
 		\singlespacing%
 		%		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
-		{\normalsize \mbox{\raggedleft #2}\hspace*{-1em}}\\
+		{\normalsize \mbox3{\raggedleft #2}\hspace*{-1em}}\\
 		{\small #4}
-		\begin{itemize}#3\end{itemize}%
+		\begin{itemize}\small #3\end{itemize}%
 	\end{minipage}\vspace{1.5em}
 }
 
@@ -67,7 +67,7 @@
 	\maketitle
 	\thispagestyle{empty}
 	\vspace{1em}
-	
+
 	\begin{multicols}{2}\noindent
 		\input{saigono_dict}
 	\end{multicols}
