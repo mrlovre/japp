@@ -1,7 +1,7 @@
-word,kana,kanji_forms,definition,pos,accent,info,all_defs
-朝,あさ,朝,morning,名詞,1,,morning
-学校,がっこう,学校、學校,school,名詞,0,,school
-行く,いく,行く、往く、逝く,to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach,動詞,0,,"to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach
+word,kana,lemma,kanji_forms,definition,pos1,pos2,pos_ext,accent,info,all_defs
+朝,あさ,朝,朝,morning,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",1,,morning
+学校,がっこう,学校,学校、學校,school,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,school
+行く,いく,行く,行く、往く、逝く,to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach,動詞,非自立可能,"['Godan verb - Iku/Yuku special class', 'intransitive verb']",0,,"to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach
 to proceed; to take place
 to pass through; to come and go
 to walk
@@ -11,11 +11,11 @@ to stream; to flow
 to continue
 to have an orgasm; to come; to cum
 to trip; to get high; to have a drug-induced hallucination"
-おそい,おそい,遅い、鈍い、晩い、遲い,slow,形容詞,"0,2",,"slow
+おそい,おそい,遅い,遅い、鈍い、晩い、遲い,slow,形容詞,一般,['adjective (keiyoushi)'],"0,2",,"slow
 late (e.g. ""late at night"")
 too late
 dull; stupid"
-なる,なる,成る、為る,to become; to get; to grow; to be; to reach; to attain,動詞,1,,"to become; to get; to grow; to be; to reach; to attain
+なる,なる,成る,成る、為る,to become; to get; to grow; to be; to reach; to attain,動詞,非自立可能,"[""Godan verb with `ru' ending"", 'intransitive verb']",1,,"to become; to get; to grow; to be; to reach; to attain
 to result in; to prove to be
 to consist of; to be composed of
 to succeed; to be complete
@@ -23,12 +23,12 @@ to change into; to be exchanged for
 to play a role
 to be promoted
 to do ..."
-先生,せんせい,先生,teacher; master; doctor,名詞,3,,"teacher; master; doctor
+先生,せんせい,先生,先生,teacher; master; doctor,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,"teacher; master; doctor
 with names of teachers, etc. as an honorific
 previous existence"
-文法,ぶんぽう,文法,grammar; syntax,名詞,0,,grammar; syntax
-質問,しつもん,質問,question; inquiry; enquiry,名詞,0,,question; inquiry; enquiry
-する,する,為る,to do,動詞,0,,"to do
+文法,ぶんぽう,文法,文法,grammar; syntax,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,grammar; syntax
+質問,しつもん,質問,質問,question; inquiry; enquiry,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru', ""nouns which may take the genitive case particle `no'""]",0,,question; inquiry; enquiry
+する,する,為る,為る,to do,動詞,非自立可能,['suru verb - irregular'],0,,"to do
 to cause to become; to make (into); to turn (into)
 to serve as; to act as; to work as
 to wear (clothes, a facial expression, etc.)
@@ -45,73 +45,73 @@ to feel A about B
 verbalizing suffix (applies to nouns noted in this dictionary with the part of speech ""vs"")
 creates a humble verb (after a noun prefixed with ""o"" or ""go"")
 to be just about to; to be just starting to; to try to; to attempt to"
-言う,いう,言う、云う、謂う,to say; to utter; to declare,動詞,0,,"to say; to utter; to declare
+言う,いう,言う,言う、云う、謂う,to say; to utter; to declare,動詞,一般,"[""Godan verb with `u' ending""]",0,,"to say; to utter; to declare
 to name; to call
 to go (e.g. ""the alarm went ping""); to make a noise"
-いる,いる,居る,to be (of animate objects); to exist,動詞,0,,"to be (of animate objects); to exist
+いる,いる,居る,居る,to be (of animate objects); to exist,動詞,非自立可能,"['Ichidan verb', 'intransitive verb']",0,,"to be (of animate objects); to exist
 to stay
 verb indicating continuing action or state (i.e. to be ..ing, to have been ..ing)"
-勉強,べんきょう,勉強,study,名詞,0,,"study
+勉強,べんきょう,勉強,勉強,study,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,"study
 diligence
 discount; reduction"
-しく,しく,敷く、布く,to spread out; to lay out,動詞,0,,"to spread out; to lay out
+しく,しく,敷く,敷く、布く,to spread out; to lay out,動詞,一般,"[""Godan verb with `ku' ending""]",0,,"to spread out; to lay out
 to take a position
 to impose widely (e.g. over a city)"
-こわい,こわい,怖い、恐い,scary; frightening; eerie; dreadful,形容詞,2,,"scary; frightening; eerie; dreadful
+こわい,こわい,怖い,怖い、恐い,scary; frightening; eerie; dreadful,形容詞,一般,['adjective (keiyoushi)'],2,,"scary; frightening; eerie; dreadful
 (I'm) afraid"
-休む,やすむ,休む,to be absent; to take a day off,動詞,2,,"to be absent; to take a day off
+休む,やすむ,休む,休む,to be absent; to take a day off,動詞,一般,"[""Godan verb with `mu' ending"", 'intransitive verb']",2,,"to be absent; to take a day off
 to rest; to have a break
 to go to bed; to (lie down to) sleep; to turn in; to retire
 to stop doing some ongoing activity for a time; to suspend business"
-遊ぶ,あそぶ,遊ぶ,to play; to enjoy oneself; to have a good time,動詞,0,,"to play; to enjoy oneself; to have a good time
+遊ぶ,あそぶ,遊ぶ,遊ぶ,to play; to enjoy oneself; to have a good time,動詞,一般,"[""Godan verb with `bu' ending"", 'intransitive verb']",0,,"to play; to enjoy oneself; to have a good time
 to mess about (with alcohol, gambling, philandery, etc.)
 to be idle; to do nothing; to be unused
 to go to (for pleasure or for study)
 to intentionally throw a ball to lower the batter's concentration"
-考える,かんがえる,考える、勘える、稽える,to think about; to take into consideration,動詞,"3,4",,"to think about; to take into consideration
+考える,かんがえる,考える,考える、勘える、稽える,to think about; to take into consideration,動詞,一般,"['Ichidan verb', 'transitive verb']","3,4",,"to think about; to take into consideration
 to ponder; to reflect; to try to come at a conclusion; to think over (something)
 to intend; to decide (to do); to plan
 to come up with; to devise; to scheme
 to predict; to anticipate; to expect
 to suspect; to doubt
 to consider (somebody to be something); to look on"
-空,そら,空,emptiness; vacuum; blank,名詞,1,,emptiness; vacuum; blank
-晴れる,はれる,晴れる、霽れる,to clear up; to clear away; to be sunny; to stop raining,動詞,2,,"to clear up; to clear away; to be sunny; to stop raining
+空,そら,空,空,emptiness; vacuum; blank,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,emptiness; vacuum; blank
+晴れる,はれる,晴れる,晴れる、霽れる,to clear up; to clear away; to be sunny; to stop raining,動詞,一般,"['Ichidan verb', 'intransitive verb']",2,,"to clear up; to clear away; to be sunny; to stop raining
 to refresh (e.g. spirits)
 to be cleared (e.g. of a suspicion)
 to be dispelled; to be banished"
-あたたか,あたたか,暖か、温か,warm; mild; genial,形状詞,"3,2",,warm; mild; genial
-森,もり,森、杜,forest,名詞,0,,"forest
+あたたか,あたたか,温か,暖か、温か,warm; mild; genial,形状詞,一般,['adjectival nouns or quasi-adjectives (keiyodoshi)'],"3,2",,warm; mild; genial
+森,もり,森,森、杜,forest,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"forest
 shrine grove"
-なか,なか,中,inside; in,名詞,1,,"inside; in
+なか,なか,中,中,inside; in,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"inside; in
 among; within
 center (centre); middle
 during; while"
-つぐみ,つぐみ,鶫、鶇,"thrush (esp. the dusky thrush, Turdus naumanni)",名詞,0,,"thrush (esp. the dusky thrush, Turdus naumanni)"
-鳴く,なく,鳴く、啼く,to sing (bird),動詞,0,,"to sing (bird)
+つぐみ,つぐみ,鶫,鶫、鶇,"thrush (esp. the dusky thrush, Turdus naumanni)",名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"thrush (esp. the dusky thrush, Turdus naumanni)"
+鳴く,なく,鳴く,鳴く、啼く,to sing (bird),動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",0,,"to sing (bird)
 to make sound (animal); to call; to cry; to chirp
 to make a meld call (e.g. pung, kong)"
-原っぱ,はらっぱ,原っぱ,open field; empty lot; plain,名詞,1,,open field; empty lot; plain
-木びき,こびき,木挽き,sawyer,名詞,"0,3",,sawyer
-工場,こうじょう,工場,factory; plant; mill; workshop,名詞,3,,factory; plant; mill; workshop
-うしろ,うしろ,後ろ、後,back; behind; rear,名詞,0,,back; behind; rear
-兵隊,へいたい,兵隊,soldier; sailor,名詞,0,,soldier; sailor
-訓練,くんれん,訓練、訓連,training; drill; practice; discipline,名詞,1,,training; drill; practice; discipline
-きこえる,きこえる,聞こえる、聞える、聴こえる、聴える,to be heard; to be audible,動詞,0,,"to be heard; to be audible
+原っぱ,はらっぱ,原っぱ,原っぱ,open field; empty lot; plain,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,open field; empty lot; plain
+木びき,こびき,木挽き,木挽き,sawyer,名詞,普通名詞,['noun (common) (futsuumeishi)'],"0,3",,sawyer
+工場,こうじょう,工場,工場,factory; plant; mill; workshop,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,factory; plant; mill; workshop
+うしろ,うしろ,後ろ,後ろ、後,back; behind; rear,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,back; behind; rear
+兵隊,へいたい,兵隊,兵隊,soldier; sailor,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,soldier; sailor
+訓練,くんれん,訓練,訓練、訓連,training; drill; practice; discipline,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,training; drill; practice; discipline
+きこえる,きこえる,聞こえる,聞こえる、聞える、聴こえる、聴える,to be heard; to be audible,動詞,一般,"['Ichidan verb', 'intransitive verb']",0,,"to be heard; to be audible
 to be said to be; to be reputed"
-規則,きそく,規則,rules; regulations; conventions,名詞,"1,2",,rules; regulations; conventions
-心,こころ,心,mind; heart; spirit,名詞,"2,3",,"mind; heart; spirit
+規則,きそく,規則,規則,rules; regulations; conventions,名詞,普通名詞,['noun (common) (futsuumeishi)'],"1,2",,rules; regulations; conventions
+心,こころ,心,心,mind; heart; spirit,名詞,普通名詞,['noun (common) (futsuumeishi)'],"2,3",,"mind; heart; spirit
 the meaning of a phrase (riddle, etc.)"
-ひきつける,ひきつける,引き付ける、引付ける、引きつける、引付る、惹き付ける、惹きつける,to fascinate; to attract; to charm,動詞,4,,"to fascinate; to attract; to charm
+ひきつける,ひきつける,引き付ける,引き付ける、引付ける、引きつける、引付る、惹き付ける、惹きつける,to fascinate; to attract; to charm,動詞,一般,"['Ichidan verb', 'transitive verb']",4,,"to fascinate; to attract; to charm
 to have a convulsion"
-ゆうわく,ゆうわく,誘惑,temptation; allurement; lure; enticement; seduction,名詞,0,,temptation; allurement; lure; enticement; seduction
-うち勝つ,うちかつ,打ち勝つ、打ち克つ、打勝つ、打克つ,to conquer (e.g. an enemy); to defeat,動詞,"3,0",,"to conquer (e.g. an enemy); to defeat
+ゆうわく,ゆうわく,誘惑,誘惑,temptation; allurement; lure; enticement; seduction,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,temptation; allurement; lure; enticement; seduction
+うち勝つ,うちかつ,打ち勝つ,打ち勝つ、打ち克つ、打勝つ、打克つ,to conquer (e.g. an enemy); to defeat,動詞,一般,"[""Godan verb with `tsu' ending"", 'intransitive verb']","3,0",,"to conquer (e.g. an enemy); to defeat
 to overcome (a difficulty)
 to out-hit"
-いそぐ,いそぐ,急ぐ,to hurry; to rush; to hasten; to make something happen sooner,動詞,2,,to hurry; to rush; to hasten; to make something happen sooner
-むかう,むかう,向かう、向う、対う,to face,動詞,0,,"to face
+いそぐ,いそぐ,急ぐ,急ぐ,to hurry; to rush; to hasten; to make something happen sooner,動詞,一般,"[""Godan verb with `gu' ending"", 'intransitive verb', 'transitive verb']",2,,to hurry; to rush; to hasten; to make something happen sooner
+むかう,むかう,向かう,向かう、向う、対う,to face,動詞,一般,"[""Godan verb with `u' ending"", 'intransitive verb']",0,,"to face
 to go towards; to head towards"
-かける,かける,掛ける、懸ける,to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag),動詞,2,,"to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag)
+かける,かける,掛ける,掛ける、懸ける,to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag),動詞,非自立可能,"['Ichidan verb', 'transitive verb']",2,,"to hang (e.g. picture); to hoist (e.g. sail); to raise (e.g. flag)
 to sit
 to take (time, money); to expend (money, time, etc.)
 to make (a call)
@@ -135,7 +135,7 @@ to hold (a play, festival, etc.)
 to wager; to bet; to risk; to stake; to gamble
 to be partway doing ...; to begin (but not complete) ...; to be about to ...
 indicates (verb) is being directed to (someone)"
-だす,だす,出す,to take out; to get out,動詞,1,,"to take out; to get out
+だす,だす,出す,出す,to take out; to get out,動詞,非自立可能,"[""Godan verb with `su' ending"", 'transitive verb']",1,,"to take out; to get out
 to put out; to reveal; to show
 to submit (e.g. thesis); to turn in
 to publish; to make public
@@ -143,10 +143,10 @@ to send (e.g. letter)
 to produce (a sound); to start (fire)
 to serve (food)
 to begin ...; to start to ...; to burst into ..."
-役場,やくば,役場,town hall,名詞,3,,town hall
-そば,そば,側、傍、端,near; close; beside; vicinity; proximity; besides; while,名詞,1,,"near; close; beside; vicinity; proximity; besides; while
+役場,やくば,役場,役場,town hall,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,town hall
+そば,そば,側,側、傍、端,near; close; beside; vicinity; proximity; besides; while,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"near; close; beside; vicinity; proximity; besides; while
 third person"
-とおる,とおる,通る、徹る、透る,to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of,動詞,1,,"to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of
+とおる,とおる,通る,通る、徹る、透る,to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",1,,"to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of
 to run (between); to operate (between); to connect
 to go indoors; to go into a room; to be admitted; to be shown in; to be ushered in; to come in
 to penetrate; to pierce; to skewer; to go through; to come through
@@ -160,8 +160,8 @@ to get across (e.g. of one's point); to be understood
 to be straight (e.g. wood grain)
 to be well-informed; to be wise
 to do ... completely; to do ... thoroughly"
-金網,かなあみ,金網,wire netting; wire mesh; wire screen; chain-link mesh,名詞,0,,wire netting; wire mesh; wire screen; chain-link mesh
-張る,はる,張る、貼る,to stick; to paste; to affix,動詞,0,esp. 貼る,"to stick; to paste; to affix
+金網,かなあみ,金網,金網,wire netting; wire mesh; wire screen; chain-link mesh,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,wire netting; wire mesh; wire screen; chain-link mesh
+張る,はる,張る,張る、貼る,to stick; to paste; to affix,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",0,esp. 貼る,"to stick; to paste; to affix
 to stretch; to spread; to strain; to tighten; to put up (tent)
 to form (e.g. ice on a pond)
 to fill; to swell
@@ -170,47 +170,47 @@ to be expensive
 to keep a watch on; to be on the lookout
 to become one tile away from completion
 to span; to generate"
-掲示,けいじ,掲示,notice; bulletin; post; posting; placard,名詞,0,,notice; bulletin; post; posting; placard
-前,まえ,先、前、先き,previous; prior; former; first; earlier; some time ago; preceding,名詞,1,,"previous; prior; former; first; earlier; some time ago; preceding
+掲示,けいじ,掲示,掲示,notice; bulletin; post; posting; placard,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,notice; bulletin; post; posting; placard
+前,まえ,前,先、前、先き,previous; prior; former; first; earlier; some time ago; preceding,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'"", 'noun, used as a suffix', 'prefix']",1,,"previous; prior; former; first; earlier; some time ago; preceding
 point (e.g. pencil); tip; end; nozzle
 head (of a line); front
 ahead; the other side
 the future; hereafter
 destination
 the other party"
-おおぜい,おおぜい,大勢、大ぜい,crowd of people; great number of people,名詞,"3,0",,"crowd of people; great number of people
+おおぜい,おおぜい,大勢,大勢、大ぜい,crowd of people; great number of people,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]","3,0",,"crowd of people; great number of people
 in great numbers"
-人,ひと,人,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.",名詞,0,,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.
+人,ひと,人,人,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.",名詞,普通名詞,['suffix'],0,,"-ian (e.g. Italian); -ite (e.g. Tokyoite); indicates nationality, race, origin, etc.
 -er (e.g. performer, etc.); person working with ...; indicates expertise (in a certain field)
 (usu. in compound words) man; person; people"
-立ちどまる,たちどまる,立ち止まる、立ち止る、立ちどまる、立止る、立ち留まる、立留まる、立留る,to stop; to halt; to stand still,動詞,"0,4",,to stop; to halt; to stand still
-二,に,二、２、弐、貳、貮,two,名詞,1,"ふ and ふう used mainly when counting aloud. 弐, 貳 and 貮 are used in legal documents.",two
-年,ねん,年、歳,year,名詞,1,,"year
+立ちどまる,たちどまる,立ち止まる,立ち止まる、立ち止る、立ちどまる、立止る、立ち留まる、立留まる、立留る,to stop; to halt; to stand still,動詞,一般,"[""Godan verb with `ru' ending""]","0,4",,to stop; to halt; to stand still
+二,に,二,二、２、弐、貳、貮,two,名詞,数詞,['numeric'],1,"ふ and ふう used mainly when counting aloud. 弐, 貳 and 貮 are used in legal documents.",two
+年,ねん,年,年、歳,year,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"year
 age; years
 past one's prime; old age"
-敗戦,はいせん,敗戦,defeat; losing a war,名詞,0,,defeat; losing a war
-挑発,ちょうはつ,挑発、挑撥,provocation; stirring up; arousal,名詞,0,,provocation; stirring up; arousal
-司令,しれい,司令,command; control; commander,名詞,0,,command; control; commander
-部,ぶ,部,department (in an organization); division; bureau,名詞,"1,0",higher than a 課,"department (in an organization); division; bureau
+敗戦,はいせん,敗戦,敗戦,defeat; losing a war,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,defeat; losing a war
+挑発,ちょうはつ,挑発,挑発、挑撥,provocation; stirring up; arousal,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,provocation; stirring up; arousal
+司令,しれい,司令,司令,command; control; commander,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,command; control; commander
+部,ぶ,部,部,department (in an organization); division; bureau,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']","1,0",higher than a 課,"department (in an organization); division; bureau
 club
 part; component; element
 category
 counter for copies of a newspaper or magazine"
-命令,めいれい,命令,order; command; decree; directive,名詞,0,,"order; command; decree; directive
+命令,めいれい,命令,命令,order; command; decree; directive,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,"order; command; decree; directive
 (software) instruction; statement"
-よう,よう,様、態,mess; sorry state; plight; sad sight,形状詞,1,,"mess; sorry state; plight; sad sight
+よう,よう,様,様、態,mess; sorry state; plight; sad sight,形状詞,助動詞語幹,['noun (common) (futsuumeishi)'],1,,"mess; sorry state; plight; sad sight
 -ways; -wards
 in the act of ...; just as one is ...
 manner of ...; way of ..."
-いや,いや,嫌、厭、厭や,disagreeable; detestable; unpleasant; reluctant,形状詞,2,,disagreeable; detestable; unpleasant; reluctant
-しらせ,しらせ,知らせ、報せ,news; word; tidings; notice; notification; information,名詞,0,,"news; word; tidings; notice; notification; information
+いや,いや,嫌,嫌、厭、厭や,disagreeable; detestable; unpleasant; reluctant,形状詞,一般,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",2,,disagreeable; detestable; unpleasant; reluctant
+しらせ,しらせ,知らせ,知らせ、報せ,news; word; tidings; notice; notification; information,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"news; word; tidings; notice; notification; information
 omen"
-みんな,みんな,皆、皆んな,all; everyone; everybody,名詞,"3,0",,"all; everyone; everybody
+みんな,みんな,皆,皆、皆んな,all; everyone; everybody,名詞,普通名詞,"['adverb (fukushi)', 'noun (common) (futsuumeishi)']","3,0",,"all; everyone; everybody
 everything"
-け,け,毛,hair,名詞,0,,"hair
+け,け,毛,毛,hair,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"hair
 fur; wool
 down; plumage; feathers"
-こと,こと,事、縡,thing; matter,名詞,2,,"thing; matter
+こと,こと,事,事、縡,thing; matter,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"thing; matter
 incident; occurrence; event; something serious; trouble; crisis
 circumstances; situation; state of affairs
 work; business; affair
@@ -218,67 +218,67 @@ after an inflectable word, creates a noun phrase indicating something the speake
 nominalizing suffix
 pretending to ...; playing make-believe ...
 alias; aka; nickname; alternative name; also known as"
-歩く,あるく,歩く,to walk,動詞,2,,to walk
-こんど,こんど,今度,this time; now,名詞,1,,"this time; now
+歩く,あるく,歩く,歩く,to walk,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",2,,to walk
+こんど,こんど,今度,今度,this time; now,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",1,,"this time; now
 next time; another time; shortly; soon
 recently; previous; last"
-小走り,こばしり,小走り,trot; half run; jog,名詞,2,,"trot; half run; jog
+小走り,こばしり,小走り,小走り,trot; half run; jog,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'adverb (fukushi)', 'noun or participle which takes the aux. verb suru']",2,,"trot; half run; jog
 girl in charge of menial tasks in a samurai family"
-とおりすぎる,とおりすぎる,通り過ぎる、通りすぎる,to pass; to pass through,動詞,"5,0",,to pass; to pass through
-弟子,でし,弟子,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper,名詞,2,,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper
-いっしょ,いっしょ,一緒、一しょ,together,名詞,0,,"together
+とおりすぎる,とおりすぎる,通り過ぎる,通り過ぎる、通りすぎる,to pass; to pass through,動詞,一般,"['Ichidan verb', 'intransitive verb']","5,0",,to pass; to pass through
+弟子,でし,弟子,弟子,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",2,,pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper
+いっしょ,いっしょ,一緒,一緒、一しょ,together,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"together
 at the same time
 same; identical"
-読む,よむ,読む,to read,動詞,1,,"to read
+読む,よむ,読む,読む,to read,動詞,一般,"[""Godan verb with `mu' ending"", 'transitive verb']",1,,"to read
 to count
 to guess; to predict; to read (someone's thoughts); to see (e.g. into someone's heart); to divine"
-かじ屋,かじや,鍛冶屋,smith; blacksmith,名詞,0,,smith; blacksmith
-大声,おおごえ,大声,loud voice,名詞,3,,loud voice
-ぼうや,ぼうや,坊や,boy,名詞,1,,boy
-そんな,そんな,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of",形状詞,0,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of"
-いい,いい,良い、善い、好い、佳い、吉い、宜い,good; excellent; fine; nice; pleasant; agreeable,形容詞,1,also いい (all senses),"good; excellent; fine; nice; pleasant; agreeable
+かじ屋,かじや,鍛冶屋,鍛冶屋,smith; blacksmith,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,smith; blacksmith
+大声,おおごえ,大声,大声,loud voice,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",3,,loud voice
+ぼうや,ぼうや,坊や,坊や,boy,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,boy
+そんな,そんな,そんな,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of",形状詞,一般,['pre-noun adjectival (rentaishi)'],0,,"such (about the actions of the listener, or about ideas expressed or understood by the listener); like that; that sort of"
+いい,いい,良い,良い、善い、好い、佳い、吉い、宜い,good; excellent; fine; nice; pleasant; agreeable,形容詞,非自立可能,['adjective (keiyoushi)'],1,also いい (all senses),"good; excellent; fine; nice; pleasant; agreeable
 sufficient (can be used to turn down an offer); ready; prepared
 profitable (e.g. deal, business offer, etc.); beneficial
 OK"
-おくれる,おくれる,遅れる、後れる,to be late; to be delayed; to fall behind schedule; to be overdue,動詞,0,,to be late; to be delayed; to fall behind schedule; to be overdue
-ない,ない,無い,nonexistent; not being (there),形容詞,1,,"nonexistent; not being (there)
+おくれる,おくれる,遅れる,遅れる、後れる,to be late; to be delayed; to fall behind schedule; to be overdue,動詞,非自立可能,"['Ichidan verb', 'intransitive verb']",0,,to be late; to be delayed; to fall behind schedule; to be overdue
+ない,ない,無い,無い,nonexistent; not being (there),形容詞,非自立可能,['adjective (keiyoushi)'],1,,"nonexistent; not being (there)
 unpossessed; unowned; not had
 unique
 indicates negation, inexperience, unnecessariness or impossibility
 not ...
 to not be...; to have not ..."
-おじ,おじ,伯父、叔父,uncle,名詞,0,伯父 or 叔父 respectively can mean older or younger than one's parent,uncle
-からかう,からかう,揶揄う,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about,動詞,3,,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about
-思う,おもう,思う、想う、念う、憶う、懐う、惟う,to think; to consider; to believe,動詞,2,想う has connotations of heart-felt,"to think; to consider; to believe
+おじ,おじ,伯父,伯父、叔父,uncle,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,伯父 or 叔父 respectively can mean older or younger than one's parent,uncle
+からかう,からかう,からかう,揶揄う,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about,動詞,一般,"[""Godan verb with `u' ending""]",3,,to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about
+思う,おもう,思う,思う、想う、念う、憶う、懐う、惟う,to think; to consider; to believe,動詞,一般,"[""Godan verb with `u' ending"", 'transitive verb']",2,想う has connotations of heart-felt,"to think; to consider; to believe
 to think (of doing); to plan (to do)
 to judge; to assess; to regard
 to imagine; to suppose; to dream
 to expect; to look forward to
 to feel; to desire; to want
 to recall; to remember"
-息,いき,息,breath; breathing,名詞,1,,"breath; breathing
+息,いき,息,息,breath; breathing,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"breath; breathing
 tone; mood"
-はずむ,はずむ,弾む、勢む,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on,動詞,0,,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on
-間,あいだ,間,space (between); gap; interval; distance,名詞,0,,"space (between); gap; interval; distance
+はずむ,はずむ,弾む,弾む、勢む,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on,動詞,一般,"[""Godan verb with `mu' ending"", 'intransitive verb']",0,,to spring; to bound; to bounce; to be stimulated; to be encouraged; to get lively; to treat oneself to; to splurge on
+間,あいだ,間,間,space (between); gap; interval; distance,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)']",0,,"space (between); gap; interval; distance
 time (between); pause; break
 span (temporal or spatial); stretch; period (while)
 relationship (between, among)
 members (within, among)
 due to; because of"
-くぐる,くぐる,潜る,to go under; to pass under; to go through; to pass through,動詞,2,,"to go under; to pass under; to go through; to pass through
+くぐる,くぐる,潜る,潜る,to go under; to pass under; to go through; to pass through,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,"to go under; to pass under; to go through; to pass through
 to dive (into or under the water)
 to evade; to get around; to slip past
 to survive; to surmount"
-授業,じゅぎょう,授業,lesson; class work; teaching; instruction,名詞,1,,lesson; class work; teaching; instruction
-はじまり,はじまり,始まり,origin; beginning,名詞,0,,origin; beginning
-たいへん,たいへん,大変、大へん,very; greatly; terribly; awfully,形状詞,0,,"very; greatly; terribly; awfully
+授業,じゅぎょう,授業,授業,lesson; class work; teaching; instruction,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,lesson; class work; teaching; instruction
+はじまり,はじまり,始まり,始まり,origin; beginning,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,origin; beginning
+たいへん,たいへん,大変,大変、大へん,very; greatly; terribly; awfully,形状詞,一般,['adverb (fukushi)'],0,,"very; greatly; terribly; awfully
 immense; enormous; great
 serious; grave; dreadful; terrible
 difficult; hard
 major incident; disaster"
-さわぎ,さわぎ,騒ぎ,uproar; disturbance,名詞,1,,uproar; disturbance
-つくえ,つくえ,机、案,desk,名詞,0,,desk
-あける,あける,開ける、空ける、明ける,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock",動詞,0,,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock
+さわぎ,さわぎ,騒ぎ,騒ぎ,uproar; disturbance,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,,uproar; disturbance
+つくえ,つくえ,机,机、案,desk,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,desk
+あける,あける,開ける,開ける、空ける、明ける,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock",動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock
 to open (for business, etc.)
 to empty; to remove; to make space; to make room
 to move out; to clear out
@@ -288,23 +288,23 @@ to end (of a period, season)
 to begin (of the New Year)
 to leave (one's schedule) open; to make time (for)
 to make (a hole); to open up (a hole)"
-しめる,しめる,締める,to tie; to fasten; to tighten,動詞,2,,"to tie; to fasten; to tighten
+しめる,しめる,締める,締める,to tie; to fasten; to tighten,動詞,一般,"['Ichidan verb', 'transitive verb']",2,,"to tie; to fasten; to tighten
 to wear (necktie, belt); to put on
 to total; to sum
 to be strict with
 to economize; to economise; to cut down on
 to salt; to marinate; to pickle; to make sushi adding a mixture of vinegar and salt"
-音,おと,音,sound; noise; report,名詞,2,,"sound; noise; report
+音,おと,音,音,sound; noise; report,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",2,,"sound; noise; report
 note
 fame
 Chinese-derived character reading"
-日課,にっか,日課,daily lesson; daily work; daily routine,名詞,0,,daily lesson; daily work; daily routine
-暗記,あんき,暗記、諳記,memorization; memorisation; learning by heart,名詞,0,,memorization; memorisation; learning by heart
-耳,みみ,耳,ear,名詞,2,,"ear
+日課,にっか,日課,日課,daily lesson; daily work; daily routine,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,daily lesson; daily work; daily routine
+暗記,あんき,暗記,暗記、諳記,memorization; memorisation; learning by heart,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,memorization; memorisation; learning by heart
+耳,みみ,耳,耳,ear,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"ear
 hearing
 edge; crust
 selvedge (non-fray machined edge of fabrics); selvage"
-手,て,手,hand; arm,名詞,1,occ. pronounced た when a prefix,"hand; arm
+手,て,手,手,hand; arm,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,occ. pronounced た when a prefix,"hand; arm
 forepaw; foreleg
 handle
 hand; worker; help
@@ -317,31 +317,31 @@ ability to cope
 hand (of cards)
 direction
 move (in go, shogi, etc.)"
-ふさぐ,ふさぐ,塞ぐ、壅ぐ,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)",動詞,0,,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)
+ふさぐ,ふさぐ,塞ぐ,塞ぐ、壅ぐ,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)",動詞,一般,"[""Godan verb with `gu' ending"", 'transitive verb']",0,,"to stop up; to close up; to block (up); to plug up; to shut up; to cover (ears, eyes, etc.); to close (eyes, mouth)
 to stand in the way; to obstruct
 to occupy; to fill up; to take up
 to perform one's role; to do one's duty
 to feel depressed; to mope"
-くりかえす,くりかえす,繰り返す、くり返す、繰りかえす、繰返す,to repeat; to do something over again,動詞,"0,3",,to repeat; to do something over again
-声,こえ,声、聲,voice,名詞,1,,voice
-静か,しずか,静か、閑か,quiet; silent,形状詞,1,,"quiet; silent
+くりかえす,くりかえす,繰り返す,繰り返す、くり返す、繰りかえす、繰返す,to repeat; to do something over again,動詞,一般,"[""Godan verb with `su' ending"", 'transitive verb', 'intransitive verb']","0,3",,to repeat; to do something over again
+声,こえ,声,声、聲,voice,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,voice
+静か,しずか,静か,静か、閑か,quiet; silent,形状詞,一般,['adjectival nouns or quasi-adjectives (keiyodoshi)'],1,,"quiet; silent
 slow; unhurried
 calm; peaceful"
-じょうぎ,じょうぎ,定規、定木,(measuring) ruler,名詞,1,,(measuring) ruler
-たたく,たたく,叩く、敲く,to strike; to clap; to knock; to beat; to tap; to pat,動詞,2,,"to strike; to clap; to knock; to beat; to tap; to pat
+じょうぎ,じょうぎ,定規,定規、定木,(measuring) ruler,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,(measuring) ruler
+たたく,たたく,叩く,叩く、敲く,to strike; to clap; to knock; to beat; to tap; to pat,動詞,一般,"[""Godan verb with `ku' ending"", 'transitive verb']",2,,"to strike; to clap; to knock; to beat; to tap; to pat
 to play drums
 to abuse; to flame (e.g. on the Internet); to insult
 to consult; to sound out
 to brag; to talk big
 to call; to invoke (e.g. a function)"
-叫ぶ,さけぶ,叫ぶ,to shout; to cry; to scream; to shriek; to yell; to exclaim,動詞,2,,"to shout; to cry; to scream; to shriek; to yell; to exclaim
+叫ぶ,さけぶ,叫ぶ,叫ぶ,to shout; to cry; to scream; to shriek; to yell; to exclaim,動詞,一般,"[""Godan verb with `bu' ending"", 'intransitive verb']",2,,"to shout; to cry; to scream; to shriek; to yell; to exclaim
 to clamor (for or against); to clamour (for or against)"
-往来,おうらい,往来,coming and going; traffic,名詞,0,,"coming and going; traffic
+往来,おうらい,往来,往来,coming and going; traffic,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,"coming and going; traffic
 road; street
 association; socializing; socialising; fellowship; mutual visits
 recurring (e.g. thoughts)
 correspondence"
-もの,もの,物,thing; object; article; stuff; substance,名詞,"2,0",,"thing; object; article; stuff; substance
+もの,もの,物,物,thing; object; article; stuff; substance,名詞,普通名詞,['noun (common) (futsuumeishi)'],"2,0",,"thing; object; article; stuff; substance
 one's things; possessions; property; belongings
 things; something; anything; everything; nothing
 quality
@@ -351,20 +351,20 @@ item classified as ...; item related to ...; work of ...
 cause of ...; cause for ...
 somehow; somewhat; for some reason
 really; truly"
-さわぐ,さわぐ,騒ぐ、騷ぐ,to make noise; to make racket; to be noisy,動詞,2,,"to make noise; to make racket; to be noisy
+さわぐ,さわぐ,騒ぐ,騒ぐ、騷ぐ,to make noise; to make racket; to be noisy,動詞,一般,"[""Godan verb with `gu' ending"", 'intransitive verb']",2,,"to make noise; to make racket; to be noisy
 to rustle; to swoosh
 to make merry
 to clamor; to clamour; to make a fuss; to kick up a fuss
 to lose one's cool; to panic; to act flustered
 to feel tense; to be uneasy; to be excited"
-気づく,きづく,気づく、気付く,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise,動詞,2,,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise
-自分,じぶん,自分,myself; yourself; oneself; himself; herself,名詞,0,,"myself; yourself; oneself; himself; herself
+気づく,きづく,気付く,気づく、気付く,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",2,,to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise
+自分,じぶん,自分,自分,myself; yourself; oneself; himself; herself,名詞,普通名詞,"['pronoun', ""nouns which may take the genitive case particle `no'""]",0,,"myself; yourself; oneself; himself; herself
 I; me
 you"
-席,せき,席,seat,名詞,1,,"seat
+席,せき,席,席,seat,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"seat
 location (of a gathering, etc.); place
 position; post"
-つく,つく,付く,to be attached; to be connected with; to adhere; to stick; to cling,動詞,"1,2",,"to be attached; to be connected with; to adhere; to stick; to cling
+つく,つく,付く,付く,to be attached; to be connected with; to adhere; to stick; to cling,動詞,非自立可能,"[""Godan verb with `ku' ending"", 'intransitive verb']","1,2",,"to be attached; to be connected with; to adhere; to stick; to cling
 to remain imprinted; to scar; to stain; to dye
 to bear (fruit, interest, etc.)
 to be acquired (of a habit, ability, etc.); to increase (of strength, etc.)
@@ -378,14 +378,14 @@ to be given (of a name, price, etc.)
 to be sensed; to be perceived
 to be lucky
 to become (a state, condition, etc.)"
-できる,できる,出来る、出きる、出來る,to be able (in a position) to do; to be up to the task,動詞,2,,"to be able (in a position) to do; to be up to the task
+できる,できる,出来る,出来る、出きる、出來る,to be able (in a position) to do; to be up to the task,動詞,非自立可能,"['Ichidan verb', 'intransitive verb']",2,,"to be able (in a position) to do; to be up to the task
 to be ready; to be completed
 to be made; to be built
 to be good at; to be permitted (to do)
 to become intimate; to take up (with somebody)
 to grow; to be raised
 to become pregnant"
-ところ,ところ,所、処、處,place; spot; scene; site,名詞,"3,0",also pronounced どころ when a suffix,"place; spot; scene; site
+ところ,ところ,所,所、処、處,place; spot; scene; site,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'suffix']","3,0",also pronounced どころ when a suffix,"place; spot; scene; site
 address
 district; area; locality
 one's house
@@ -396,60 +396,852 @@ thing; matter
 whereupon; as a result
 about to; on the verge of
 was just doing; was in the process of doing; have just done; just finished doing"
-日,ひ,日、陽,day; days,名詞,"0,1",,"day; days
+日,ひ,日,日、陽,day; days,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']","0,1",,"day; days
 sun; sunshine; sunlight
 case (esp. unfortunate); event"
-日曜,にちよう,日曜,Sunday,名詞,"0,3",,Sunday
-あく,あく,空く,to become less crowded; to thin out; to get empty,動詞,0,,"to become less crowded; to thin out; to get empty
+日曜,にちよう,日曜,日曜,Sunday,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)']","0,3",,Sunday
+あく,あく,空く,空く,to become less crowded; to thin out; to get empty,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",0,,"to become less crowded; to thin out; to get empty
 to be hungry"
-窓ごし,まどごし,窓越し、窓ごし,viewing through a window; passing through a window; going through a window; doing through a window,名詞,0,usu. as 窓越しに,viewing through a window; passing through a window; going through a window; doing through a window
-見る,みる,見る、観る、視る,to see; to look; to watch; to view; to observe,動詞,1,,"to see; to look; to watch; to view; to observe
+窓ごし,まどごし,窓越し,窓越し、窓ごし,viewing through a window; passing through a window; going through a window; doing through a window,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,usu. as 窓越しに,viewing through a window; passing through a window; going through a window; doing through a window
+見る,みる,見る,見る、観る、視る,to see; to look; to watch; to view; to observe,動詞,非自立可能,"['Ichidan verb', 'transitive verb']",1,,"to see; to look; to watch; to view; to observe
 to look over; to look on; to assess; to examine; to judge
 to look after; to keep an eye on; to take care of
 to view (e.g. flowers, movie)
 to try; to try out; to test
 to see that...; to find that..."
-者,もの,者,person,名詞,2,rarely used without a qualifier,person
-つく,つく,就く、即く,to ascend (the throne); to accede,動詞,"1,2",,"to ascend (the throne); to accede
+者,もの,者,者,person,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,rarely used without a qualifier,person
+つく,つく,つく,就く、即く,to ascend (the throne); to accede,動詞,一般,"[""Godan verb with `ku' ending""]","1,2",,"to ascend (the throne); to accede
 to take (seat, position, course, office, etc.); to assume; to be hired; to be employed
 to start (on a journey); to commence; to depart
 to study (under teacher); to be an apprentice"
-おそろしい,おそろしい,恐ろしい、怖ろしい,terrible; dreadful; terrifying; frightening; frightened,形容詞,4,,"terrible; dreadful; terrifying; frightening; frightened
+おそろしい,おそろしい,恐ろしい,恐ろしい、怖ろしい,terrible; dreadful; terrifying; frightening; frightened,形容詞,一般,['adjective (keiyoushi)'],4,,"terrible; dreadful; terrifying; frightening; frightened
 surprising; startling; tremendous; amazing"
-かかえる,かかえる,抱える,to hold or carry under or in the arms,動詞,0,,"to hold or carry under or in the arms
+かかえる,かかえる,抱える,抱える,to hold or carry under or in the arms,動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to hold or carry under or in the arms
 to have (esp. problems, debts, etc.)
 to employ; to engage; to hire"
-くる,くる,来る、來る,to come (spatially or temporally); to approach; to arrive,動詞,1,,"to come (spatially or temporally); to approach; to arrive
+くる,くる,来る,来る、來る,to come (spatially or temporally); to approach; to arrive,動詞,非自立可能,"['Kuru verb - special class', 'intransitive verb']",1,,"to come (spatially or temporally); to approach; to arrive
 to come back; to do ... and come back
 to come to be; to become; to get; to grow; to continue
 to come from; to be caused by; to derive from
 to come to (i.e. ""when it comes to spinach ..."")"
-いらっしゃる,いらっしゃる,,to come; to go; to be (somewhere),動詞,4,sometimes erroneously written 居らっしゃる,"to come; to go; to be (somewhere)
+いらっしゃる,いらっしゃる,いらっしゃる,,to come; to go; to be (somewhere),動詞,非自立可能,"['Godan verb - -aru special class', 'intransitive verb']",4,sometimes erroneously written 居らっしゃる,"to come; to go; to be (somewhere)
 is (doing); are (doing)"
-戸,ど,戸、門,door (esp. Japanese-style),名詞,0,,"door (esp. Japanese-style)
+戸,ど,戸,戸、門,door (esp. Japanese-style),名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"door (esp. Japanese-style)
 shutter; window shutter
 entrance (to a home)
 narrows"
-静まりかえる,しずまりかえる,静まり返る、静まりかえる,to fall silent; to become still as death,動詞,"5,3",,to fall silent; to become still as death
-ただなか,ただなか,直中、只中、ただ中,middle,名詞,"2,0",,middle
-入る,はいる,入る,to get in; to go in; to come in; to flow into; to set; to set in,動詞,1,mainly used in fixed expressions and compound verbs,to get in; to go in; to come in; to flow into; to set; to set in
-はずかしい,はずかしい,恥ずかしい、羞ずかしい,shy; ashamed; embarrassed,形容詞,4,,"shy; ashamed; embarrassed
+静まりかえる,しずまりかえる,静まり返る,静まり返る、静まりかえる,to fall silent; to become still as death,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']","5,3",,to fall silent; to become still as death
+ただなか,ただなか,只中,直中、只中、ただ中,middle,名詞,普通名詞,['noun (common) (futsuumeishi)'],"2,0",,middle
+入る,はいる,入る,入る,to get in; to go in; to come in; to flow into; to set; to set in,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",1,mainly used in fixed expressions and compound verbs,to get in; to go in; to come in; to flow into; to set; to set in
+はずかしい,はずかしい,恥ずかしい,恥ずかしい、羞ずかしい,shy; ashamed; embarrassed,形容詞,一般,['adjective (keiyoushi)'],4,,"shy; ashamed; embarrassed
 disgraceful; shameful"
-気,き,気、氣,spirit; mind; heart,名詞,0,,"spirit; mind; heart
+気,き,気,気、氣,spirit; mind; heart,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"spirit; mind; heart
 nature; disposition
 motivation; intention
 mood; feelings
 ambience; atmosphere; mood"
-大ちがい,おおちがい,大違い,great difference,形状詞,3,,"great difference
+大ちがい,おおちがい,大違い,大違い,great difference,形状詞,一般,['noun (common) (futsuumeishi)'],3,,"great difference
 major mistake"
-おこる,おこる,起こる、起る,to occur; to happen,動詞,2,,to occur; to happen
-やさしい,やさしい,優しい,tender; kind; gentle; graceful; affectionate; amiable,形容詞,"0,3",,tender; kind; gentle; graceful; affectionate; amiable
-口調,くちょう,口調,"tone (e.g. of voice, etc.); (verbal) expression",名詞,0,,"tone (e.g. of voice, etc.); (verbal) expression"
-早い,はやい,早い、速い、疾い、捷い,fast; quick; hasty; brisk,形容詞,2,"esp. 速い, 疾い, 捷い","fast; quick; hasty; brisk
+おこる,おこる,起こる,起こる、起る,to occur; to happen,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,to occur; to happen
+やさしい,やさしい,優しい,優しい,tender; kind; gentle; graceful; affectionate; amiable,形容詞,一般,['adjective (keiyoushi)'],"0,3",,tender; kind; gentle; graceful; affectionate; amiable
+口調,くちょう,口調,口調,"tone (e.g. of voice, etc.); (verbal) expression",名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"tone (e.g. of voice, etc.); (verbal) expression"
+早い,はやい,早い,早い、速い、疾い、捷い,fast; quick; hasty; brisk,形容詞,一般,['adjective (keiyoushi)'],2,"esp. 速い, 疾い, 捷い","fast; quick; hasty; brisk
 early (in the day, etc.); premature
 (too) soon; not yet; (too) early
 easy; simple; quick"
-なさる,なさる,為さる,to do,動詞,2,,to do
-はじめる,はじめる,始める、創める,to start; to begin; to commence; to initiate; to originate,動詞,0,,"to start; to begin; to commence; to initiate; to originate
+なさる,なさる,為さる,為さる,to do,動詞,非自立可能,"['Godan verb - -aru special class', 'transitive verb']",2,,to do
+はじめる,はじめる,始める,始める、創める,to start; to begin; to commence; to initiate; to originate,動詞,非自立可能,"['Ichidan verb', 'transitive verb']",0,,"to start; to begin; to commence; to initiate; to originate
 to open (e.g. a store); to start up; to establish (business. etc.)
 to start ...; to begin to ..."
+おさまる,おさまる,収まる,収まる、納まる,to be in one's place; to be installed; to settle into,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",3,,"to be in one's place; to be installed; to settle into
+to be delivered; to be obtained; to be paid
+to be settled; to be sorted out
+to lessen (e.g. of storms, pain); to calm down
+to be fit tightly into (e.g. a frame); to be sheathed (in a scabbard)"
+視学,しがく,視学,視学,school inspector,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,school inspector
+卒業,そつぎょう,卒業,卒業,graduation; completion (e.g. of a course),名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru', ""nouns which may take the genitive case particle `no'""]",0,,"graduation; completion (e.g. of a course)
+outgrowing something; moving on"
+式,しき,式,式,equation; formula; expression,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']","2,1",,"equation; formula; expression
+ceremony
+style
+enforcement regulations (of the ritsuryo)"
+着る,きる,着る,着る、著る,"to wear (in modern Japanese, from the shoulders down); to put on",動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to wear (in modern Japanese, from the shoulders down); to put on
+to bear (guilt, etc.)"
+りっぱ,りっぱ,立派,立派,splendid; fine; handsome; elegant; imposing; prominent,形状詞,一般,['adjectival nouns or quasi-adjectives (keiyodoshi)'],0,,"splendid; fine; handsome; elegant; imposing; prominent
+praiseworthy; creditable; worthy
+legal; legitimate; lawful
+undeniable (e.g. crime); indisputable; solid"
+緑色,みどりいろ,緑色,緑色、みどり色、翠色,green; emerald green; green color of new foliage; verdure,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,green; emerald green; green color of new foliage; verdure
+上着,うわぎ,上着,上着、上衣、表着,coat; tunic; jacket; outer garment,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,coat; tunic; jacket; outer garment
+丈,たけ,丈,丈,only; just; merely; simply; no more than; nothing but; alone,名詞,普通名詞,['particle'],2,,"only; just; merely; simply; no more than; nothing but; alone
+as (e.g. as soon as, as much as)
+worth"
+長い,ながい,長い,長い、永い,long (distance),形容詞,一般,['adjective (keiyoushi)'],2,,"long (distance)
+long (time); lengthy"
+男性,だんせい,男性,男性,man; male,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"man; male
+masculine gender"
+礼服,れいふく,礼服,礼服,ceremonial dress; evening dress; dress suit; morning suit,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,ceremonial dress; evening dress; dress suit; morning suit
+こまかい,こまかい,細かい,細かい,small,形容詞,一般,['adjective (keiyoushi)'],3,,"small
+fine; minute
+minor; trivial
+sensitive; attentive"
+ひだ,ひだ,襞,襞,pleats; creases; gills of a mushroom (mycology),名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,pleats; creases; gills of a mushroom (mycology)
+とる,とる,取る,取る,to take; to pick up; to harvest; to earn; to win; to choose,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",1,,"to take; to pick up; to harvest; to earn; to win; to choose
+to steal
+to eat; to have (a meal)
+to remove (one's glasses, etc.)
+to compete (in sumo, cards, etc.); to play"
+はば,はば,幅,幅、巾,width; breadth,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"width; breadth
+freedom (e.g. of thought); latitude
+gap; difference (e.g. in price); range (e.g. of voice)"
+ひろい,ひろい,広い,広い、弘い、廣い、宏い,spacious; vast; wide,形容詞,一般,['adjective (keiyoushi)'],2,,spacious; vast; wide
+ししゅう,ししゅう,刺繍,刺繍、刺しゅう、刺繡,embroidery,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,embroidery
+黒い,くろい,黒い,黒い,black,形容詞,一般,['adjective (keiyoushi)'],2,,"black
+dark
+illicit; wicked; underground"
+絹,きぬ,絹,絹,silk,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,silk
+ふし,ふし,節,節,occasion; time,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"occasion; time
+section (of a literary work); paragraph; verse; stanza; passage
+principle; integrity
+node (of a plant stem)
+clause
+(taxonomical) section"
+なし,なし,無し,無し,without,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,,"without
+unacceptable; not alright; unsatisfactory"
+かぶる,かぶる,被る,被る、冠る,to put on (one's head); to wear; to have on; to pull over (one's head); to crown (oneself),動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",2,,"to put on (one's head); to wear; to have on; to pull over (one's head); to crown (oneself)
+to be covered with (dust, snow, etc.); to pour (water, etc.) on oneself; to dash on oneself; to ship water
+to bear (e.g. someone's debts, faults, etc.); to take (blame); to assume (responsibility); to shoulder (burden)
+to overlap (e.g. sound or color)
+to be similar; to be redundant
+to be fogged (due to overexposure, etc.)
+to close; to come to an end
+to get a full house; to sell out
+to blunder; to bungle; to fail
+to be deceived"
+教室,きょうしつ,教室,教室,classroom,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"classroom
+department; laboratory
+single-room school; small school"
+全体,ぜんたい,全体,全体,whole; entirety; whatever (is the matter),名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",0,,whole; entirety; whatever (is the matter)
+ふしぎ,ふしぎ,不思議,不思議,wonder; miracle; strange; mystery; marvel; curiosity,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",0,,wonder; miracle; strange; mystery; marvel; curiosity
+おごそか,おごそか,厳か,厳か,"solemn (ceremony, atmosphere, etc.); austere; grave; majestic; dignified; stately; impressive",形状詞,一般,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",2,,"solemn (ceremony, atmosphere, etc.); austere; grave; majestic; dignified; stately; impressive"
+みなぎる,みなぎる,漲る,漲る,to be full to the brim; to overflow; to swell (e.g. river full of water),動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",3,,"to be full to the brim; to overflow; to swell (e.g. river full of water)
+to be filled with (emotion, e.g. energy, passion, ardor); to be (brim) full of; to pervade (e.g. atmosphere with emotion)"
+おどろかす,おどろかす,驚かす,驚かす,to surprise; to frighten; to create a stir,動詞,一般,"[""Godan verb with `su' ending"", 'transitive verb']",4,,to surprise; to frighten; to create a stir
+ほう,ほう,方,方,direction; way,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,also ほう,"direction; way
+person; lady; gentleman
+method of; manner of; way of
+care of ..
+person in charge of ..
+side (e.g. ""on my mother's side"")"
+三角,さんかく,三角,三角,triangle; triangular,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,triangle; triangular
+もつ,もつ,持つ,持つ,to hold (in one's hand); to take; to carry,動詞,一般,"[""Godan verb with `tsu' ending""]",1,,"to hold (in one's hand); to take; to carry
+to possess; to have; to own
+to maintain; to keep
+to last; to be durable; to keep; to survive
+to take charge of; to be in charge of"
+じい,じい,爺,爺,old man,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"old man
+old geezer"
+もと,もと,元,元、本、素、基,origin; source,名詞,普通名詞,['noun (common) (futsuumeishi)'],"2,0",usu. 元,"origin; source
+base; basis; foundation; root
+cause
+ingredient; material
+(somebody's) side; (somebody's) location
+original cost (or capital, principal, etc.)
+(plant) root; (tree) trunk
+first section of a waka
+counter for blades of grass, tree trunks, etc., and for falcons (in falconry)
+handle (chopsticks, brush, etc.); grip"
+ざい,ざい,際,際,edge; brink; verge; side,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,pronounced ぎわ when a suffix,"edge; brink; verge; side
+time; moment of"
+じょう,じょう,嬢,嬢、娘,unmarried woman,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"unmarried woman
+Miss
+-ess; -ette"
+村長,そんちょう,村長,村長,village headman; village mayor,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,village headman; village mayor
+郵便,ゆうびん,郵便,郵便、〒,mail service; postal service; mail; post,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"mail service; postal service; mail; post
+mail; postal matter; postal items"
+顔,かお,顔,顔、貌、顏,face; visage,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"face; visage
+look; expression; countenance
+honor; honour; face
+influence; notoriety"
+みえる,みえる,見える,見える,to be seen; to be in sight,動詞,一般,"['Ichidan verb', 'intransitive verb']",2,,"to be seen; to be in sight
+to look; to seem; to appear
+to come"
+ほか,ほか,他,他、外,"other (place, thing, person); the rest",名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"other (place, thing, person); the rest
+outside; beyond
+nothing except; nothing but; nothing apart from; nothing aside from; no choice (but to)
+besides...; in addition to..."
+悲しい,かなしい,悲しい,悲しい、哀しい,sad; sorrowful,形容詞,一般,['adjective (keiyoushi)'],"0,3",,sad; sorrowful
+表紙,ひょうし,表紙,表紙,front cover; binding; (book) cover,名詞,普通名詞,['noun (common) (futsuumeishi)'],"0,3",,"front cover; binding; (book) cover
+appearing on the cover of a magazine"
+古い,ふるい,古い,古い、故い、旧い,old (not person); aged; ancient; antiquated; stale; threadbare; outmoded; obsolete article,形容詞,一般,['adjective (keiyoushi)'],2,,old (not person); aged; ancient; antiquated; stale; threadbare; outmoded; obsolete article
+読本,とくほん,読本,読本,reading-book; reader; guidebook; manual,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"reading-book; reader; guidebook; manual
+textbook (esp. a pre-war elementary school Japanese language textbook)"
+ひざ,ひざ,膝,膝,knee,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"knee
+lap; knee and thigh (while sitting)"
+上,うえ,上,上,above; up; over; elder (e.g. daughter),名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'"", 'adverbial noun (fukushitekimeishi)', 'noun, used as a suffix']","0,2",,"above; up; over; elder (e.g. daughter)
+top; summit
+surface; on
+before; previous
+superiority; one's superior (i.e. one's elder)
+on top of that; besides; what's more
+upon (further inspection, etc.); based on (and occurring after)
+matters concerning...; as concerns ...
+since (i.e. ""for that reason"")
+suffix indicating higher social standing
+place of one's superior (i.e. the throne)
+emperor; sovereign; shogun; daimyo
+noblewoman (esp. the wife of a nobleman)"
+ひろげる,ひろげる,広げる,広げる、拡げる、展げる,to spread; to extend; to expand; to enlarge; to widen; to broaden,動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to spread; to extend; to expand; to enlarge; to widen; to broaden
+to unfold; to open; to unroll; to unwrap
+to scatter about; to spread around
+to make flourish; to cause to prosper"
+めがね,めがね,眼鏡,眼鏡,spectacles; glasses,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"spectacles; glasses
+judgement; discrimination; discernment; insight"
+いろいろ,いろいろ,色々,色々、色色,various,形状詞,一般,"['noun (common) (futsuumeishi)', 'adjectival nouns or quasi-adjectives (keiyodoshi)', ""nouns which may take the genitive case particle `no'"", 'adverb (fukushi)', ""adverb taking the `to' particle""]",0,,"various
+various colors (colours)"
+びっくり,びっくり,びっくり,吃驚、喫驚,to be surprised; to be amazed; to be frightened; to be astonished; to get startled; to jump,名詞,普通名詞,"['noun or participle which takes the aux. verb suru', 'adverb (fukushi)']",3,,"to be surprised; to be amazed; to be frightened; to be astonished; to get startled; to jump
+surprise (e.g. surprise party)"
+教壇,きょうだん,教壇,教壇,(teacher's) platform; podium; dais,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,(teacher's) platform; podium; dais
+あがる,あがる,上がる,上がる、揚がる、挙がる、上る,to rise; to go up; to come up; to ascend; to be raised,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",0,,"to rise; to go up; to come up; to ascend; to be raised
+to enter (esp. from outdoors); to come in; to go in
+to enter (a school); to advance to the next grade
+to get out (of water); to come ashore
+to increase
+to improve; to make progress
+to be promoted; to advance
+to be made (of profit, etc.)
+to occur (esp. of a favourable result)
+to be adequate (to cover expenses, etc.)
+to be finished; to be done; to be over
+(of rain) to stop; to lift
+to stop (working properly); to cut out; to give out; to die
+to win (in a card game, etc.)
+to be arrested
+to turn up (of evidence, etc.)
+to be deep fried
+to be spoken loudly
+to get stage fright
+to be offered (to the gods, etc.)
+to go; to visit
+to eat; to drink
+to be listed (as a candidate)
+to serve (in one's master's home)
+to go north
+indicates completion"
+むかえる,むかえる,迎える,迎える、邀える,to go out to meet,動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to go out to meet
+to receive; to welcome; to greet; to salute; to hail; to reach; to approach; to enter (a phase, era, etc.)
+to accept (e.g. as a member of a group or family)
+to call for; to summon; to invite
+to approach (a certain time, a point in one's life, etc.)"
+とき,とき,時,時、刻、秋,time; hour; moment,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,刻 signifies a time of day; 秋 signifies an important time,"time; hour; moment
+occasion; case
+chance; opportunity; season
+the times; the age; the day
+tense"
+重み,おもみ,重み,重み、重味,importance; weight; dignity; emphasis,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,importance; weight; dignity; emphasis
+ある,ある,有る,有る、在る,to be (usu. of inanimate objects); to exist; to live,動詞,非自立可能,"[""Godan verb with `ru' ending (irregular verb)"", 'intransitive verb']",1,,"to be (usu. of inanimate objects); to exist; to live
+to have
+to be located
+to be equipped with
+to happen; to come about"
+話す,はなす,話す,話す、咄す,to talk; to speak; to converse; to chat,動詞,一般,"[""Godan verb with `su' ending"", 'transitive verb']",2,,"to talk; to speak; to converse; to chat
+to tell; to explain; to narrate; to mention; to describe; to discuss
+to speak (a language)"
+最後,さいご,最後,最後,last; end; conclusion; latest; most recent,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,"last; end; conclusion; latest; most recent
+no sooner than; right after (often having negative consequences)
+one's final moments"
+語,ご,語,語,language,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,,"language
+word"
+教える,おしえる,教える,教える、訓える,to teach; to instruct,動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to teach; to instruct
+to tell; to inform
+to preach"
+新しい,あたらしい,新しい,新しい、新らしい,new; novel; fresh; recent; latest; up-to-date; modern,形容詞,一般,['adjective (keiyoushi)'],4,,new; novel; fresh; recent; latest; up-to-date; modern
+明日,あす,明日,明日,tomorrow,名詞,普通名詞,['noun (temporal) (jisoumeishi)'],"2,0",,"tomorrow
+near future"
+今日,きょう,今日,今日,today; this day,名詞,普通名詞,['noun (temporal) (jisoumeishi)'],1,,"today; this day
+these days; recently; nowadays"
+注意,ちゅうい,注意,注意,caution; being careful; attention (heed); warning; advice,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,caution; being careful; attention (heed); warning; advice
+きく,きく,聞く,聞く、聴く、訊く,to hear,動詞,一般,"[""Godan verb with `ku' ending"", 'transitive verb']",0,,"to hear
+to listen (e.g. to music)
+to ask; to enquire; to query
+to learn of; to hear about
+to follow (advice); to comply with
+to smell (esp. incense); to sample fragrance"
+くださる,くださる,下さる,下さる,to give; to confer; to bestow,動詞,非自立可能,['Godan verb - -aru special class'],3,,"to give; to confer; to bestow
+to kindly do for one; to oblige; to favour; to favor"
+さっき,さっき,さっき,,some time ago; just now,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)']",1,,some time ago; just now
+書ける,かける,書く,書く,to write; to compose; to pen,動詞,一般,"[""Godan verb with `ku' ending"", 'transitive verb']",2,,"to write; to compose; to pen
+to draw; to paint"
+習う,ならう,習う,習う,to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in,動詞,一般,"[""Godan verb with `u' ending"", 'transitive verb']",2,,to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in
+いま,いま,今,今,now; the present time; just now; soon; immediately; (one) more,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)']",1,,now; the present time; just now; soon; immediately; (one) more
+あんな,あんな,あんな,,"such (about something or someone distant from both speaker and listener, or about a situation unfamiliar to both speaker and listener); so; that; sort of",形状詞,一般,['pre-noun adjectival (rentaishi)'],0,,"such (about something or someone distant from both speaker and listener, or about a situation unfamiliar to both speaker and listener); so; that; sort of"
+鳥,とり,鳥,鳥、禽,bird,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"bird
+bird meat (esp. chicken meat); fowl; poultry"
+巣,す,巣,巣、栖,nest; rookery; breeding place; hive,名詞,普通名詞,['noun (common) (futsuumeishi)'],"0,1",,"nest; rookery; breeding place; hive
+den
+haunt
+(spider's) web"
+さがしまわる,さがしまわる,捜し回る,探し回る、探しまわる、捜し回る、探し廻る、捜し廻る,to search about for; to hunt around for; to look high and low for; to look everywhere for,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",5,,to search about for; to hunt around for; to look high and low for; to look everywhere for
+氷,こおり,氷,氷、凍り,ice,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"ice
+shaved ice (usually served with flavored simple syrup)"
+すべり,すべり,滑り,滑り,sliding; slipping,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,sliding; slipping
+ため,ため,為,為、爲、為め,good; advantage; benefit; welfare,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"good; advantage; benefit; welfare
+sake; purpose; objective; aim
+consequence; result; effect
+affecting; regarding; concerning"
+ずるける,ずるける,ずるける,狡ける,to shirk one's duties; to be idle; to play truant,動詞,一般,"['Ichidan verb', 'intransitive verb']","3,0",,"to shirk one's duties; to be idle; to play truant
+to come loose; to come undone; to get untied"
+うらめしい,うらめしい,恨めしい,恨めしい、怨めしい、怨しい、恨しい,reproachful; hateful; bitter,形容詞,一般,['adjective (keiyoushi)'],4,,reproachful; hateful; bitter
+じゃま,じゃま,邪魔,邪魔,hindrance; obstacle; nuisance,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,"hindrance; obstacle; nuisance
+to visit (somebody's home)
+demon who hinders Buddhist training; demon who obstructs sentient beings from maintaining moral behaviour"
+本,ほん,本,元、本、素、基,origin; source,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,usu. 元,"origin; source
+base; basis; foundation; root
+cause
+ingredient; material
+(somebody's) side; (somebody's) location
+original cost (or capital, principal, etc.)
+(plant) root; (tree) trunk
+first section of a waka
+counter for blades of grass, tree trunks, etc., and for falcons (in falconry)
+handle (chopsticks, brush, etc.); grip"
+聖書,せいしょ,聖書,聖書,Bible; scriptures,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,Bible; scriptures
+別れる,わかれる,別れる,別れる,to part (usu. of people); to part from; to part with; to be apart from,動詞,一般,"['Ichidan verb', 'intransitive verb']",3,,"to part (usu. of people); to part from; to part with; to be apart from
+to separate (of a couple); to break up; to divorce
+to lose (e.g. one's mother); to be bereaved"
+むかし,むかし,昔,昔,olden days; former,名詞,普通名詞,"[""nouns which may take the genitive case particle `no'"", 'adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",0,,olden days; former
+なじみ,なじみ,馴染み,馴染み、馴染、馴じみ,intimacy; friendship; familiarity,名詞,普通名詞,['noun (common) (futsuumeishi)'],"3,0",,intimacy; friendship; familiarity
+友だち,ともだち,友達,友達、友だち,friend; companion,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,friend; companion
+たいする,たいする,対する,対する,to face (each other); to be facing,動詞,一般,['suru verb - special class'],3,,"to face (each other); to be facing
+to be directed toward (the future, etc.); to be in response to; to be related to
+to receive (a client, etc.)
+to compare with; to contrast with; to be in opposition with; to be opposed to
+to confront; to oppose; to compete with"
+気持ち,きもち,気持ち,気持ち、気持,feeling; sensation; mood,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"feeling; sensation; mood
+preparedness; readiness; attitude
+thanks; solicitude; sympathy
+just a little; somewhat; slightly"
+感ずる,かんずる,感ずる,感ずる,to feel; to sense,動詞,一般,"['Ichidan verb - zuru verb (alternative form of -jiru verbs)', 'intransitive verb']",0,,to feel; to sense
+しまう,しまう,仕舞う,仕舞う、終う、了う、蔵う,to finish; to stop; to end; to put an end to; to bring to a close,動詞,非自立可能,"[""Godan verb with `u' ending"", 'transitive verb']",0,,"to finish; to stop; to end; to put an end to; to bring to a close
+to close (a business, etc.); to close down; to shut down; to shut up
+to put away; to put back; to keep; to store
+to finish ...; to do ... completely"
+会う,あう,会う,会う、逢う、遭う、遇う,to meet; to encounter; to see,動詞,一般,"[""Godan verb with `u' ending"", 'intransitive verb']",1,"逢う is often used for close friends, etc. and may be associated with drama or pathos; 遭う may have an undesirable nuance","to meet; to encounter; to see
+to have an accident; to have a bad experience"
+しかる,しかる,叱る,叱る、呵る,to scold; to chide; to rebuke; to reprimand,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']","0,2",,to scold; to chide; to rebuke; to reprimand
+打つ,うつ,打つ,打つ,to hit; to strike; to knock; to beat; to punch; to slap; to tap; to bang; to clap; to pound,動詞,一般,"[""Godan verb with `tsu' ending"", 'transitive verb']",1,"also written as 拍つ, 搏つ, 撲つ, 擣つ","to hit; to strike; to knock; to beat; to punch; to slap; to tap; to bang; to clap; to pound
+to strike (noon, etc.); to sound (cymbals, etc.); to beat (a drum, etc.)
+to beat (rhythmically, e.g. pulse, waves, etc.)
+to move; to impress; to touch
+to drive in; to hammer in; to put in; to inject
+to type; to send; to transmit
+to insert; to write in; to mark
+to make (noodles, etc.); to prepare
+to till (soil)
+to sprinkle; to throw; to cast
+to do; to carry out; to play; to perform; to engage in (gambling, etc.)
+to pay (a deposit, etc.)
+to visit (on a pilgrimage)
+to line (a coat)
+to bind (a criminal)"
+わすれる,わすれる,忘れる,忘れる,to forget; to leave carelessly; to be forgetful of; to forget about; to forget (an article),動詞,非自立可能,"['Ichidan verb', 'transitive verb']",0,,to forget; to leave carelessly; to be forgetful of; to forget about; to forget (an article)
+きのどく,きのどく,気の毒,気の毒、気のどく,pitiful; unfortunate; (a) pity,形状詞,一般,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']","3,4",,pitiful; unfortunate; (a) pity
+着かざる,きかざる,着飾る,着飾る,to dress up,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",3,,to dress up
+村,むら,村,村,village,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,village
+老人,ろうじん,老人,老人,the aged; old person,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,the aged; old person
+すわる,すわる,座る,座る、坐る、据わる、据る,to sit; to squat,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",0,,"to sit; to squat
+to assume (a position)
+to hold steady; to hold still"
+わかる,わかる,分かる,分かる、解る、判る、分る,to understand; to comprehend; to grasp; to see; to get; to follow,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,"to understand; to comprehend; to grasp; to see; to get; to follow
+to become clear; to be known; to be discovered; to be realized; to be realised; to be found out"
+くやむ,くやむ,悔やむ,悔やむ、悔む,to mourn; to lament,動詞,一般,"[""Godan verb with `mu' ending"", 'transitive verb']",2,,"to mourn; to lament
+to be sorry; to regret; to repent"
+四十,よんじゅう,四十,四十,forty,名詞,数詞,['noun (common) (futsuumeishi)'],1,,forty
+苦労,くろう,苦労,苦労、苦勞,troubles; hardships,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,troubles; hardships
+感謝,かんしゃ,感謝,感謝,thanks; gratitude,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,thanks; gratitude
+かえる,かえる,孵る,孵る,to hatch out,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",1,,to hatch out
+祖国,そこく,祖国,祖国,motherland; fatherland; native country,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,motherland; fatherland; native country
+敬意,けいい,敬意,敬意,respect; honour; honor,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,respect; honour; honor
+あらわす,あらわす,表わす,表す、現す、表わす、現わす、顕す,to represent; to signify; to stand for,動詞,一般,"[""Godan verb with `su' ending"", 'transitive verb']",3,"esp. 表す, 表わす","to represent; to signify; to stand for
+to reveal; to show; to display
+to express
+to make widely known"
+考えこむ,かんがえこむ,考え込む,考え込む、考えこむ,to ponder; to brood,動詞,一般,"[""Godan verb with `mu' ending"", 'intransitive verb']","5,0",,to ponder; to brood
+名まえ,なまえ,名前,名前、名まえ,name; full name,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"name; full name
+given name; first name"
+呼ぶ,よぶ,呼ぶ,呼ぶ、喚ぶ,to call out (to); to call; to invoke,動詞,一般,"[""Godan verb with `bu' ending"", 'transitive verb']",0,,"to call out (to); to call; to invoke
+to summon (a doctor, etc.)
+to invite
+to designate; to name; to brand
+to garner (support, etc.); to gather
+to take as one's wife"
+暗唱,あんしょう,暗唱,暗唱、暗誦、諳誦,recitation; reciting from memory,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,recitation; reciting from memory
+番,ばん,番,番,number (in a series),名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"number (in a series)
+(one's) turn
+watch; guard; lookout
+bout; match"
+最初,さいしょ,最初,最初,beginning; outset; first; onset,名詞,普通名詞,"[""nouns which may take the genitive case particle `no'"", 'adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",0,,beginning; outset; first; onset
+まごつく,まごつく,まごつく,間誤付く,to be confused; to be flustered; to be at a loss,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']","0,3",,to be confused; to be flustered; to be at a loss
+立つ,たつ,立つ,立つ、発つ,to stand; to rise; to stand up,動詞,一般,"[""Godan verb with `tsu' ending"", 'intransitive verb']",1,,"to stand; to rise; to stand up
+to find oneself (e.g. in a difficult position)
+to depart (on a plane, train, etc.)"
+まま,まま,侭,儘、侭,as it is; as one likes; because; as,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'adverbial noun (fukushitekimeishi)']",2,,"as it is; as one likes; because; as
+condition; state
+sic; sic erat scriptum; indicates that the quoted matter has been transcribed exactly as found in the source text"
+頭,あたま,頭,頭,counter for large animals (e.g. head of cattle),名詞,普通名詞,['counter'],"2,3",,counter for large animals (e.g. head of cattle)
+あげる,あげる,上げる,上げる、挙げる、揚げる,to raise; to elevate,動詞,非自立可能,"['Ichidan verb', 'transitive verb']",0,,"to raise; to elevate
+to do up (one's hair)
+to fly (a kite, etc.); to launch (fireworks, etc.); to surface (a submarine, etc.)
+to land (a boat)
+to deep-fry
+to show someone (into a room)
+to summon (for geishas, etc.)
+to send someone (away)
+to enrol (one's child in school); to enroll
+to increase (price, quality, status, etc.); to develop (talent, skill); to improve
+to make (a loud sound); to raise (one's voice)
+to earn (something desirable)
+to praise
+to give (an example, etc.); to cite
+to summon up (all of one's energy, etc.)
+to arrest
+to nominate
+to give
+to offer up (incense, a prayer, etc.) to the gods (or Buddha, etc.)
+to bear (a child)
+to conduct (a ceremony, esp. a wedding)
+(of the tide) to come in
+to vomit
+to do for (the sake of someone else)
+to complete ...
+to humbly do ..."
+しかり,しかり,然る,然る,a particular; a certain,動詞,一般,['pre-noun adjectival (rentaishi)'],2,,"a particular; a certain
+that kind of; such a"
+口ぐせ,くちぐせ,口癖,口癖、口ぐせ,way of saying; favorite phrase; favourite phrase,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,way of saying; favorite phrase; favourite phrase
+おわり,おわり,終わり,終わり、終り、終,the end,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,the end
+のばす,のばす,伸ばす,伸ばす、延ばす,"to grow long (e.g. hair, nails)",動詞,一般,"[""Godan verb with `su' ending"", 'transitive verb']",2,esp. 伸ばす,"to grow long (e.g. hair, nails)
+to lengthen; to extend; to stretch
+to reach out; to hold out
+to straighten; to smooth out
+to spread evenly (dough, cream, etc.)
+to dilute; to thin out
+to postpone
+to prolong
+to strengthen; to develop; to expand"
+不幸,ふこう,不幸,不幸,unhappiness; sorrow; misfortune; disaster; accident,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'adjectival nouns or quasi-adjectives (keiyodoshi)']",2,,"unhappiness; sorrow; misfortune; disaster; accident
+death (usu. of a relative); bereavement"
+しかた,しかた,仕方,仕方、仕形,way; method; means; resource; course,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,way; method; means; resource; course
+言いはる,いいはる,言い張る,言い張る、言いはる、言張る,to insist; to assert; to be obstinate in saying,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",3,,to insist; to assert; to be obstinate in saying
+言葉,ことば,言葉,言葉、詞、辞,language; dialect,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,"language; dialect
+word; words; phrase; term; expression; remark
+speech; (manner of) speaking"
+点,てん,点,点,dot; point; mark,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"dot; point; mark
+gidayuu musicians (in kabuki)"
+悪い,わるい,悪い,悪い、惡い、惡るい,bad; poor; inferior,形容詞,一般,['adjective (keiyoushi)'],2,,"bad; poor; inferior
+evil; sinful
+unprofitable; unbeneficial
+at fault; to blame; in the wrong
+sorry"
+わけ,わけ,訳,訳,"conclusion from reasoning, judgement or calculation based on something read or heard; reason; cause; meaning; circumstances; situation",名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"conclusion from reasoning, judgement or calculation based on something read or heard; reason; cause; meaning; circumstances; situation"
+責任,せきにん,責任,責任,duty; responsibility (incl. supervision of staff),名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"duty; responsibility (incl. supervision of staff)
+liability; onus"
+続ける,つづける,続ける,続ける,to continue; to keep up; to keep on,動詞,非自立可能,"['Ichidan verb', 'transitive verb', 'auxiliary verb']",0,,to continue; to keep up; to keep on
+とう,とう,父,父,father,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,とと and ちゃん are used by children,father
+かあ,かあ,母,母,mother,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,かか was used by children,mother
+子ども,こども,子供,子供、子ども、小供,child; children,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,child; children
+教育,きょういく,教育,教育,training; education,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'"", 'noun or participle which takes the aux. verb suru']",0,,training; education
+受ける,うける,受ける,受ける、請ける、承ける、享ける,to receive; to get,動詞,一般,"['Ichidan verb', 'transitive verb']",2,,"to receive; to get
+to catch (e.g. a ball)
+to be struck by (wind, waves, sunlight, etc.)
+to sustain (damage); to incur (a loss); to suffer (an injury); to feel (influence)
+to undergo (e.g. surgery); to take (a test); to accept (a challenge)
+to be given (e.g. life, talent)
+to follow; to succeed; to be descended from
+to face (south, etc.)
+to be modified by
+to obtain (a pawned item, etc.) by paying a fee
+to be well-received; to become popular; to go down well
+to be funny; to be humorous"
+のぞむ,のぞむ,臨む,臨む,to look out on,動詞,一般,"[""Godan verb with `mu' ending"", 'intransitive verb']",0,,"to look out on
+to face
+to deal with
+to attend (e.g. function); to appear (e.g. in court)"
+金,かね,金,黄金、金,gold,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,gold
+畑,はたけ,畑,畑、畠,"field (for fruits, vegetables, etc.); cultivated land; vegetable plot; kitchen garden; plantation",名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"field (for fruits, vegetables, etc.); cultivated land; vegetable plot; kitchen garden; plantation
+field (of specialization); sphere; area
+womb; birth; birthplace"
+自身,じしん,自身,自身,by oneself; personally,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,by oneself; personally
+時間,じかん,時間,時間,time,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (common) (futsuumeishi)']",0,,"time
+hours (period of)"
+花,はな,花,花、華,flower; blossom; bloom; petal,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"flower; blossom; bloom; petal
+cherry blossom
+beauty
+blooming (esp. of cherry blossoms)
+ikebana
+Japanese playing cards
+(the) best"
+水,みず,水,水,"water (esp. cool, fresh water, e.g. drinking water)",名詞,普通名詞,['noun (common) (futsuumeishi)'],0,み is generally used in compounds,"water (esp. cool, fresh water, e.g. drinking water)
+fluid (esp. in an animal tissue); liquid
+flood; floodwaters
+water offered to wrestlers just prior to a bout
+break granted to wrestlers engaged in a prolonged bout"
+やる,やる,遣る,遣る、行る,to do; to undertake; to perform; to play (a game); to study,動詞,非自立可能,"[""Godan verb with `ru' ending"", 'transitive verb']",0,,"to do; to undertake; to perform; to play (a game); to study
+to send; to dispatch; to despatch
+to put; to move; to turn (one's head, glance, etc.)
+to give (esp. to someone of equal or lower status); to let have; to present; to bestow; to confer
+to make (a vehicle) go faster
+to run (a business); to keep; to be engaged in; to practice (law, medicine, etc.); to practise
+to have (food, drink, etc.); to eat; to drink; to smoke
+to hold (a performance); to perform; to show
+to ease (one's mind)
+to harm; to injure; to kill
+to have sex with
+to live; to get by; to get along
+to do ... completely
+to do ... broadly; to do ... to a great distance
+to do ... for (someone of equal or lower status); to do ... to (sometimes with negative nuance)
+to make active efforts to ..."
+アユ,あゆ,鮎,鮎、香魚、年魚,sweetfish (Plecoglossus altivelis altivelis); ayu,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"sweetfish (Plecoglossus altivelis altivelis); ayu
+salmon"
+つり,つり,釣り,釣り、釣,fishing; angling,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"fishing; angling
+change (e.g. for a purchase)
+trolling; writing false posts online"
+休み,やすみ,休み,休み,rest; recess; respite,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,"rest; recess; respite
+vacation; holiday; absence; suspension
+dormancy (of a silkworm prior to moulting)"
+あたえる,あたえる,与える,与える,to give (esp. to someone of lower status); to bestow; to grant; to confer; to present; to award,動詞,一般,"['Ichidan verb', 'transitive verb']",0,,"to give (esp. to someone of lower status); to bestow; to grant; to confer; to present; to award
+to provide; to afford; to offer; to supply
+to assign
+to cause
+to pass (a variable to a function)"
+つぎ,つぎ,次,次,next; following; subsequent,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",2,,"next; following; subsequent
+stage; station"
+話,はなし,話,話、話し、咄、噺,talk; speech; chat; story; conversation,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,"talk; speech; chat; story; conversation
+discussions; negotiation; argument"
+世界,せかい,世界,世界,the world; society; the universe,名詞,普通名詞,['noun (common) (futsuumeishi)'],"1,2",,"the world; society; the universe
+sphere; circle; world
+renowned; world-famous; well-known outside of Japan
+realm governed by one Buddha; space"
+美しい,うつくしい,美しい,美しい,beautiful; lovely,形容詞,一般,['adjective (keiyoushi)'],4,,beautiful; lovely
+はっき,はっき,発揮,発揮,exhibition; demonstration; show; display; manifestation,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']","0,1",,exhibition; demonstration; show; display; manifestation
+り,り,里,里、郷,village; hamlet,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"village; hamlet
+countryside; country
+home (of one's parents, etc.); hometown
+one's origins; one's upbringing; one's past"
+力強い,ちからづよい,力強い,力強い,powerful; strong; forceful; vigorous,形容詞,一般,['adjective (keiyoushi)'],5,,"powerful; strong; forceful; vigorous
+reassuring; encouraging"
+民族,みんぞく,民族,民族,people; race; nation; ethnic group; ethnos,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,people; race; nation; ethnic group; ethnos
+どれい,どれい,奴隷,奴隷,slave; servant,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"slave; servant
+slavery"
+国語,こくご,国語,国語,national language,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"national language
+Japanese language (often as a school subject in Japan)
+native Japanese words (as opposed to loanwords)"
+うち,うち,内,内、中,inside; within,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"inside; within
+while
+among; amongst; between
+we (referring to one's in-group, e.g. company, etc.); our
+my spouse
+imperial palace grounds
+emperor
+I (primarily used by women and children); me"
+牢獄,ろうごく,牢獄,牢獄,prison; jail; gaol,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,prison; jail; gaol
+かぎ,かぎ,鉤,針、鉤、鈎,needle; pin,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"needle; pin
+hook
+stinger; thorn
+hand (e.g. clock, etc.); pointer
+staple (for a stapler)
+needlework; sewing
+malice
+counter for stitches"
+にぎる,にぎる,握る,握る,to clasp; to grasp; to grip; to clutch,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",0,,"to clasp; to grasp; to grip; to clutch
+to make (nigirizushi, rice ball, etc.); to form; to press into shape; to mold; to mould
+to seize (power, etc.); to take hold of"
+守る,まもる,守る,守る、護る、戍る,to protect; to guard; to defend,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",2,,"to protect; to guard; to defend
+to keep (i.e. a promise); to abide (by the rules); to observe; to obey; to follow"
+とおす,とおす,通す,通す、徹す、透す,to stick through; to force through,動詞,非自立可能,"[""Godan verb with `su' ending"", 'transitive verb']",1,,"to stick through; to force through
+to spread throughout; to thoroughly diffuse
+to make a path between two points
+to proceed in a logical manner
+to let pass; to allow through
+to lead (someone) into (a house, room, etc.); to show in
+to go through (a middleman)
+to (look, listen) through (a window, wall, etc.)
+to pass (a law, applicant, etc.)
+to force to accept; to force agreement
+to continue (in a state); to persist in
+to do to the entirety of; to cover all of; to span the whole ...
+to do from beginning to end without a break
+to convey (one's ideas, etc.) to the other party
+to do to the end; to carry through; to complete"
+開く,ひらく,開く,開く,to open; to undo; to unseal; to unpack,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb', 'transitive verb']",2,,"to open; to undo; to unseal; to unpack
+to bloom; to unfold; to spread out
+to open (for business, e.g. in the morning)
+to be wide (gap, etc.); to widen
+to hold (meeting, etc.); to give; to open
+to found (nation, dynasty, sect, etc.); to open (a new business); to set up; to establish; to start
+to open (ports, borders, etc.)
+to open (an account)
+to open up (new land, path, etc.); to clear; to develop
+to open (a file, etc.)
+to extract (root); to reduce (equation)
+to cut open (fish)
+to change (kanji into hiragana)
+to flare (e.g. skirt)
+to slacken (into a poor posture)"
+けいこ,けいこ,稽古,稽古,practice; practising; training; study,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,practice; practising; training; study
+しんぼう,しんぼう,辛抱,辛抱、辛棒,patience; endurance,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,patience; endurance
+強い,つよい,強い,強い,strong; powerful; mighty; potent,形容詞,一般,['adjective (keiyoushi)'],2,,"strong; powerful; mighty; potent
+resistant; resilient; durable"
+説明,せつめい,説明,説明,explanation; exposition,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru', ""nouns which may take the genitive case particle `no'""]",0,,explanation; exposition
+土地,とち,土地,土地,plot of land; lot; soil,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"plot of land; lot; soil
+locality; region; place"
+去る,さる,去る,去る、避る,to leave; to go away,動詞,非自立可能,"[""Godan verb with `ru' ending"", 'intransitive verb']",1,,"to leave; to go away
+to pass; to elapse
+to be distant
+to send away; to drive off; to divorce
+... completely
+last ... (e.g. ""last April"")"
+知る,しる,知る,知る、識る,to be aware of; to know; to be conscious of; to cognize; to cognise,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",0,,"to be aware of; to know; to be conscious of; to cognize; to cognise
+to notice; to feel
+to understand; to comprehend; to grasp
+to remember; to be acquainted with (a procedure)
+to experience; to go through; to learn
+to be acquainted with (a person); to get to know
+to concern"
+いっぺん,いっぺん,一遍,一遍,once; one time; (all at) once; in one sitting,名詞,普通名詞,['adverbial noun (fukushitekimeishi)'],"0,3",,"once; one time; (all at) once; in one sitting
+exclusively; only; alone"
+つめこむ,つめこむ,詰め込む,詰め込む、つめ込む、詰込む,to cram; to stuff; to jam; to squeeze; to compress; to pack; to crowd,動詞,一般,"[""Godan verb with `mu' ending"", 'transitive verb']","0,3",,to cram; to stuff; to jam; to squeeze; to compress; to pack; to crowd
+用意,ようい,用意,用意,preparation; arrangements; provision; getting ready; laying out (e.g. a meal),名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",1,,preparation; arrangements; provision; getting ready; laying out (e.g. a meal)
+おく,おく,置く,置く,to put; to place,動詞,非自立可能,"[""Godan verb with `ku' ending"", 'transitive verb']",0,,"to put; to place
+to leave (behind)
+to establish (an organization, a facility, a position, etc.); to set up
+to appoint (someone to a certain position); to hire; to employ
+to place (one's trust, one's faith, etc); to bear (in mind etc)
+to put down a tool (e.g. a pen) hence stopping what one is doing with that tool
+to take in (boarders, etc.); to provide lodging in one's house
+to separate spatially or temporally
+to do something in advance
+to leave something in a certain state; to keep something in a certain state"
+まるみ,まるみ,丸み,丸み、丸味、円味、円み,roundness; rotundity,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"roundness; rotundity
+mellowness; maturity"
+おびる,おびる,帯びる,帯びる,"to wear (sword, decoration, etc.); to carry",動詞,一般,"['Ichidan verb', 'transitive verb']","0,2",,"to wear (sword, decoration, etc.); to carry
+to be entrusted (e.g. with a mission); to take on
+to have a trace of; to be tinged with"
+きれい,きれい,奇麗,綺麗、奇麗、暉麗,pretty; lovely; beautiful; fair,形状詞,一般,['adjectival nouns or quasi-adjectives (keiyodoshi)'],1,,"pretty; lovely; beautiful; fair
+clean; clear; pure; tidy; neat
+completely; entirely"
+字,じ,字,字,section of village,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'suffix']",1,,section of village
+手本,てほん,手本,手本,copybook,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"copybook
+model; pattern"
+旗,はた,旗,旗、幡、旌,flag,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"flag
+pataka (banner)"
+くぎ,くぎ,釘,釘,nail (i.e. small metal spike),名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,nail (i.e. small metal spike)
+かかる,かかる,掛かる,掛かる、懸かる、掛る、懸る,"to take (a resource, e.g. time or money)",動詞,非自立可能,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,"to take (a resource, e.g. time or money)
+to hang
+to come into view; to arrive
+to come under (a contract, a tax)
+to start (engines, motors)
+to attend; to deal with; to handle
+to have started to; to be on the verge of
+to overlap (e.g. information in a manual); to cover
+to (come) at
+to be fastened
+to be covered (e.g. with dust, a table-cloth, etc.)
+to be caught in
+to get a call
+to depend on"
+ひるがえる,ひるがえる,翻る,翻る、飜る,to flutter (in the wind); to wave; to flap; to fly,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",3,,"to flutter (in the wind); to wave; to flap; to fly
+to turn over; to flip over
+to suddenly change (attitude, opinion, etc.); to suddenly switch; to alter; to flip"
+いっしょう,いっしょう,一生,一生,whole life; a lifetime; all through life; one existence; a generation; an age; the whole world; the era,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"whole life; a lifetime; all through life; one existence; a generation; an age; the whole world; the era
+(the only, the greatest, etc.) of one's life"
+けんめい,けんめい,懸命,懸命,eager; earnest; strenuous; fervent; assiduous; with utmost effort,形状詞,一般,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",0,,eager; earnest; strenuous; fervent; assiduous; with utmost effort
+紙,かみ,紙,紙,paper,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,paper
+走る,はしる,走る,走る、奔る、趨る,to run,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,"to run
+to travel (movement of vehicles); to drive; to flow (e.g. energy)
+to hurry to
+to retreat (from battle); to take flight
+to run away from home
+to elope
+to tend heavily toward
+to flash; to streak; to shoot through (e.g. pain)"
+とちゅう,とちゅう,途中,途中,on the way; en route,名詞,普通名詞,"['adverbial noun (fukushitekimeishi)', 'noun (temporal) (jisoumeishi)']",0,,"on the way; en route
+in the middle of; midway"
+一,いち,一,一、１、壱、弌、壹,one,名詞,数詞,"['numeric', 'prefix']",2,"１ can also be read ワン. 壱, 弌 and 壹 are used in legal documents","one
+best
+first; foremost
+beginning; start
+bottom string (on a shamisen, etc.)"
+度,ど,度,度,"time (three times, each time, etc.); times",名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix', 'counter']",0,,"time (three times, each time, etc.); times"
+窓,まど,窓,窓、窗、牖,window,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,window
+こがね虫,こがねむし,黄金虫,黄金虫、こがね虫、金亀子,scarabaeid beetle,名詞,普通名詞,['noun (common) (futsuumeishi)'],3,,"scarabaeid beetle
+Mimela splendens (metallic-green scarabaeid beetle)"
+ひとり,ひとり,一人,一人、独り、１人,one person,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,esp. 一人,"one person
+alone; unmarried; solitary"
+おさない,おさない,幼い,幼い、稚い,very young,形容詞,一般,['adjective (keiyoushi)'],3,,"very young
+childish; immature"
+一心,いっしん,一心,一心,one mind,名詞,普通名詞,"['adverb (fukushi)', 'noun (common) (futsuumeishi)']",3,,"one mind
+wholeheartedness; one's whole heart"
+線,せん,線,線,line; stripe; stria,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,,"line; stripe; stria
+line (e.g. telephone line); wire
+ray (e.g. X-ray); beam
+line (e.g. of a railroad); track; route; lane
+outline; contours; form
+level
+division
+line (of action); position; approach; policy; principle
+impression one leaves; air one gives off"
+ひとすじ,ひとすじ,一筋,一筋、一すじ、一条,"one long straight object (e.g. strand of hair, beam of light, wisp of smoke)",名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"one long straight object (e.g. strand of hair, beam of light, wisp of smoke)
+a single bloodline
+earnest; resolute; intent; devoted
+ordinary; common"
+まじめ,まじめ,真面目,真面目,one's true character; one's true self; oneself,形状詞,一般,['noun (common) (futsuumeishi)'],0,,"one's true character; one's true self; oneself
+seriousness; earnestness"
+こめる,こめる,込める,込める、籠める、篭める、罩める,"to load (a gun, etc.); to charge",動詞,一般,"['Ichidan verb', 'transitive verb']",2,,"to load (a gun, etc.); to charge
+to put into (e.g. emotion, effort)
+to include (e.g. tax in a sales price)
+to hang over; to shroud; to enshroud; to envelop; to screen"
+屋根,やね,屋根,屋根、家根,roof,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,roof
+ハト,はと,鳩,鳩、鴿,pigeon; dove,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,pigeon; dove
+ときどき,ときどき,時々,時々、時時、時どき,sometimes; at times,名詞,普通名詞,"['adverb (fukushi)', 'noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]","2,0",,sometimes; at times
+目,め,目,目、眼,eye; eyeball,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"eye; eyeball
+eyesight; sight; vision
+look; stare; glance
+an experience
+viewpoint
+stitch; texture; weave
+ordinal number suffix
+somewhat; -ish"
+あたり,あたり,辺り,辺り、畔,"on the bank of; by the side of (e.g. a river, pond)",名詞,普通名詞,['noun (common) (futsuumeishi)'],1,esp. ほとり,"on the bank of; by the side of (e.g. a river, pond)
+(in the) neighbourhood; neighborhood; vicinity; nearby
+around (Sunday, last year, etc...)
+for instance"
+ながめる,ながめる,眺める,眺める,to view; to gaze at,動詞,一般,"['Ichidan verb', 'transitive verb']",3,,to view; to gaze at
+校舎,こうしゃ,校舎,校舎、校しゃ,school building,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,school building
+おさめる,おさめる,収める,収める、納める,to dedicate; to make an offering; to pay (fees),動詞,一般,"['Ichidan verb', 'transitive verb']",3,,"to dedicate; to make an offering; to pay (fees)
+to supply
+to store
+to finish; to bring to a close
+to restore (something to its place)
+to achieve (e.g. a result)"
+むり,むり,無理,無理,unreasonable; unnatural; unjustifiable,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",1,,"unreasonable; unnatural; unjustifiable
+impossible
+forcible; forced; compulsory
+excessive (work, etc.); immoderate
+to work too hard; to try too hard
+irrational"
+かわる,かわる,変わる,変わる、変る,to change; to be transformed; to be altered; to vary,動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",0,,"to change; to be transformed; to be altered; to vary
+to move to
+to be different; to be uncommon; to be unusual"
+こしかけ,こしかけ,腰掛け,腰掛け、腰掛、腰かけ,seat; bench,名詞,普通名詞,['noun (common) (futsuumeishi)'],"3,4",,seat; bench
+使う,つかう,使う,使う、遣う,"to use (a thing, method, etc.); to make use of; to put to use",動詞,一般,"[""Godan verb with `u' ending"", 'transitive verb']",0,,"to use (a thing, method, etc.); to make use of; to put to use
+to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate
+to use (time, money, etc.); to spend; to consume
+to use (language); to speak"
+こする,こする,擦る,擦る、錯る,to rub; to scrub,動詞,一般,"[""Godan verb with `ru' ending"", 'transitive verb']",2,,to rub; to scrub
+つや,つや,艶,艶,gloss; glaze,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"gloss; glaze
+charm; romance; love; youthfulness
+color; colour; feeling"
+出る,でる,出る,出る,to leave; to exit; to go out; to come out; to get out,動詞,一般,"['Ichidan verb', 'intransitive verb']",1,,"to leave; to exit; to go out; to come out; to get out
+to leave (on a journey); to depart; to start out; to set out
+to move forward
+to come to; to get to; to lead to; to reach
+to appear; to come out; to emerge; to surface; to come forth; to turn up; to be found; to be detected; to be discovered; to be exposed; to show; to be exhibited; to be on display
+to appear (in print); to be published; to be announced; to be issued; to be listed; to come out
+to attend; to participate; to take part; to enter (an event); to play in; to perform
+to be stated; to be expressed; to come up; to be brought up; to be raised
+to sell
+to exceed; to go over
+to stick out; to protrude
+to break out; to occur; to start; to originate
+to be produced
+to come from; to be derived from
+to be given; to get; to receive; to be offered; to be provided; to be presented; to be submitted; to be handed in; to be turned in; to be paid
+to answer (phone, door, etc.); to get
+to assume (an attitude); to act; to behave
+to pick up (speed, etc.); to gain
+to flow (e.g. tears); to run; to bleed
+to graduate"
+庭,にわ,庭,庭,garden; yard; courtyard,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,"garden; yard; courtyard
+field (of action); area"
+木,き,木,木、樹,tree; shrub; bush,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"tree; shrub; bush
+wood; timber"
+大きい,おおきい,大きい,大きい,big; large; great; loud,形容詞,一般,['adjective (keiyoushi)'],3,,big; large; great; loud
+手植え,てうえ,手植え,手植え,planting personally,名詞,普通名詞,['noun (common) (futsuumeishi)'],"3,0",,planting personally
+ヒイラギ,ひいらぎ,柊,柊、疼木,holly olive (Osmanthus heterophyllus); false holly,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"holly olive (Osmanthus heterophyllus); false holly
+holly
+spotnape ponyfish (Leiognathus nuchalis)"
+外,そと,外,外,outside; exterior,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"outside; exterior
+open air
+other place"
+とどく,とどく,届く,届く,to reach; to arrive; to get through; to get at,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",2,,"to reach; to arrive; to get through; to get at
+to be attentive; to pay attention
+to be delivered; to carry (e.g. sound)"
+すべて,すべて,全て,全て、総て、凡て、惣て、渾て、総べて,everything; all; the whole,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,"everything; all; the whole
+entirely; completely; wholly; all"
+どんな,どんな,どんな,,what; what kind of,形状詞,一般,['pre-noun adjectival (rentaishi)'],1,,"what; what kind of
+(with -temo, demo, etc.) any(body, thing, means, etc.)"
+階,かい,階,階,storey; story; floor,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun, used as a suffix']",1,,"storey; story; floor
+stairs
+stage (in chronostratigraphy)
+counter for storeys and floors of a building"
+妹,いもうと,妹,妹,younger sister,名詞,普通名詞,['noun (common) (futsuumeishi)'],4,,younger sister
+荷造り,にづくり,荷作り,荷造り、荷作り、荷づくり,packing; baling; crating,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",2,,packing; baling; crating
+ゆきき,ゆきき,行き来,行き来、行来、往き来,coming and going; keeping in touch; visiting each other,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']","2,0,3",,"coming and going; keeping in touch; visiting each other
+street traffic; highway"
+足音,あしおと,足音,足音、跫音、跫,(sound of) footsteps,名詞,普通名詞,['noun (common) (futsuumeishi)'],"3,4,0",,"(sound of) footsteps
+sense or sign that something is approaching"
+胸,むね,胸,胸,chest; breast,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,むな is usually used in compounds,"chest; breast
+breasts; bosom; bust
+heart
+lungs
+stomach
+heart; mind; feelings"
+つぶれる,つぶれる,潰れる,潰れる,to be crushed; to be smashed; to be broken; to collapse,動詞,一般,"['Ichidan verb', 'intransitive verb']",0,,"to be crushed; to be smashed; to be broken; to collapse
+to become useless; to cease functioning; to be wasted (e.g. time)
+to go bankrupt; to go out of business; to fail"
+思い,おもい,思い,思い、想い、念い,thought,名詞,普通名詞,['noun (common) (futsuumeishi)'],2,,"thought
+imagination; mind; heart
+desire; wish; hope; expectation
+love; affection
+feelings; emotion; sentiment; experience"
+出発,しゅっぱつ,出発,出発,departure,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,departure
+永遠,えいえん,永遠,永遠,eternity; perpetuity; immortality; permanence,名詞,普通名詞,"[""nouns which may take the genitive case particle `no'"", 'adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",0,,eternity; perpetuity; immortality; permanence
+勇気,ゆうき,勇気,勇気,courage; bravery; valour; valor; nerve; boldness,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,courage; bravery; valour; valor; nerve; boldness
+習字,しゅうじ,習字,習字,penmanship,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,penmanship
+歴史,れきし,歴史,歴史,history,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,history
+生徒,せいと,生徒,生徒,pupil,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",1,,pupil
+両手,りょうて,両手,両手、諸手、双手,(with) both hands,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]",0,,"(with) both hands
+approvingly"
+文字,もじ,文字,文字,letter (of alphabet); character,名詞,普通名詞,['noun (common) (futsuumeishi)'],1,,"letter (of alphabet); character
+literal"
+ひろい読み,ひろいよみ,拾い読み,拾い読み,reading here and there; browsing; skimming through,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,reading here and there; browsing; skimming through
+感激,かんげき,感激,感激,deep emotion; impression; inspiration,名詞,普通名詞,"['noun (common) (futsuumeishi)', 'noun or participle which takes the aux. verb suru']",0,,deep emotion; impression; inspiration
+笑う,わらう,笑う,笑う、咲う、嗤う,to laugh,動詞,一般,"[""Godan verb with `u' ending"", 'intransitive verb']",0,,"to laugh
+to smile
+to sneer; to ridicule
+to be dumbfounded; to be flabbergasted"
+泣く,なく,泣く,泣く、哭く,to cry; to weep; to sob; to howl,動詞,一般,"[""Godan verb with `ku' ending""]",0,,to cry; to weep; to sob; to howl
+時計,とけい,時計,時計、土圭,watch; clock; timepiece,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,watch; clock; timepiece
+十,じゅう,十,十、拾,ten,名詞,数詞,['numeric'],1,拾 is used in legal documents,ten
+つづく,つづく,続く,続く,to continue; to last; to go on,動詞,非自立可能,"[""Godan verb with `ku' ending"", 'intransitive verb']",0,,"to continue; to last; to go on
+to continue (without a break); to be unbroken
+to occur again and again
+to lead to; to connect to; to adjoin
+to come after; to follow; to succeed; to rank next to
+to hold out; to keep; to last"
+鐘,かね,鐘,鐘,bell (often a large hanging bell); chime,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,bell (often a large hanging bell); chime
+同時,どうじ,同時,同時,simultaneous; concurrent; same time; synchronous; together,名詞,普通名詞,"['noun (common) (futsuumeishi)', ""nouns which may take the genitive case particle `no'""]","0,1",,simultaneous; concurrent; same time; synchronous; together
+もどる,もどる,戻る,戻る,to turn back (e.g. half-way),動詞,一般,"[""Godan verb with `ru' ending"", 'intransitive verb']",2,,"to turn back (e.g. half-way)
+to return; to go back
+to recover (e.g. something lost); to be returned
+to rebound; to spring back"
+ラッパ,らっぱ,喇叭,喇叭,trumpet; horn; bugle,名詞,普通名詞,['noun (common) (futsuumeishi)'],0,,trumpet; horn; bugle
+ひびく,ひびく,響く,響く,to resound; to be heard far away,動詞,一般,"[""Godan verb with `ku' ending"", 'intransitive verb']",2,,"to resound; to be heard far away
+to reverberate; to shake; to vibrate
+to come (home); to remain (with someone)
+to have an effect; to make an impression"
+立ちあげる,たちあげる,立ち上げる,立ち上げる、立ちあげる,to start (something); to start up; to boot (a computer); to launch (a business),動詞,一般,"['Ichidan verb', 'transitive verb']","0,4",,to start (something); to start up; to boot (a computer); to launch (a business)
+真っ青,まっさお,真っ青,真っ青、まっ青、真青,deep blue; bright blue,名詞,普通名詞,"['adjectival nouns or quasi-adjectives (keiyodoshi)', 'noun (common) (futsuumeishi)']",3,,"deep blue; bright blue
+ghastly pale; pallid; white as a sheet"
+こんな,こんな,こんな,,"such (about something or someone close to the speaker (including the speaker), or about ideas expressed by the speaker); like this",形状詞,一般,['pre-noun adjectival (rentaishi)'],0,,"such (about something or someone close to the speaker (including the speaker), or about ideas expressed by the speaker); like this"

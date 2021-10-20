@@ -6,16 +6,16 @@
 \usepackage{titlesec}
 \usepackage{indentfirst}
 \usepackage{tikz}
-\newcommand{\m}[1]{\kern -0.4em{#1}}
+\newcommand{\m}[1]{\kern -0.3em{#1}}
 \usepackage{fontspec}
 \usepackage{zxjatype}
 \usepackage[a5paper, margin=2cm, includeheadfoot=true]{geometry}
 
 \usepackage{enumitem}
-\setlist[itemize]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
-\setlist[enumerate]{wide, itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5ex, leftmargin=1ex}
+\setlist[itemize]{itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5em, labelsep=0.2em, leftmargin=0.7em}
+\setlist[enumerate]{itemsep=0.0em, topsep=0.0em, parsep=0.0em, labelwidth=!, labelindent=0.5em, labelsep=0.2em, leftmargin=0.7em}
 
-\setlength{\columnsep}{2em}
+\setlength{\columnsep}{1.5em}
 
 \setCJKmainfont[Scale=MatchUppercase, BoldFont={* SemiBold}, ItalicFont=*]{Source Han Serif JP}
 \setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
@@ -27,13 +27,13 @@
 \newcommand{\pitch}[1]{\raisebox{-\dp\strutbox}{
 		\begin{tikzpicture}[
 			every node/.style={inner sep=0.0, outer sep=0.0},
-			dot/.style={draw, black, circle, anchor=center, minimum size=0.4ex, fill}
+			dot/.style={draw, black, circle, anchor=center, minimum size=0.5ex, fill=white}
 			]
 			\foreach[count=\i from 1] \x/\p in {#1}
 			\ifx\x\empty
-			\draw node (P\i) at (\i * 1em, 0) {} node (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\draw node (P\i) at (\i * 0.9em, 0) {} node (C\i) at (\i * 0.9em, \p * 0.4em + 0.8em) {}
 			\else
-			\draw node (P\i) at (\i * 1em, 0) {\x\strut} node[dot] (C\i) at (\i * 1em, \p * 0.4em + 0.8em) {}
+			\draw node (P\i) at (\i * 0.9em, 0) {\x\strut} node[dot] (C\i) at (\i * 0.9em, \p * 0.4em + 0.8em) {}
 			\fi;
 
 			\begin{pgfonlayer}{bg}
@@ -51,22 +51,24 @@
 
 \newcommand{\dictentryadv}[4]{%
 	\begin{minipage}{\linewidth}%
-		\singlespacing%
+		\vspace{1em}%
 		%		\raggedright%
 		{\Large\vspace{-1em} #1 \hspace*{\fill}}%
-		{\normalsize \mbox3{\raggedleft #2}\hspace*{-1em}}\\
-		{\small #4}
+		{\small \mbox{\raggedleft #2}\hspace*{-0.9em}}\\[-0.4em]
+		{\scriptsize #4}
 		\begin{itemize}\small #3\end{itemize}%
-	\end{minipage}\vspace{1.5em}
+	\end{minipage}\vspace{1em}
 }
 
 \title{最後の授業}
-\author{辞書}
 
 \begin{document}
 	\maketitle
 	\thispagestyle{empty}
-	\vspace{1em}
+%	\vspace{1em}
+	
+	\section*{単語表}
+%	\vspace{1em}
 
 	\begin{multicols}{2}\noindent
 		\input{saigono_dict}
