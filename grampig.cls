@@ -1,9 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{grampig}
 
-\LoadClass[10pt,utf8,varwidth=10cm,border=0.4cm]{standalone}
+\LoadClass[10pt,utf8,varwidth=10cm,border=0.5cm]{standalone}
 
-\RequirePackage[PunctStyle=banjiao]{xeCJK}
+\RequirePackage{zxjatype}
 \RequirePackage{enumitem}
 \RequirePackage{fontspec}
 \RequirePackage[x11names]{xcolor}
@@ -92,7 +92,7 @@
 \newcommand*{\br}{\\[0.4em]}
 \newcommand*{\bh}{\\[-0.2em]}
 \newcommand*{\p}[1]{\mbox{#1}\CJKglue}
-\newcommand{\f}[2]{\ruby{#1}{\sffamily\protect\smash{\furiganafix{#2}}}\CJKglue}
+\newcommand{\f}[2]{\ruby{#1}{\sffamily\protect\smash{#2}}\CJKglue}
 
 \usepackage{xstring}
 \newcommand{\squeeze}{\kern -0.25em}
@@ -136,11 +136,12 @@
 \setCJKsansfont[Scale=MatchUppercase, BoldFont={* Bold}, ItalicFont=*]{Source Han Sans JP}
 \setmainfont[BoldFont={* Semibold}, Numbers={OldStyle}]{Source Serif Pro}
 
-\setlist{wide,leftmargin=*,itemsep=0.5em,parsep=0em,topsep=0em}
+\setlist{leftmargin=0em,itemsep=0.5em,parsep=0em,partopsep=0em,topsep=0em}
 \setlength{\parindent}{0pt}
 \newlength{\width}
 \setlength{\width}{10cm}
 \setlength{\fboxsep}{1em}
+\setlength{\parskip}{0em}
 
 \renewcommand{\maketitle}{
 	\begin{tabular}{@{}p{0.333\width}@{}p{0.333\width}@{}p{0.333\width}@{}}
